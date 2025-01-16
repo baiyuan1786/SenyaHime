@@ -1,0 +1,10 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_06_16_09_47================
+
+[2025-01-06 16:09:47][SenyaHime]启动服务器
+[2025-01-06 16:09:51][HTTPcallback]:{'time': 1736150988, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1398110298, 'group_id': 104491286, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'qq': '3827617422'}, 'type': 'at'}, {'data': {'text': ' 你好'}, 'type': 'text'}], 'raw_message': '[CQ:at,qq=3827617422] 你好', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'owner', 'title': '', 'level': ''}}
+
+[2025-01-06 16:09:52][quickResponse]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1029265076, 'time': 1736150988}, 'echo': ''}
+[2025-01-06 16:10:00][HTTPcallback]:{'time': 1736150996, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 394456831, 'group_id': 104491286, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'qq': '3827617422'}, 'type': 'at'}, {'data': {'text': ' 测试'}, 'type': 'text'}], 'raw_message': '[CQ:at,qq=3827617422] 测试', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'owner', 'title': '', 'level': ''}}
+
+[2025-01-06 16:10:00][quickResponse]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1025637498, 'time': 1736150996}, 'echo': ''}
+[2025-01-06 16:10:00][HTTPcallbackError]:descriptor '__init__' of 'super' object needs an argument

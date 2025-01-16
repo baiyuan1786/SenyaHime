@@ -1,0 +1,8 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_14_15_14_26================
+
+[2025-01-14 15:14:26][SenyaHime]启动服务器
+===================AUTOTOOL HUB EXPORT LOG 2025_01_14_15_14_26================
+
+[2025-01-14 15:14:26][SenyaHime]启动服务器
+[2025-01-14 15:14:32][receive]:the original msg is {'time': 1736838872, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 1618857488, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '抽奖'}, 'type': 'text'}], 'raw_message': '抽奖', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-14 15:15:04][receive]:the original msg is {'time': 1736838903, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 685446097, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '喵喵喵'}, 'type': 'text'}], 'raw_message': '喵喵喵', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}

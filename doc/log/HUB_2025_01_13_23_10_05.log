@@ -1,0 +1,8 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_13_23_10_05================
+
+[2025-01-13 23:10:05][SenyaHime]启动服务器
+[2025-01-13 23:10:11][receive]:the original msg is {'time': 1736781011, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 600897941, 'group_id': 104491286, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'qq': '3827617422'}, 'type': 'at'}, {'data': {'text': ' 测试'}, 'type': 'text'}], 'raw_message': '[CQ:at,qq=3827617422] 测试', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'owner', 'title': '', 'level': ''}}
+[2025-01-13 23:10:12][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1949901300, 'time': 1736781011}, 'echo': ''}
+[2025-01-13 23:10:12][Test]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 969873112, 'time': 1736781011}, 'echo': ''}
+[2025-01-13 23:25:35][receive]:the original msg is {'time': 1736781935, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 379184526, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '@千里挑一大非酋\n您的今日运势为：\n凶带吉 ★★☆☆☆☆☆ 一成一败，一盛一衰，惟靠谨慎，可守成功   成 败， 盛 衰这都是相对的，有成功就会有失败，有强盛就会有衰落这都只是时间问题，只有坚定的信念对能获得一定的成功但并不能 够永久。\n  \n仅供娱乐|相信科学|请勿迷信  今日运势'}, 'type': 'text'}], 'raw_message': '@千里挑一大非酋\n您的今日运势为：\n凶带吉 ★★☆☆☆☆☆ 一成一败，一盛一衰，惟靠谨慎，可守成功   成 败， 盛 衰这都是相对的，有成功就会有失败，有强盛就会有衰落这都只是时间问题，只有坚定的信念对能获得一定的成功但并不能 够永久。\n  \n仅供娱乐|相信科学|请勿迷信  今日运势', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-13 23:25:35][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1728014461, 'time': 1736781935}, 'echo': ''}

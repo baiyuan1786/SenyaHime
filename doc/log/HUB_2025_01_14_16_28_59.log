@@ -1,0 +1,27 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_14_16_28_59================
+
+[2025-01-14 16:28:59][SenyaHime]启动服务器
+[2025-01-14 16:31:12][receive]:the original msg is {'time': 1736843472, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'poke', 'group_id': 721950485, 'operator_id': 826690990, 'user_id': 826690990, 'target_id': 3827617422, 'poke_detail': {'suffix': '的脸, 并被咬住了手指', 'action_img_url': 'http://tianquan.gtimg.cn/nudgeaction/item/0/expression.jpg'}}
+[2025-01-14 16:31:12][receive]解析出的命令为戳戳
+[2025-01-14 16:31:15][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 2003178078, 'time': 1736843474}, 'echo': ''}
+[2025-01-14 16:31:15][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1699349080, 'time': 1736843474}, 'echo': ''}
+[2025-01-14 16:31:15][receive]:the original msg is {'time': 1736843475, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'poke', 'group_id': 721950485, 'operator_id': 3827617422, 'user_id': 3827617422, 'target_id': 826690990, 'poke_detail': {'action': '拍了拍', 'suffix': '的鞋觉得很香', 'action_img_url': 'http://tianquan.gtimg.cn/nudgeaction/item/1/expression.jpg'}}
+[2025-01-14 16:31:15][receive]解析出的命令为None
+[2025-01-14 16:31:38][receive]:the original msg is {'time': 1736843498, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'poke', 'group_id': 721950485, 'operator_id': 826690990, 'user_id': 826690990, 'target_id': 3827617422, 'poke_detail': {'suffix': '的脸, 并被咬住了手指', 'action_img_url': 'http://tianquan.gtimg.cn/nudgeaction/item/0/expression.jpg'}}
+[2025-01-14 16:31:38][receive]解析出的命令为戳戳
+[2025-01-14 16:31:41][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1919372013, 'time': 1736843500}, 'echo': ''}
+[2025-01-14 16:31:42][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1087252880, 'time': 1736843500}, 'echo': ''}
+[2025-01-14 16:31:42][receive]:the original msg is {'time': 1736843501, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'poke', 'group_id': 721950485, 'operator_id': 3827617422, 'user_id': 3827617422, 'target_id': 826690990, 'poke_detail': {'action': '拍了拍', 'suffix': '的鞋觉得很香', 'action_img_url': 'http://tianquan.gtimg.cn/nudgeaction/item/1/expression.jpg'}}
+[2025-01-14 16:31:42][receive]解析出的命令为None
+[2025-01-14 16:35:01][receive]:the original msg is {'time': 1736843701, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'poke', 'group_id': 721950485, 'operator_id': 1336276492, 'user_id': 1336276492, 'target_id': 3827617422, 'poke_detail': {'suffix': '的脸, 并被咬住了手指', 'action_img_url': 'http://tianquan.gtimg.cn/nudgeaction/item/0/expression.jpg'}}
+[2025-01-14 16:35:01][receive]解析出的命令为戳戳
+[2025-01-14 16:35:04][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 544834970, 'time': 1736843703}, 'echo': ''}
+[2025-01-14 16:35:04][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1260527652, 'time': 1736843703}, 'echo': ''}
+[2025-01-14 16:35:05][receive]:the original msg is {'time': 1736843704, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'poke', 'group_id': 721950485, 'operator_id': 3827617422, 'user_id': 3827617422, 'target_id': 1336276492, 'poke_detail': {'action': '揉了揉', 'suffix': '的脸颊，mua·', 'action_img_url': 'http://tianquan.gtimg.cn/nudgeaction/item/8/expression.jpg'}}
+[2025-01-14 16:35:05][receive]解析出的命令为None
+[2025-01-14 16:35:42][receive]:the original msg is {'time': 1736843741, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 434671308, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 1336276492, 'message': [{'data': {'file': '4c1ccf5b89b12b0d0d1c40ff0410dbcc', 'subType': 1, 'type': 'show', 'url': 'http://gchat.qpic.cn/gchatpic_new/0/0-0-4C1CCF5B89B12B0D0D1C40FF0410DBCC/0?term=2'}, 'type': 'image'}], 'raw_message': '[CQ:image,file=4c1ccf5b89b12b0d0d1c40ff0410dbcc,subType=1,type=show,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-4C1CCF5B89B12B0D0D1C40FF0410DBCC/0?term=2]', 'font': 0, 'sender': {'user_id': 1336276492, 'nickname': '终极非酋沐北', 'card': '终极非酋沐北', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-14 16:35:42][receive]解析出的命令为None
+[2025-01-14 16:39:09][receive]:the original msg is {'time': 1736843949, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 985961530, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 251216589, 'message': [{'data': {'text': '完了'}, 'type': 'text'}], 'raw_message': '完了', 'font': 0, 'sender': {'user_id': 251216589, 'nickname': '菜鸡群主', 'card': '菜鸡群主', 'role': 'owner', 'title': '', 'level': ''}}
+[2025-01-14 16:39:09][receive]解析出的命令为None
+[2025-01-14 16:39:14][receive]:the original msg is {'time': 1736843954, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 93533135, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 251216589, 'message': [{'data': {'text': '有点玩不动崩铁了'}, 'type': 'text'}], 'raw_message': '有点玩不动崩铁了', 'font': 0, 'sender': {'user_id': 251216589, 'nickname': '菜鸡群主', 'card': '菜鸡群主', 'role': 'owner', 'title': '', 'level': ''}}
+[2025-01-14 16:39:14][receive]解析出的命令为None

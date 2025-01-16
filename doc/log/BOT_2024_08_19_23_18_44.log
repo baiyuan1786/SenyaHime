@@ -1,0 +1,15 @@
+===================BOT EXPORT LOG 2024_08_19_23_18_44================
+
+[2024-08-19 23:18:44][千早酱]启动服务器
+[2024-08-19 23:20:01][HTTPcallback]:{'time': 1724080802, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1837473691, 'group_id': 606490627, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'qq': '3827617422'}, 'type': 'at'}, {'data': {'text': ' 重置卡池'}, 'type': 'text'}], 'raw_message': '[CQ:at,qq=3827617422] 重置卡池', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '', 'role': 'owner', 'title': '', 'level': ''}}
+
+[2024-08-19 23:20:01][quickResponse]:<Response [200]>
+[2024-08-19 23:20:19][HTTPcallback]:{'time': 1724080820, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 266984336, 'group_id': 606490627, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'qq': '3827617422'}, 'type': 'at'}, {'data': {'text': ' 查看卡池状态'}, 'type': 'text'}], 'raw_message': '[CQ:at,qq=3827617422] 查看卡池状态', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '', 'role': 'owner', 'title': '', 'level': ''}}
+
+[2024-08-19 23:20:19][quickResponse]:<Response [200]>
+[2024-08-19 23:27:48][HTTPcallback]:{'time': 1724081269, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1175081717, 'group_id': 606490627, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'qq': '3827617422'}, 'type': 'at'}, {'data': {'text': ' 重置卡池'}, 'type': 'text'}], 'raw_message': '[CQ:at,qq=3827617422] 重置卡池', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '', 'role': 'owner', 'title': '', 'level': ''}}
+
+[2024-08-19 23:27:48][quickResponse]:<Response [200]>
+[2024-08-19 23:27:57][HTTPcallback]:{'time': 1724081278, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 411898554, 'group_id': 606490627, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'qq': '3827617422'}, 'type': 'at'}, {'data': {'text': ' 查看卡池状态'}, 'type': 'text'}], 'raw_message': '[CQ:at,qq=3827617422] 查看卡池状态', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '', 'role': 'owner', 'title': '', 'level': ''}}
+
+[2024-08-19 23:27:57][quickResponse]:<Response [200]>

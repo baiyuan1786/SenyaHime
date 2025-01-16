@@ -1,0 +1,9 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_15_22_53_17================
+
+[2025-01-15 22:53:17][SenyaHime]启动服务器
+[2025-01-15 22:53:38][receive]:the original msg is {'time': 1736952816, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 150370902, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '戳戳'}, 'type': 'text'}], 'raw_message': '戳戳', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-15 22:53:38][receive]解析出的命令为戳戳
+[2025-01-15 22:53:42][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 304873548, 'time': 1736952819}, 'echo': ''}
+[2025-01-15 23:50:11][receive]:the original msg is {'time': 1736956193, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 197527666, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '晚安安'}, 'type': 'text'}], 'raw_message': '晚安安', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-15 23:50:11][receive]解析出的命令为晚安安
+[2025-01-15 23:50:12][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1112925042, 'time': 1736956209}, 'echo': ''}

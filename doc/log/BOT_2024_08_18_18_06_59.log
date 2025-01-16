@@ -1,0 +1,5 @@
+===================BOT EXPORT LOG 2024_08_18_18_06_59================
+
+[2024-08-18 18:06:59][千早酱]启动服务器
+[2024-08-18 18:07:07][HTTPcallback]:{'time': 1723975626, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 2032014266, 'group_id': 606490627, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'qq': '3827617422'}, 'type': 'at'}, {'data': {'text': '  7'}, 'type': 'text'}], 'raw_message': '[CQ:at,qq=3827617422]  7', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '', 'role': 'owner', 'title': '', 'level': ''}}
+

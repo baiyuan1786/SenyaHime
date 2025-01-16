@@ -1,0 +1,6 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_13_23_07_29================
+
+[2025-01-13 23:07:29][SenyaHime]启动服务器
+[2025-01-13 23:07:32][receive]:the original msg is {'time': 1736780852, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1872207776, 'group_id': 104491286, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'qq': '3827617422'}, 'type': 'at'}, {'data': {'text': ' 测试'}, 'type': 'text'}], 'raw_message': '[CQ:at,qq=3827617422] 测试', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'owner', 'title': '', 'level': ''}}
+[2025-01-13 23:07:32][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 223879404, 'time': 1736780851}, 'echo': ''}
+[2025-01-13 23:07:32][Test]:{'status': 'failed', 'retcode': 20002, 'data': {'url': '/send_group_msg', 'error': '消息合成失败，请查看日志或者检查输入。'}}

@@ -1,0 +1,51 @@
+{
+    "weightEquelToNum": true,
+    "cardPool": [
+        {
+            "name": "\u53ef\u7231\u5238",
+            "quantity": 10,
+            "weight": 10
+        },
+        {
+            "name": "\u62b1\u6795\u5238",
+            "quantity": 10,
+            "weight": 10
+        },
+        {
+            "name": "\u4ee3\u770b\u672c\u5b50\u5238",
+            "quantity": 1,
+            "weight": 1
+        },
+        {
+            "name": "\u5ba0\u7269\u5238",
+            "quantity": 1,
+            "weight": 1
+        },
+        {
+            "name": "\u5973\u4ec6\u5238",
+            "quantity": 1,
+            "weight": 1
+        },
+        {
+            "name": "\u732b\u5a18\u5238",
+            "quantity": 1,
+            "weight": 1
+        },
+        {
+            "name": "\u8c22\u8c22\u60e0\u987e",
+            "quantity": 2,
+            "weight": 2
+        },
+        {
+            "name": "代肝券",
+            "quantity": 3,
+            "weight": 3
+        },
+
+        {
+            "name": "讲故事券",
+            "quantity": 3,
+            "weight": 3
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_14_16_39_45================
+
+[2025-01-14 16:39:45][SenyaHime]启动服务器
+[2025-01-14 16:40:13][receive]:the original msg is {'time': 1736844013, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'poke', 'group_id': 721950485, 'operator_id': 1965615544, 'user_id': 1965615544, 'target_id': 3827617422, 'poke_detail': {'suffix': '的脸, 并被咬住了手指', 'action_img_url': 'http://tianquan.gtimg.cn/nudgeaction/item/0/expression.jpg'}}
+[2025-01-14 16:40:13][receive]解析出的命令为戳戳
+[2025-01-14 16:40:16][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1286216659, 'time': 1736844015}, 'echo': ''}
+[2025-01-14 16:40:17][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1756492082, 'time': 1736844015}, 'echo': ''}
+[2025-01-14 16:40:17][receive]:the original msg is {'time': 1736844016, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'poke', 'group_id': 721950485, 'operator_id': 3827617422, 'user_id': 3827617422, 'target_id': 1965615544, 'poke_detail': {'action': '踢了踢', 'suffix': '的空荡荡的钱包', 'action_img_url': 'http://tianquan.gtimg.cn/nudgeaction/item/10/expression.jpg'}}
+[2025-01-14 16:40:17][receive]解析出的命令为None
+[2025-01-14 16:40:27][receive]:the original msg is {'time': 1736844026, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1454769260, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 1965615544, 'message': [{'data': {'qq': '3827617422'}, 'type': 'at'}, {'data': {'text': ' 原来是bot吗'}, 'type': 'text'}], 'raw_message': '[CQ:at,qq=3827617422] 原来是bot吗', 'font': 0, 'sender': {'user_id': 1965615544, 'nickname': '山高狐狸野，有姐叫万叶', 'card': '山高狐狸野，有姐叫万叶', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-14 16:40:27][receive]解析出的命令为原来是bot吗
+[2025-01-14 16:40:27][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1451523205, 'time': 1736844026}, 'echo': ''}
+[2025-01-14 16:40:53][receive]:the original msg is {'time': 1736844052, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 283132276, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '绝赞开发中'}, 'type': 'text'}], 'raw_message': '绝赞开发中', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '万里挑一大非酋肝帝', 'role': 'admin', 'title': '', 'level': ''}}
+[2025-01-14 16:40:53][receive]解析出的命令为None

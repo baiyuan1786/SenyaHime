@@ -1,0 +1,18 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_16_00_54_17================
+
+[2025-01-16 00:54:17][SenyaHime]启动服务器
+[2025-01-16 00:55:07][receive]:the original msg is {'time': 1736960066, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 947918830, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '戳戳'}, 'type': 'text'}], 'raw_message': '戳戳', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-16 00:55:07][receive]解析出的命令为戳戳
+[2025-01-16 00:55:11][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 588741990, 'time': 1736960108}, 'echo': ''}
+[2025-01-16 00:55:11][receive]:the original msg is {'time': 1736960100, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 947918855, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '戳戳'}, 'type': 'text'}], 'raw_message': '戳戳', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-16 00:55:11][receive]解析出的命令为戳戳
+[2025-01-16 00:55:15][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1593532361, 'time': 1736960112}, 'echo': ''}
+[2025-01-16 00:57:13][receive]:the original msg is {'time': 1736960231, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 1498541196, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '戳戳'}, 'type': 'text'}], 'raw_message': '戳戳', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-16 00:57:13][receive]解析出的命令为戳戳
+[2025-01-16 00:57:17][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1208351664, 'time': 1736960234}, 'echo': ''}
+[2025-01-16 01:22:06][receive]:the original msg is {'time': 1736961537, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 979376323, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '戳戳'}, 'type': 'text'}], 'raw_message': '戳戳', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-16 01:22:06][receive]解析出的命令为戳戳
+[2025-01-16 01:22:10][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1630406597, 'time': 1736961727}, 'echo': ''}
+[2025-01-16 01:22:38][receive]:the original msg is {'time': 1736961756, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 334259770, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '戳戳'}, 'type': 'text'}], 'raw_message': '戳戳', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-16 01:22:38][receive]解析出的命令为戳戳
+[2025-01-16 01:22:42][reply]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1965467233, 'time': 1736961759}, 'echo': ''}

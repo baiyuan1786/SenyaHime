@@ -1,0 +1,7 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_06_17_45_21================
+
+[2025-01-06 17:45:21][SenyaHime]启动服务器
+[2025-01-06 17:45:27][HTTPcallback]:{'time': 1736156723, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 547225987, 'group_id': 104491286, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'qq': '3827617422'}, 'type': 'at'}, {'data': {'text': ' 测试'}, 'type': 'text'}], 'raw_message': '[CQ:at,qq=3827617422] 测试', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'owner', 'title': '', 'level': ''}}
+
+[2025-01-06 17:45:27][quickResponse]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1968974092, 'time': 1736156723}, 'echo': ''}
+[2025-01-06 17:45:28][测试响应]{'status': 'ok', 'retcode': 0, 'data': {'message_id': 44491364, 'time': 1736156724}, 'echo': ''}
