@@ -1,0 +1,10 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_17_20_55_01================
+
+[2025-01-17 20:55:01][SenyaHime]启动服务器
+[2025-01-17 20:57:32][receive_debug]:the original msg is {'time': 1737118650, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 452473314, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '喵喵喵'}, 'type': 'text'}], 'raw_message': '喵喵喵', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-17 20:57:32][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 40232
+[2025-01-17 20:57:32][receive_debug]get command = "喵喵喵"
+[2025-01-17 20:57:32][reply_response]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 685453267, 'time': 1737118651}, 'echo': ''}
+[2025-01-17 21:07:27][receive_debug]:the original msg is {'time': 1737119245, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'poke', 'group_id': 721950485, 'operator_id': 1336276492, 'user_id': 1336276492, 'target_id': 395642104, 'poke_detail': {'suffix': '的脑袋并说不要再学习了', 'action_img_url': 'http://tianquan.gtimg.cn/nudgeaction/item/0/expression.jpg'}}
+[2025-01-17 21:07:27][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 49004
+[2025-01-17 21:07:27][receive_debug]get command = "None"

@@ -9,3 +9,16 @@
 [2025-01-16 14:58:15][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 40810
 [2025-01-16 14:58:15][receive_debug]get command = "戳戳"
 [2025-01-16 14:58:18][reply_response]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 584654337, 'time': 1737010695}, 'echo': ''}
+[2025-01-16 15:03:08][receive_debug]:the original msg is {'time': 1737010986, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 80400951, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '戳戳'}, 'type': 'text'}], 'raw_message': '戳戳', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-16 15:03:08][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 37574
+[2025-01-16 15:03:08][receive_debug]get command = "戳戳"
+[2025-01-16 15:03:11][reply_response]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 192187573, 'time': 1737010988}, 'echo': ''}
+[2025-01-16 15:44:41][receive_debug]:the original msg is {'time': 1737013188, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1914622834, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 826690990, 'message': [{'data': {'file': 'a17dc3fa9e440892a6b27eea2f12a443', 'subType': 0, 'type': 'show', 'url': 'http://gchat.qpic.cn/gchatpic_new/0/0-0-A17DC3FA9E440892A6B27EEA2F12A443/0?term=2'}, 'type': 'image'}], 'raw_message': '[CQ:image,file=a17dc3fa9e440892a6b27eea2f12a443,subType=0,type=show,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-A17DC3FA9E440892A6B27EEA2F12A443/0?term=2]', 'font': 0, 'sender': {'user_id': 826690990, 'nickname': '冬己', 'card': '冬己', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-16 15:44:41][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 41268
+[2025-01-16 15:44:41][receive_debug]get command = "None"
+[2025-01-16 15:44:41][receive_debug]:the original msg is {'time': 1737013226, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1914622861, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 826690990, 'message': [{'data': {'text': '486觉着很赞'}, 'type': 'text'}], 'raw_message': '486觉着很赞', 'font': 0, 'sender': {'user_id': 826690990, 'nickname': '冬己', 'card': '冬己', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-16 15:44:41][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 41276
+[2025-01-16 15:44:41][receive_debug]get command = "None"
+[2025-01-16 15:44:41][receive_debug]:the original msg is {'time': 1737013230, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1914622867, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 826690990, 'message': [{'data': {'big': False, 'id': 182}, 'type': 'face'}], 'raw_message': '[CQ:face,big=false,id=182]', 'font': 0, 'sender': {'user_id': 826690990, 'nickname': '冬己', 'card': '冬己', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-16 15:44:41][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 41278
+[2025-01-16 15:44:41][receive_debug]get command = "None"

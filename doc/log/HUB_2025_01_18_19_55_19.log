@@ -1,0 +1,15 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_18_19_55_19================
+
+[2025-01-18 19:55:19][SenyaHime]Running on http://192.168.0.107:5700
+[2025-01-18 19:55:35][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737201332, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 546428677, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 2874851873, 'message': [{'data': {'text': '等等'}, 'type': 'text'}], 'raw_message': '等等', 'font': 0, 'sender': {'user_id': 2874851873, 'nickname': '琪亚娜，出击！', 'card': '琪亚娜，出击！', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-18 19:55:35][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 49744
+[2025-01-18 19:55:35][receive_debug]get command = "None"
+[2025-01-18 19:56:05][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737201362, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 165281247, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 2874851873, 'message': [{'data': {'text': '我崩二团战要打了'}, 'type': 'text'}], 'raw_message': '我崩二团战要打了', 'font': 0, 'sender': {'user_id': 2874851873, 'nickname': '琪亚娜，出击！', 'card': '琪亚娜，出击！', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-18 19:56:05][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 43728
+[2025-01-18 19:56:05][receive_debug]get command = "None"
+[2025-01-18 19:56:23][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737201379, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 194497368, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '群友生活真是多姿多彩'}, 'type': 'text'}], 'raw_message': '群友生活真是多姿多彩', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '万里挑一大非酋肝帝', 'role': 'admin', 'title': '', 'level': ''}}
+[2025-01-18 19:56:23][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 44848
+[2025-01-18 19:56:23][receive_debug]get command = "None"
+[2025-01-18 19:57:11][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737201429, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1448342068, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 1336276492, 'message': [{'data': {'file': '926482aa43ac52df14eb31f03791cfff', 'subType': 1, 'type': 'show', 'url': 'http://gchat.qpic.cn/gchatpic_new/0/0-0-926482AA43AC52DF14EB31F03791CFFF/0?term=2'}, 'type': 'image'}], 'raw_message': '[CQ:image,file=926482aa43ac52df14eb31f03791cfff,subType=1,type=show,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-926482AA43AC52DF14EB31F03791CFFF/0?term=2]', 'font': 0, 'sender': {'user_id': 1336276492, 'nickname': '终极非酋沐北', 'card': '终极非酋沐北', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-18 19:57:11][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 47018
+[2025-01-18 19:57:11][receive_debug]get command = "None"

@@ -3,7 +3,7 @@
 #   Description: 卡池定义文件
 #   Authors:     BaiYuan <395642104@qq.com>
 ###############################################################################
-from tool.common.log import logInfo
+from plugin.log import logInfo
 import json
 import numpy as np
 import random

@@ -1,0 +1,9 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_17_21_36_16================
+
+[2025-01-17 21:36:16][SenyaHime]启动服务器
+[2025-01-17 21:41:25][receive_debug]:the original msg is {'time': 1737121284, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1640502615, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 1336276492, 'message': [{'data': {'text': '不要再学习了'}, 'type': 'text'}], 'raw_message': '不要再学习了', 'font': 0, 'sender': {'user_id': 1336276492, 'nickname': '终极非酋沐北', 'card': '终极非酋沐北', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-17 21:41:25][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 46466
+[2025-01-17 21:41:25][receive_debug]get command = "None"
+[2025-01-17 21:41:27][receive_debug]:the original msg is {'time': 1737121285, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'poke', 'group_id': 721950485, 'operator_id': 1336276492, 'user_id': 1336276492, 'target_id': 395642104, 'poke_detail': {'suffix': '的脑袋并说不要再学习了', 'action_img_url': 'http://tianquan.gtimg.cn/nudgeaction/item/0/expression.jpg'}}
+[2025-01-17 21:41:27][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 46472
+[2025-01-17 21:41:27][receive_debug]get command = "None"

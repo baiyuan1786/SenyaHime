@@ -3,13 +3,13 @@
     "cardPool": [
         {
             "name": "\u53ef\u7231\u5238",
-            "quantity": 7,
-            "weight": 7
+            "quantity": 9,
+            "weight": 9
         },
         {
             "name": "\u62b1\u6795\u5238",
-            "quantity": 8,
-            "weight": 8
+            "quantity": 10,
+            "weight": 10
         },
         {
             "name": "\u4ee3\u770b\u672c\u5b50\u5238",
@@ -18,8 +18,8 @@
         },
         {
             "name": "\u5ba0\u7269\u5238",
-            "quantity": 0,
-            "weight": 0
+            "quantity": 1,
+            "weight": 1
         },
         {
             "name": "\u5973\u4ec6\u5238",
@@ -38,13 +38,13 @@
         },
         {
             "name": "\u4ee3\u809d\u5238",
-            "quantity": 2,
-            "weight": 2
+            "quantity": 3,
+            "weight": 3
         },
         {
             "name": "\u8bb2\u6545\u4e8b\u5238",
-            "quantity": 2,
-            "weight": 2
+            "quantity": 3,
+            "weight": 3
         }
     ]
 }

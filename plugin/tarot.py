@@ -3,7 +3,7 @@
 #   Description: 定义塔罗牌抽取
 #   Authors:     BaiYuan <395642104@qq.com>
 ###############################################################################
-from tool.common.log import logInfo
+from plugin.log import logInfo
 
 
 

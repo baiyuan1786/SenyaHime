@@ -1,0 +1,18 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_18_23_27_56================
+
+[2025-01-18 23:27:56][SenyaHime]Running on http://192.168.0.107:5700
+[2025-01-18 23:27:56][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737214070, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 658727425, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '再运行一下'}, 'type': 'text'}], 'raw_message': '再运行一下', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '万里挑一大非酋肝帝', 'role': 'admin', 'title': '', 'level': ''}}
+[2025-01-18 23:27:56][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 42954
+[2025-01-18 23:27:56][receive_debug]get command = "再运行一下", atme = False
+[2025-01-18 23:27:57][reply_response]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1801641644, 'time': 1737214074}, 'echo': ''}
+[2025-01-18 23:28:10][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737214088, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 2133199498, 'group_id': 104491286, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'qq': '3827617422'}, 'type': 'at'}, {'data': {'text': ' '}, 'type': 'text'}], 'raw_message': '[CQ:at,qq=3827617422] ', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'owner', 'title': '', 'level': ''}}
+[2025-01-18 23:28:10][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 40340
+[2025-01-18 23:28:10][receive_debug]get command = "None", atme = True
+[2025-01-18 23:28:21][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737214098, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1866413229, 'group_id': 104491286, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'qq': '3827617422'}, 'type': 'at'}, {'data': {'text': ' 你好'}, 'type': 'text'}], 'raw_message': '[CQ:at,qq=3827617422] 你好', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'owner', 'title': '', 'level': ''}}
+[2025-01-18 23:28:21][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 41850
+[2025-01-18 23:28:21][receive_debug]get command = "你好", atme = True
+[2025-01-18 23:28:21][reply_response]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1365698038, 'time': 1737214099}, 'echo': ''}
+[2025-01-18 23:28:42][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737214119, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 961472300, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '?'}, 'type': 'text'}], 'raw_message': '?', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '万里挑一大非酋肝帝', 'role': 'admin', 'title': '', 'level': ''}}
+[2025-01-18 23:28:42][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 40636
+[2025-01-18 23:28:42][receive_debug]get command = "?", atme = False
+[2025-01-18 23:28:43][reply_response]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 1649182597, 'time': 1737214120}, 'echo': ''}

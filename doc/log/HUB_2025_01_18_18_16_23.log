@@ -1,0 +1,11 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_18_18_16_23================
+
+[2025-01-18 18:16:23][SenyaHime]Running on http://192.168.0.107:5700
+[2025-01-18 18:16:34][receive_debug]:the original msg is {'time': 1737195391, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'poke', 'group_id': 104491286, 'operator_id': 395642104, 'user_id': 395642104, 'target_id': 3827617422, 'poke_detail': {'suffix': '的脸, 并被咬住了手指', 'action_img_url': 'http://tianquan.gtimg.cn/nudgeaction/item/0/expression.jpg'}}
+[2025-01-18 18:16:34][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 37278
+[2025-01-18 18:16:34][receive_debug]get command = "戳戳"
+[2025-01-18 18:16:37][reply_response]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 771582476, 'time': 1737195395}, 'echo': ''}
+[2025-01-18 18:16:38][reply_response]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 293167886, 'time': 1737195395}, 'echo': ''}
+[2025-01-18 18:16:38][receive_debug]:the original msg is {'time': 1737195395, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'poke', 'group_id': 104491286, 'operator_id': 3827617422, 'user_id': 3827617422, 'target_id': 395642104, 'poke_detail': {'suffix': '的脑袋并说不要再学习了', 'action_img_url': 'http://tianquan.gtimg.cn/nudgeaction/item/0/expression.jpg'}}
+[2025-01-18 18:16:38][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 37292
+[2025-01-18 18:16:38][receive_debug]get command = "None"

@@ -1,0 +1,18 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_18_23_21_05================
+
+[2025-01-18 23:21:05][SenyaHime]Running on http://192.168.0.107:5700
+[2025-01-18 23:21:14][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737213671, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1577476584, 'group_id': 104491286, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'qq': '3827617422'}, 'type': 'at'}, {'data': {'text': ' '}, 'type': 'text'}], 'raw_message': '[CQ:at,qq=3827617422] ', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'owner', 'title': '', 'level': ''}}
+[2025-01-18 23:21:14][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 40304
+[2025-01-18 23:21:14][receive_debug]get command = "None", atme = True
+[2025-01-18 23:22:54][receive_debug]:curMsgType is groupMsg_touch, the original msg is {'time': 1737213771, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'poke', 'group_id': 721950485, 'operator_id': 1336276492, 'user_id': 1336276492, 'target_id': 395642104, 'poke_detail': {'suffix': '的脑袋并说不要再学习了', 'action_img_url': 'http://tianquan.gtimg.cn/nudgeaction/item/0/expression.jpg'}}
+[2025-01-18 23:22:54][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 38258
+[2025-01-18 23:22:54][receive_debug]get command = "\戳戳", atme = False
+[2025-01-18 23:22:55][reply_response]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 142116405, 'time': 1737213772}, 'echo': ''}
+[2025-01-18 23:23:18][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737213795, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1589037265, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '命令解析是对的, 映射出问题的'}, 'type': 'text'}], 'raw_message': '命令解析是对的&#44; 映射出问题的', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '万里挑一大非酋肝帝', 'role': 'admin', 'title': '', 'level': ''}}
+[2025-01-18 23:23:18][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 48726
+[2025-01-18 23:23:18][receive_debug]get command = "命令解析是对的, 映射出问题的", atme = False
+[2025-01-18 23:23:19][reply_response]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 217252362, 'time': 1737213796}, 'echo': ''}
+[2025-01-18 23:23:23][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737213800, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 685423031, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '乐'}, 'type': 'text'}], 'raw_message': '乐', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '万里挑一大非酋肝帝', 'role': 'admin', 'title': '', 'level': ''}}
+[2025-01-18 23:23:23][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 46626
+[2025-01-18 23:23:23][receive_debug]get command = "乐", atme = False
+[2025-01-18 23:23:23][reply_response]:{'status': 'ok', 'retcode': 0, 'data': {'message_id': 769801761, 'time': 1737213801}, 'echo': ''}
