@@ -165,7 +165,7 @@ class groupMsg_recall:
     '''群聊类型的消息撤回消息'''
     needKeys = []
     needKeys += ["time", "self_id", "post_type", "notice_type"]
-    needKeys += ["group_id", "operator_id", "user_id", "message_id", "tip_text"]
+    needKeys += ["group_id", "operator_id", "user_id", "message_id"]
     needKeys = set(needKeys)
     ###############################################################################
     # Function:     isMe
@@ -177,7 +177,7 @@ class groupMsg_recall:
         '''判断消息是否是此类'''
 
         # 判断key是否符合
-        if not set(receivedData.keys()) == cls.needKeys:
+        if not set(receivedData.keys()) >= cls.needKeys:
             return False
         
         # 判断值是否符合
@@ -199,7 +199,8 @@ class groupMsg_recall:
             self.operator_id = receivedData["operator_id"]
             self.user_id = receivedData["user_id"]
             # self.message_id = receivedData["message_id"] 无用
-            self.tip_text = receivedData["tip_text"]
+            if "tip_text" in receivedData:
+                self.tip_text = receivedData["tip_text"]
 
         except KeyError as e:
             logInfo(f"[groupMsg_recall]callback message lack key of \"{e}\", the original msg is {receivedData}")

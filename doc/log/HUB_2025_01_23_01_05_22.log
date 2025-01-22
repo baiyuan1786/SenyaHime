@@ -1,0 +1,26 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_23_01_05_22================
+
+[2025-01-23 01:05:22][SenyaHime]Running on ws://192.168.0.107:5700
+[2025-01-23 01:05:23][websocketserver]New connection from ('192.168.0.150', 40418)
+[2025-01-23 01:05:23][heartbeat]heartbeat lunched
+[2025-01-23 01:05:23][websocketserver]Received: {"time":1737565519,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-23 01:05:23][receive_debug]:curMsgType is lifecycleMsg, the original msg is {'time': 1737565519, 'self_id': 3827617422, 'post_type': 'meta_event', 'meta_event_type': 'lifecycle', 'sub_type': 'connect', 'status': {'self': {'platform': 'qq', 'user_id': 3827617422}, 'online': True, 'good': True, 'qq.status': '正常'}, 'interval': 15000}
+[2025-01-23 01:05:28][websocketserver]Received: {"time":1737565523,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":1636443570,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"晚安"},"type":"text"}],"raw_message":"晚安","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-23 01:05:28][receive_debug]:curMsgType is privateMsg_normal, the original msg is {'time': 1737565523, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 1636443570, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '晚安'}, 'type': 'text'}], 'raw_message': '晚安', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 01:05:28][resolve_debug]cur user is "395642104"
+[2025-01-23 01:05:28][resolve_debug]user_id 存在于用户集中为 "True"
+[2025-01-23 01:05:28][resolve_debug]error:command.trigger() got multiple values for argument 'self'
+[2025-01-23 01:05:28][heartbeat]try send ping...OK
+[2025-01-23 01:05:33][heartbeat]try send ping...OK
+[2025-01-23 01:05:38][heartbeat]try send ping...OK
+[2025-01-23 01:05:43][heartbeat]try send ping...OK
+[2025-01-23 01:05:48][heartbeat]try send ping...OK
+[2025-01-23 01:05:53][heartbeat]try send ping...OK
+[2025-01-23 01:05:58][heartbeat]try send ping...OK
+[2025-01-23 01:06:03][heartbeat]try send ping...OK
+[2025-01-23 01:06:08][heartbeat]try send ping...OK
+[2025-01-23 01:06:13][heartbeat]try send ping...OK
+[2025-01-23 01:06:18][heartbeat]try send ping...OK
+[2025-01-23 01:06:23][SenyaHime]Server stopped.

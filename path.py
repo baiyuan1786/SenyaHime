@@ -29,5 +29,6 @@ def getRootDir():
 GRoot = getRootDir()
 GLogDir = GRoot / "doc" / "log"
 GreadmeDir = GRoot / "doc" / "readme"
+GUserInfoDir = GRoot / "doc" / "userInfo"
 initCardPool = GRoot / "doc" / "cardPool" / "qianyeServicePool_init.json"
 stateCardPool = GRoot / "doc" / "cardPool" / "qianyeServicePool_state.json"

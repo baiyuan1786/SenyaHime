@@ -1,0 +1,83 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_23_01_40_12================
+
+[2025-01-23 01:40:12][SenyaHime]Running on ws://192.168.0.107:5700
+[2025-01-23 01:40:30][websocketserver]New connection from ('192.168.0.150', 42296)
+[2025-01-23 01:40:30][heartbeat]heartbeat lunched
+[2025-01-23 01:40:30][websocketserver]Received: {"time":1737567626,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-23 01:40:30][receive_debug]:curMsgType is lifecycleMsg, the original msg is {'time': 1737567626, 'self_id': 3827617422, 'post_type': 'meta_event', 'meta_event_type': 'lifecycle', 'sub_type': 'connect', 'status': {'self': {'platform': 'qq', 'user_id': 3827617422}, 'online': True, 'good': True, 'qq.status': '正常'}, 'interval': 15000}
+[2025-01-23 01:40:35][heartbeat]try send ping...OK
+[2025-01-23 01:40:38][websocketserver]Received: {"time":1737567633,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":779349675,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"摸头"},"type":"text"}],"raw_message":"摸头","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-23 01:40:38][receive_debug]:curMsgType is privateMsg_normal, the original msg is {'time': 1737567633, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 779349675, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '摸头'}, 'type': 'text'}], 'raw_message': '摸头', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 01:40:38][resolve_debug]cur user is "395642104"
+[2025-01-23 01:40:38][resolve_debug]user_id 存在于用户集中为 "True"
+[2025-01-23 01:40:38][resolve_debug]cmd "touchHeadCammand" triggered
+
+[2025-01-23 01:40:38][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'text', 'data': {'text': '嘿～主人是不是摸完就跑？不够诚意呢～'}}, {'type': 'text', 'data': {'text': '\nFavor change limited today, 主人明天再来哦'}}]}}
+
+[2025-01-23 01:40:38][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":1757519627,"time":1737567634},"echo":" "}
+
+[2025-01-23 01:40:38][receive_debug]:curMsgType is responseMsg, the original msg is {'status': 'ok', 'retcode': 0, 'data': {'message_id': 1757519627, 'time': 1737567634}, 'echo': ' '}
+[2025-01-23 01:40:40][heartbeat]try send ping...OK
+[2025-01-23 01:40:45][heartbeat]try send ping...OK
+[2025-01-23 01:40:46][websocketserver]Received: {"time":1737567641,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1209945230,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"桂乃芬是干什么的"},"type":"text"}],"raw_message":"桂乃芬是干什么的","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-23 01:40:46][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737567641, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1209945230, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 3102684670, 'message': [{'data': {'text': '桂乃芬是干什么的'}, 'type': 'text'}], 'raw_message': '桂乃芬是干什么的', 'font': 0, 'sender': {'user_id': 3102684670, 'nickname': '小秋（超级摸鱼王版本）', 'card': '小秋（超级摸鱼王版本）', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 01:40:46][resolve_debug]cur user is "3102684670"
+[2025-01-23 01:40:46][resolve_debug]user_id 存在于用户集中为 "True"
+[2025-01-23 01:40:50][heartbeat]try send ping...OK
+[2025-01-23 01:40:55][heartbeat]try send ping...OK
+[2025-01-23 01:41:00][update]all user updated
+[2025-01-23 01:41:00][395642104]updated
+[2025-01-23 01:41:00][3102684670]updated
+[2025-01-23 01:41:00][heartbeat]try send ping...OK
+[2025-01-23 01:41:05][heartbeat]try send ping...OK
+[2025-01-23 01:41:07][websocketserver]Received: {"time":1737567662,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":589619643,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"摸头"},"type":"text"}],"raw_message":"摸头","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-23 01:41:07][receive_debug]:curMsgType is privateMsg_normal, the original msg is {'time': 1737567662, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 589619643, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '摸头'}, 'type': 'text'}], 'raw_message': '摸头', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 01:41:07][resolve_debug]cur user is "395642104"
+[2025-01-23 01:41:07][resolve_debug]user_id 存在于用户集中为 "True"
+[2025-01-23 01:41:07][resolve_debug]cmd "touchHeadCammand" triggered
+
+[2025-01-23 01:41:07][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'text', 'data': {'text': '主人！不要以为摸头可以让千夜喜欢你哦～'}}, {'type': 'text', 'data': {'text': '\nFavor change limited today, 主人明天再来哦'}}]}}
+
+[2025-01-23 01:41:07][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":118533247,"time":1737567663},"echo":" "}
+
+[2025-01-23 01:41:07][receive_debug]:curMsgType is responseMsg, the original msg is {'status': 'ok', 'retcode': 0, 'data': {'message_id': 118533247, 'time': 1737567663}, 'echo': ' '}
+[2025-01-23 01:41:10][heartbeat]try send ping...OK
+[2025-01-23 01:41:15][heartbeat]try send ping...OK
+[2025-01-23 01:41:20][heartbeat]try send ping...OK
+[2025-01-23 01:41:25][heartbeat]try send ping...OK
+[2025-01-23 01:41:30][heartbeat]try send ping...OK
+[2025-01-23 01:41:35][heartbeat]try send ping...OK
+[2025-01-23 01:41:40][heartbeat]try send ping...OK
+[2025-01-23 01:41:45][heartbeat]try send ping...OK
+[2025-01-23 01:41:50][heartbeat]try send ping...OK
+[2025-01-23 01:41:55][heartbeat]try send ping...OK
+[2025-01-23 01:42:01][heartbeat]try send ping...OK
+[2025-01-23 01:42:06][heartbeat]try send ping...OK
+[2025-01-23 01:42:11][heartbeat]try send ping...OK
+[2025-01-23 01:42:16][heartbeat]try send ping...OK
+[2025-01-23 01:42:21][heartbeat]try send ping...OK
+[2025-01-23 01:42:26][heartbeat]try send ping...OK
+[2025-01-23 01:42:31][heartbeat]try send ping...OK
+[2025-01-23 01:42:36][heartbeat]try send ping...OK
+[2025-01-23 01:42:41][heartbeat]try send ping...OK
+[2025-01-23 01:42:46][heartbeat]try send ping...OK
+[2025-01-23 01:42:49][websocketserver]Received: {"time":1737567764,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1733083158,"group_id":721950485,"peer_id":3827617422,"user_id":2874851873,"message":[{"data":{"text":"给真理挂负面效果"},"type":"text"}],"raw_message":"给真理挂负面效果","font":0,"sender":{"user_id":2874851873,"nickname":"琪亚娜，出击！","card":"琪亚娜，出击！","role":"member","title":"","level":""}}
+
+[2025-01-23 01:42:49][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737567764, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1733083158, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 2874851873, 'message': [{'data': {'text': '给真理挂负面效果'}, 'type': 'text'}], 'raw_message': '给真理挂负面效果', 'font': 0, 'sender': {'user_id': 2874851873, 'nickname': '琪亚娜，出击！', 'card': '琪亚娜，出击！', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 01:42:49][resolve_debug]cur user is "2874851873"
+[2025-01-23 01:42:49][resolve_debug]user_id 存在于用户集中为 "True"
+[2025-01-23 01:42:51][heartbeat]try send ping...OK
+[2025-01-23 01:42:56][heartbeat]try send ping...OK
+[2025-01-23 01:42:59][websocketserver]Received: {"time":1737567774,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":944504113,"group_id":721950485,"peer_id":3827617422,"user_id":2874851873,"message":[{"data":{"text":"使他的追加攻击更容易触发"},"type":"text"}],"raw_message":"使他的追加攻击更容易触发","font":0,"sender":{"user_id":2874851873,"nickname":"琪亚娜，出击！","card":"琪亚娜，出击！","role":"member","title":"","level":""}}
+
+[2025-01-23 01:42:59][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737567774, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 944504113, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 2874851873, 'message': [{'data': {'text': '使他的追加攻击更容易触发'}, 'type': 'text'}], 'raw_message': '使他的追加攻击更容易触发', 'font': 0, 'sender': {'user_id': 2874851873, 'nickname': '琪亚娜，出击！', 'card': '琪亚娜，出击！', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 01:42:59][resolve_debug]cur user is "2874851873"
+[2025-01-23 01:42:59][resolve_debug]user_id 存在于用户集中为 "True"
+[2025-01-23 01:43:01][heartbeat]try send ping...OK
+[2025-01-23 01:43:06][heartbeat]try send ping...OK
+[2025-01-23 01:43:11][heartbeat]try send ping...OK
+[2025-01-23 01:43:16][SenyaHime]Server stopped.

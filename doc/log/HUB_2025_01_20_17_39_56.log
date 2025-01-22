@@ -1,0 +1,100 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_20_17_39_56================
+
+[2025-01-20 17:39:56][SenyaHime]Running on ws://192.168.0.107:5700
+[2025-01-20 17:39:57][websocketserver]New connection from ('192.168.0.150', 49454)
+[2025-01-20 17:39:57][heartbeat]heartbeat lunched
+[2025-01-20 17:39:57][websocketserver]Received: {"time":1737365995,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 17:40:02][heartbeat]try send ping...OK
+[2025-01-20 17:40:07][heartbeat]try send ping...OK
+[2025-01-20 17:40:12][heartbeat]try send ping...OK
+[2025-01-20 17:40:17][heartbeat]try send ping...OK
+[2025-01-20 17:40:22][heartbeat]try send ping...OK
+[2025-01-20 17:40:27][heartbeat]try send ping...OK
+[2025-01-20 17:40:32][heartbeat]try send ping...OK
+[2025-01-20 17:40:35][websocketserver]Received: {"time":1737366032,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":1711121360,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"测试"},"type":"text"}],"raw_message":"测试","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 17:40:35][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 1711121360}}, {'type': 'text', 'data': {'text': '对不起主人, 暂不支持直接聊天哦'}}]}}
+
+[2025-01-20 17:40:36][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":349065465,"time":1737366033},"echo":" "}
+
+[2025-01-20 17:40:37][heartbeat]try send ping...OK
+[2025-01-20 17:40:42][heartbeat]try send ping...OK
+[2025-01-20 17:40:47][heartbeat]try send ping...OK
+[2025-01-20 17:40:52][heartbeat]try send ping...OK
+[2025-01-20 17:40:57][heartbeat]try send ping...OK
+[2025-01-20 17:41:02][heartbeat]try send ping...OK
+[2025-01-20 17:41:07][heartbeat]try send ping...OK
+[2025-01-20 17:41:12][heartbeat]try send ping...OK
+[2025-01-20 17:41:17][heartbeat]try send ping...OK
+[2025-01-20 17:41:22][heartbeat]try send ping...OK
+[2025-01-20 17:41:27][heartbeat]try send ping...OK
+[2025-01-20 17:41:32][heartbeat]try send ping...OK
+[2025-01-20 17:41:37][heartbeat]try send ping...OK
+[2025-01-20 17:41:42][heartbeat]try send ping...OK
+[2025-01-20 17:41:44][websocketserver]Connection closed: no close frame received or sent
+
+[2025-01-20 17:41:47][heartbeat]try send ping...OK
+[2025-01-20 17:41:47][heartbeat]heartbeat finished
+[2025-01-20 17:41:58][websocketserver]New connection from ('192.168.0.150', 48694)
+[2025-01-20 17:41:58][heartbeat]heartbeat lunched
+[2025-01-20 17:41:58][websocketserver]Received: {"time":1737366116,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 17:42:03][heartbeat]try send ping...OK
+[2025-01-20 17:42:08][heartbeat]try send ping...OK
+[2025-01-20 17:42:13][websocketserver]Received: {"time":1737366131,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 17:42:13][heartbeat]try send ping...OK
+[2025-01-20 17:42:18][heartbeat]try send ping...OK
+[2025-01-20 17:42:23][heartbeat]try send ping...OK
+[2025-01-20 17:42:28][websocketserver]Received: {"time":1737366146,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 17:42:28][heartbeat]try send ping...OK
+[2025-01-20 17:42:33][heartbeat]try send ping...OK
+[2025-01-20 17:42:38][heartbeat]try send ping...OK
+[2025-01-20 17:42:43][websocketserver]Received: {"time":1737366161,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 17:42:43][heartbeat]try send ping...OK
+[2025-01-20 17:42:48][heartbeat]try send ping...OK
+[2025-01-20 17:42:53][heartbeat]try send ping...OK
+[2025-01-20 17:42:58][websocketserver]Received: {"time":1737366176,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 17:42:58][heartbeat]try send ping...OK
+[2025-01-20 17:43:03][heartbeat]try send ping...OK
+[2025-01-20 17:43:08][heartbeat]try send ping...OK
+[2025-01-20 17:43:13][websocketserver]Received: {"time":1737366191,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 17:43:13][heartbeat]try send ping...OK
+[2025-01-20 17:43:18][heartbeat]try send ping...OK
+[2025-01-20 17:43:23][heartbeat]try send ping...OK
+[2025-01-20 17:43:28][websocketserver]Received: {"time":1737366206,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 17:43:28][heartbeat]try send ping...OK
+[2025-01-20 17:43:33][heartbeat]try send ping...OK
+[2025-01-20 17:43:38][heartbeat]try send ping...OK
+[2025-01-20 17:43:43][websocketserver]Received: {"time":1737366221,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 17:43:43][heartbeat]try send ping...OK
+[2025-01-20 17:43:49][heartbeat]try send ping...OK
+[2025-01-20 17:43:54][heartbeat]try send ping...OK
+[2025-01-20 17:43:58][websocketserver]Received: {"time":1737366236,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 17:43:59][heartbeat]try send ping...OK
+[2025-01-20 17:44:04][heartbeat]try send ping...OK
+[2025-01-20 17:44:06][websocketserver]Received: {"time":1737366242,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":435881603,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"测试"},"type":"text"}],"raw_message":"测试","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 17:44:06][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 435881603}}, {'type': 'text', 'data': {'text': '对不起主人, 暂不支持直接聊天哦'}}]}}
+
+[2025-01-20 17:44:06][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":355675992,"time":1737366243},"echo":" "}
+
+[2025-01-20 17:44:09][heartbeat]try send ping...OK
+[2025-01-20 17:44:13][websocketserver]Received: {"time":1737366251,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 17:44:14][heartbeat]try send ping...OK
+[2025-01-20 17:44:19][heartbeat]try send ping...OK
+[2025-01-20 17:44:24][heartbeat]try send ping...OK
+[2025-01-20 17:44:26][websocketserver]Connection closed: no close frame received or sent
+
+[2025-01-20 17:44:29][heartbeat]try send ping...OK
+[2025-01-20 17:44:29][heartbeat]heartbeat finished
+[2025-01-20 18:50:56][SenyaHime]Server stopped.

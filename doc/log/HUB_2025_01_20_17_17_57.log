@@ -1,0 +1,12 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_20_17_17_57================
+
+[2025-01-20 17:17:57][SenyaHime]Running on ws://192.168.0.107:5700
+[2025-01-20 17:18:29][websocketserver]New connection from ('192.168.0.150', 45730)
+[2025-01-20 17:18:29][heartbeat]heartbeat lunched
+[2025-01-20 17:18:29][websocketserver]Received: {"time":1737364707,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 17:18:39][heartbeat]heartbeat finished
+[2025-01-20 17:18:49][heartbeat]heartbeat finished
+[2025-01-20 17:18:59][heartbeat]heartbeat finished
+[2025-01-20 17:19:09][heartbeat]heartbeat finished
+[2025-01-20 17:19:09][SenyaHime]Server stopped.

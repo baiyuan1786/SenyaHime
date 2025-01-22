@@ -3,16 +3,12 @@
 #   Description: 描述千夜姬响应逻辑
 #   Authors:     BaiYuan <395642104@qq.com>
 ###############################################################################
-from flask import Flask, request, jsonify
+from flask import request, jsonify
 from typing import Literal
-import asyncio, websockets, json
+import asyncio, websockets, json, threading
+
+from.core import mentalCore
 from control import DEBUG_MODE
-
-from .command.card import *
-from .command.excepts import *
-from .command.touch import *
-from .command.hello import *
-
 from plugin.log import logInfo
 from autoBotAPI.shamrockBot import httpserver, websocketserver, message
 ##############################################################
@@ -21,19 +17,11 @@ from autoBotAPI.shamrockBot import httpserver, websocketserver, message
 ##############################################################
 class SenYaHime:
     '''构建千夜姬机器人实例'''
-    def __init__(self, name: str, clientPort: int, hostPort: int, clientIP: str, hostIP: str, accessToken: str, protocol: str = Literal["websocket", "http"]) -> None:
+    def __init__(self, name: str, clientPort: int, hostPort: int, clientIP: str, hostIP: str, accessToken: str, protocol: Literal["websocket", "http"]) -> None:
 
         # 定义命令集
         self.name = name
         self.protocol = protocol
-        self.commandMenu = []
-        self.commandMenu.append(drawCardCommand())          # 抽卡命令
-        self.commandMenu.append(reInitCardPoolCommand())    # 重置卡池
-        self.commandMenu.append(stateInfoCommand())         # 卡池状态
-        self.commandMenu.append(chuochuoCommand())          # 戳戳
-        self.commandMenu.append(wananCommand())            # 晚安
-        self.commandMenu.append(sorryCommand())             # 不能解释的命令 / 这个命令必须放在最后
-        self.commandMenu.append(confuseCommand())           # 只at不输入 / 这个命令必须放在最后
 
         # http协议
         if protocol == "http":
@@ -47,7 +35,9 @@ class SenYaHime:
 
         else:
             raise TypeError(f"[SenYaHime]use undefined protocol \"{protocol}\"")
-
+        
+        # 心智核心
+        self.core = mentalCore()
     ###############################################################################
     # Function:     httpReceive  
     # Notice:       
@@ -55,34 +45,25 @@ class SenYaHime:
     def httpReceive(self):
         '''HTTP接收消息'''
 
-        # 解析msg
         try:
             backMsg = message.callbackmsg(request.get_json(force=True))
+
+            if DEBUG_MODE:
+                logInfo(f"[receive_debug]:{backMsg}")
+
+            # 调用心智核心获取回复
+            cmdMsgSeg, cmdSovled = self.core.resolve(backMsg, self.server)
+            if cmdMsgSeg is not None and cmdSovled is not None:
+                self.httpReply(backMsg, cmdMsgSeg, cmdSovled.auto_escape, cmdSovled.recall_duration, cmdSovled.isreply)
+
         except TypeError as e:
             logInfo(str(e))
             return jsonify({"status": "success"}), 200
-
-        if DEBUG_MODE: logInfo(f"[receive_debug]:{backMsg}")
-
-        # 网络debug
-        shamrock_ip = request.remote_addr, shamrock_port = request.environ.get('REMOTE_PORT')
-        if DEBUG_MODE: logInfo(f"[receive_debug]get Shamrock src IP: {shamrock_ip}, src port: {shamrock_port}")
-
-        # 命令debug
-        commandText = backMsg.resolve()
-        isAtme = backMsg.isAtme()
-        if DEBUG_MODE: logInfo(f"[receive_debug]get command = \"{commandText}\", atme = {isAtme}")
-
-        # 执行命令
-        for command in self.commandMenu:
-            if command.isTrigger(backMsg):
-                if DEBUG_MODE: logInfo(f"[receive_debug]当前检测命令 \"{type(command).__name__}\" 被触发\n")
-                self.httpReply(backMsg = backMsg, mainmsg = command.replyLogic(backMsg), \
-                        auto_escape = command.auto_escape, recall_duration = command.recall_duration, isreply = command.isreply)
-                break
-
-        # 返回数据
-        return jsonify({"status": "success"}), 200
+        except Exception as e:
+            logInfo(str(e))
+            return jsonify({"status": "failed"}), 404
+        else:
+            return jsonify({"status": "success"}), 200
 
     ###############################################################################
     # Function:     httpReply   
@@ -122,30 +103,23 @@ class SenYaHime:
     # Function:     websocketReceive    
     # Notice:       
     ###############################################################################       
-    async def websocketReceive(self, backMsgStr: str, websocket: websockets.WebSocketServerProtocol):
+    async def websocketReceive(self, backMsgStr: str):
         '''websocket接收消息'''
 
-        # 解析msg
-        try:
+        #try:
+        if True:
             backMsg = message.callbackmsg(json.loads(backMsgStr))
-        except TypeError as e:
-            logInfo(str(e))
-            return
 
-        if DEBUG_MODE: logInfo(f"[receive_debug]:{backMsg}")
+            if DEBUG_MODE:
+                logInfo(f"[receive_debug]:{backMsg}")
 
-        # 命令debug
-        commandText = backMsg.resolve()
-        isAtme = backMsg.isAtme()
-        if DEBUG_MODE: logInfo(f"[receive_debug]get command = \"{commandText}\", atme = {isAtme}")
+            # 调用心智核心获取回复
+            cmdMsgSeg, cmdSovled = self.core.resolve(backMsg, self.server)
+            if cmdMsgSeg is not None and cmdSovled is not None:
+                await self.websocketReply(backMsg, cmdMsgSeg, cmdSovled.auto_escape, cmdSovled.recall_duration, cmdSovled.isreply)
 
-        # 执行命令
-        for command in self.commandMenu:
-            if command.isTrigger(backMsg):
-                if DEBUG_MODE: logInfo(f"[receive_debug]当前检测命令 \"{type(command).__name__}\" 被触发\n")
-                await self.websocketReply(backMsg = backMsg, mainmsg = command.replyLogic(backMsg), \
-                        auto_escape = command.auto_escape, recall_duration = command.recall_duration, isreply = command.isreply)
-                break
+        #except TypeError as e:
+        #    logInfo(str(e))
 
     ###############################################################################
     # Function:     websocketReply   
@@ -157,9 +131,9 @@ class SenYaHime:
 
         :param backMsg: callback消息
         :param mainmsg: 需要发送的消息
-        :param auto_escape: 自动撤回, defaults to None
-        :param recall_duration: 自动撤回时间间隔(ms), defaults to None
-        :param isreply: 是否以回复方式回复, defaults to False
+        :param auto_escape: 自动撤回
+        :param recall_duration: 自动撤回时间间隔(ms)
+        :param isreply: 是否以回复方式回复
         """        
         
         # 类型处理

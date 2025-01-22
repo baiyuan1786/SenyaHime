@@ -59,7 +59,7 @@ def can_send_record(self):
 # Input:        @file 文件MD5     
 # Notice:       需要安装ffmpeg
 ###############################################################################
-def get_record(self, file: str, out_format: str = Literal["mp3", "amr", "wma", "m4a", "spx", "ogg", "wav", "flac"]):
+def get_record(self, file: str, out_format:Literal["mp3", "amr", "wma", "m4a", "spx", "ogg", "wav", "flac"]):
     '''shamrockAPI, 获取语音'''
     url = shamrockURL(self.baseURL(), self.accessToken, "/get_record")
     url.argAdd("file", file)

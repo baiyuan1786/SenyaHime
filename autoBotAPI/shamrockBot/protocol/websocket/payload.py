@@ -4,10 +4,9 @@
 #   Authors:     BaiYuan <395642104@qq.com>
 ###############################################################################
 from ...message.msgSeg.base import messageSegment
-import asyncio
-import json
+import json, websockets, asyncio
 from plugin.log import logInfo
-from control import DEBUG_MODE
+from control import DEBUG_MODE, LOG_LEN_MAX
 ###############################################################################
 # Class:        payload     
 # Input:        void
@@ -15,7 +14,7 @@ from control import DEBUG_MODE
 ###############################################################################
 class payload:
     '''websocket服务器的发送载荷'''
-    def __init__(self, websocket, accessToken: str, action: str, echo: str = " "):
+    def __init__(self, websocket: websockets.WebSocketServerProtocol, accessToken: str, action: str, echo: str = " "):
         if websocket is None:
             raise ValueError(f"websocket not init, can't use \"{action}\"")
         
@@ -47,5 +46,7 @@ class payload:
     async def post(self):
         '''异步post函数'''
         self.data["params"] = self.params
+
         logInfo(f"[websocketserver]Posed: {self.data}\n")
+
         await self.websocket.send(json.dumps(self.data))

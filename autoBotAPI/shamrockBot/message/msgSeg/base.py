@@ -37,7 +37,7 @@ class messageSegment:
     def __add__(self, other):
         '''类的加法'''
         if not isinstance(other, messageSegment):
-            raise TypeError("Unsupported operand type(s) for +")
+            raise TypeError("[messageSegment]Unsupported operand type(s) for +")
         
         # 空格处理
         if self.msgType == "at" and other.msgType == "text":

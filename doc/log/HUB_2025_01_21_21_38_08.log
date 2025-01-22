@@ -1,0 +1,149 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_21_21_38_08================
+
+[2025-01-21 21:38:08][SenyaHime]Running on ws://192.168.0.107:5700
+[2025-01-21 21:38:12][websocketserver]New connection from ('192.168.0.150', 45896)
+[2025-01-21 21:38:12][heartbeat]heartbeat lunched
+[2025-01-21 21:38:12][websocketserver]Received: {"time":1737466689,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-21 21:38:12][receive_debug]:curMsgType is lifecycleMsg, the original msg is {'time': 1737466689, 'self_id': 3827617422, 'post_type': 'meta_event', 'meta_event_type': 'lifecycle', 'sub_type': 'connect', 'status': {'self': {'platform': 'qq', 'user_id': 3827617422}, 'online': True, 'good': True, 'qq.status': '正常'}, 'interval': 15000}
+[2025-01-21 21:38:12][resolve_debug]cur user is "395642104"
+
+[2025-01-21 21:38:12][resolve_debug]users "395642104" created
+
+[2025-01-21 21:38:13][websocketserver]Received: {"time":1737466689,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":135902537,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"摸头"},"type":"text"}],"raw_message":"摸头","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-21 21:38:13][receive_debug]:curMsgType is privateMsg_normal, the original msg is {'time': 1737466689, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 135902537, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '摸头'}, 'type': 'text'}], 'raw_message': '摸头', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-21 21:38:13][resolve_debug]cur user is "395642104"
+
+[2025-01-21 21:38:13][resolve_debug]users "395642104" created
+
+[2025-01-21 21:38:13][resolve_debug]command "touchHeadCammand" triggered
+
+[2025-01-21 21:38:13][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 135902537}}, {'type': 'text', 'data': {'text': '主人摸头这件事，千夜觉得一般般吧～'}}, {'type': 'text', 'data': {'text': '\nFavor added:16'}}, {'type': 'text', 'data': {'text': '\nCurrent Favor:39, ❤️🤍🤍🤍🤍'}}]}}
+
+[2025-01-21 21:38:13][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":1369181440,"time":1737466690},"echo":" "}
+
+[2025-01-21 21:38:13][receive_debug]:curMsgType is responseMsg, the original msg is {'status': 'ok', 'retcode': 0, 'data': {'message_id': 1369181440, 'time': 1737466690}, 'echo': ' '}
+[2025-01-21 21:38:13][resolve_debug]cur user is "395642104"
+
+[2025-01-21 21:38:13][resolve_debug]users "395642104" created
+
+[2025-01-21 21:38:17][heartbeat]try send ping...OK
+[2025-01-21 21:38:22][heartbeat]try send ping...OK
+[2025-01-21 21:38:26][websocketserver]Received: {"time":1737466702,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":367119346,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"摸头"},"type":"text"}],"raw_message":"摸头","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-21 21:38:26][receive_debug]:curMsgType is privateMsg_normal, the original msg is {'time': 1737466702, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 367119346, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '摸头'}, 'type': 'text'}], 'raw_message': '摸头', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-21 21:38:26][resolve_debug]cur user is "395642104"
+
+[2025-01-21 21:38:26][resolve_debug]users "395642104" created
+
+[2025-01-21 21:38:26][resolve_debug]command "touchHeadCammand" triggered
+
+[2025-01-21 21:38:26][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 367119346}}, {'type': 'text', 'data': {'text': '千夜没有特别讨厌，但也不怎么喜欢呢～'}}, {'type': 'text', 'data': {'text': '\nFavor added:19'}}, {'type': 'text', 'data': {'text': '\nCurrent Favor:58, ❤️🤍🤍🤍🤍'}}]}}
+
+[2025-01-21 21:38:26][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":1240224212,"time":1737466703},"echo":" "}
+
+[2025-01-21 21:38:26][receive_debug]:curMsgType is responseMsg, the original msg is {'status': 'ok', 'retcode': 0, 'data': {'message_id': 1240224212, 'time': 1737466703}, 'echo': ' '}
+[2025-01-21 21:38:26][resolve_debug]cur user is "395642104"
+
+[2025-01-21 21:38:26][resolve_debug]users "395642104" created
+
+[2025-01-21 21:38:27][heartbeat]try send ping...OK
+[2025-01-21 21:38:32][heartbeat]try send ping...OK
+[2025-01-21 21:38:37][heartbeat]try send ping...OK
+[2025-01-21 21:38:42][heartbeat]try send ping...OK
+[2025-01-21 21:38:45][websocketserver]Received: {"time":1737466721,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":1092331893,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"摸头"},"type":"text"}],"raw_message":"摸头","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-21 21:38:45][receive_debug]:curMsgType is privateMsg_normal, the original msg is {'time': 1737466721, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 1092331893, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '摸头'}, 'type': 'text'}], 'raw_message': '摸头', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-21 21:38:45][resolve_debug]cur user is "395642104"
+
+[2025-01-21 21:38:45][resolve_debug]users "395642104" created
+
+[2025-01-21 21:38:45][resolve_debug]command "touchHeadCammand" triggered
+
+[2025-01-21 21:38:45][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 1092331893}}, {'type': 'text', 'data': {'text': '啊，主人摸了这么久，是觉得千夜像猫咪吗？'}}, {'type': 'text', 'data': {'text': '\nFavor added:16'}}, {'type': 'text', 'data': {'text': '\nCurrent Favor:74, ❤️🤍🤍🤍🤍'}}]}}
+
+[2025-01-21 21:38:45][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":1342764947,"time":1737466722},"echo":" "}
+
+[2025-01-21 21:38:45][receive_debug]:curMsgType is responseMsg, the original msg is {'status': 'ok', 'retcode': 0, 'data': {'message_id': 1342764947, 'time': 1737466722}, 'echo': ' '}
+[2025-01-21 21:38:45][resolve_debug]cur user is "395642104"
+
+[2025-01-21 21:38:45][resolve_debug]users "395642104" created
+
+[2025-01-21 21:38:47][heartbeat]try send ping...OK
+[2025-01-21 21:38:52][heartbeat]try send ping...OK
+[2025-01-21 21:38:53][websocketserver]Received: {"time":1737466730,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":651236061,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"摸头"},"type":"text"}],"raw_message":"摸头","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-21 21:38:53][receive_debug]:curMsgType is privateMsg_normal, the original msg is {'time': 1737466730, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 651236061, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '摸头'}, 'type': 'text'}], 'raw_message': '摸头', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-21 21:38:53][resolve_debug]cur user is "395642104"
+
+[2025-01-21 21:38:53][resolve_debug]users "395642104" created
+
+[2025-01-21 21:38:53][resolve_debug]command "touchHeadCammand" triggered
+
+[2025-01-21 21:38:53][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 651236061}}, {'type': 'text', 'data': {'text': '嘿～主人是不是摸完就跑？不够诚意呢～'}}, {'type': 'text', 'data': {'text': '\nFavor added:19'}}, {'type': 'text', 'data': {'text': '\nCurrent Favor:93, ❤️🤍🤍🤍🤍'}}]}}
+
+[2025-01-21 21:38:54][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":11351504,"time":1737466730},"echo":" "}
+
+[2025-01-21 21:38:54][receive_debug]:curMsgType is responseMsg, the original msg is {'status': 'ok', 'retcode': 0, 'data': {'message_id': 11351504, 'time': 1737466730}, 'echo': ' '}
+[2025-01-21 21:38:54][resolve_debug]cur user is "395642104"
+
+[2025-01-21 21:38:54][resolve_debug]users "395642104" created
+
+[2025-01-21 21:38:57][heartbeat]try send ping...OK
+[2025-01-21 21:38:59][websocketserver]Received: {"time":1737466735,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":84653217,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"摸头"},"type":"text"}],"raw_message":"摸头","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-21 21:38:59][receive_debug]:curMsgType is privateMsg_normal, the original msg is {'time': 1737466735, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 84653217, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '摸头'}, 'type': 'text'}], 'raw_message': '摸头', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-21 21:38:59][resolve_debug]cur user is "395642104"
+
+[2025-01-21 21:38:59][resolve_debug]users "395642104" created
+
+[2025-01-21 21:38:59][resolve_debug]command "touchHeadCammand" triggered
+
+[2025-01-21 21:38:59][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 84653217}}, {'type': 'text', 'data': {'text': '主人的手倒是挺温暖的，勉强可以接受哦～'}}, {'type': 'text', 'data': {'text': '\nFavor added:15'}}, {'type': 'text', 'data': {'text': '\nCurrent Favor:108, ❤️❤️🤍🤍🤍'}}]}}
+
+[2025-01-21 21:38:59][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":697162373,"time":1737466736},"echo":" "}
+
+[2025-01-21 21:38:59][receive_debug]:curMsgType is responseMsg, the original msg is {'status': 'ok', 'retcode': 0, 'data': {'message_id': 697162373, 'time': 1737466736}, 'echo': ' '}
+[2025-01-21 21:38:59][resolve_debug]cur user is "395642104"
+
+[2025-01-21 21:38:59][resolve_debug]users "395642104" created
+
+[2025-01-21 21:39:02][heartbeat]try send ping...OK
+[2025-01-21 21:39:06][websocketserver]Received: {"time":1737466743,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":2013937801,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"摸头"},"type":"text"}],"raw_message":"摸头","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-21 21:39:06][receive_debug]:curMsgType is privateMsg_normal, the original msg is {'time': 1737466743, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 2013937801, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '摸头'}, 'type': 'text'}], 'raw_message': '摸头', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-21 21:39:06][resolve_debug]cur user is "395642104"
+
+[2025-01-21 21:39:06][resolve_debug]users "395642104" created
+
+[2025-01-21 21:39:06][resolve_debug]command "touchHeadCammand" triggered
+
+[2025-01-21 21:39:06][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 2013937801}}, {'type': 'text', 'data': {'text': '小千夜越来越习惯主人的摸摸了呢～开心！'}}, {'type': 'text', 'data': {'text': '\nFavor added:15'}}, {'type': 'text', 'data': {'text': '\nCurrent Favor:123, ❤️❤️🤍🤍🤍'}}]}}
+
+[2025-01-21 21:39:06][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":858788756,"time":1737466743},"echo":" "}
+
+[2025-01-21 21:39:06][receive_debug]:curMsgType is responseMsg, the original msg is {'status': 'ok', 'retcode': 0, 'data': {'message_id': 858788756, 'time': 1737466743}, 'echo': ' '}
+[2025-01-21 21:39:06][resolve_debug]cur user is "395642104"
+
+[2025-01-21 21:39:06][resolve_debug]users "395642104" created
+
+[2025-01-21 21:39:07][heartbeat]try send ping...OK
+[2025-01-21 21:39:12][heartbeat]try send ping...OK
+[2025-01-21 21:39:17][heartbeat]try send ping...OK
+[2025-01-21 21:39:22][heartbeat]try send ping...OK
+[2025-01-21 21:39:27][heartbeat]try send ping...OK
+[2025-01-21 21:39:32][heartbeat]try send ping...OK
+[2025-01-21 21:39:37][heartbeat]try send ping...OK
+[2025-01-21 21:39:42][heartbeat]try send ping...OK
+[2025-01-21 21:39:46][websocketserver]Received: {"time":1737466782,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1964875971,"group_id":721950485,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"file":"2c5cda215dcdc287372f4e8ac0621dde","subType":0,"type":"original","url":"http://gchat.qpic.cn/gchatpic_new/0/0-0-2C5CDA215DCDC287372F4E8AC0621DDE/0?term=2"},"type":"image"},{"data":{"text":"群友觉得这个怎么样"},"type":"text"}],"raw_message":"[CQ:image,file=2c5cda215dcdc287372f4e8ac0621dde,subType=0,type=original,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-2C5CDA215DCDC287372F4E8AC0621DDE/0?term=2]群友觉得这个怎么样","font":0,"sender":{"user_id":395642104,"nickname":"い愿此愛永恆࿐ེ","card":"万里挑一大非酋肝帝","role":"admin","title":"","level":""}}
+
+[2025-01-21 21:39:46][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737466782, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1964875971, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'file': '2c5cda215dcdc287372f4e8ac0621dde', 'subType': 0, 'type': 'original', 'url': 'http://gchat.qpic.cn/gchatpic_new/0/0-0-2C5CDA215DCDC287372F4E8AC0621DDE/0?term=2'}, 'type': 'image'}, {'data': {'text': '群友觉得这个怎么样'}, 'type': 'text'}], 'raw_message': '[CQ:image,file=2c5cda215dcdc287372f4e8ac0621dde,subType=0,type=original,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-2C5CDA215DCDC287372F4E8AC0621DDE/0?term=2]群友觉得这个怎么样', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '万里挑一大非酋肝帝', 'role': 'admin', 'title': '', 'level': ''}}
+[2025-01-21 21:39:46][resolve_debug]cur user is "395642104"
+
+[2025-01-21 21:39:46][resolve_debug]users "395642104" created
+
+[2025-01-21 21:39:47][heartbeat]try send ping...OK
+[2025-01-21 21:39:52][heartbeat]try send ping...OK
+[2025-01-21 21:39:57][heartbeat]try send ping...OK
+[2025-01-21 21:39:58][SenyaHime]Server stopped.

@@ -1,0 +1,97 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_23_01_33_08================
+
+[2025-01-23 01:33:08][SenyaHime]Running on ws://192.168.0.107:5700
+[2025-01-23 01:33:19][websocketserver]New connection from ('192.168.0.150', 37654)
+[2025-01-23 01:33:19][heartbeat]heartbeat lunched
+[2025-01-23 01:33:19][websocketserver]Received: {"time":1737567195,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-23 01:33:19][receive_debug]:curMsgType is lifecycleMsg, the original msg is {'time': 1737567195, 'self_id': 3827617422, 'post_type': 'meta_event', 'meta_event_type': 'lifecycle', 'sub_type': 'connect', 'status': {'self': {'platform': 'qq', 'user_id': 3827617422}, 'online': True, 'good': True, 'qq.status': '正常'}, 'interval': 15000}
+[2025-01-23 01:33:24][heartbeat]try send ping...OK
+[2025-01-23 01:33:29][heartbeat]try send ping...OK
+[2025-01-23 01:33:31][websocketserver]Received: {"time":1737567207,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":1483025700,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"摸头"},"type":"text"}],"raw_message":"摸头","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-23 01:33:31][receive_debug]:curMsgType is privateMsg_normal, the original msg is {'time': 1737567207, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 1483025700, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '摸头'}, 'type': 'text'}], 'raw_message': '摸头', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 01:33:31][resolve_debug]cur user is "395642104"
+[2025-01-23 01:33:31][resolve_debug]user_id 存在于用户集中为 "True"
+[2025-01-23 01:33:31][resolve_debug]cmd "touchHeadCammand" triggered
+
+[2025-01-23 01:33:31][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'text', 'data': {'text': '唉～为什么主人总喜欢做千夜讨厌的事情？'}}, {'type': 'text', 'data': {'text': '\nFavor change limited today, 主人明天再来哦'}}]}}
+
+[2025-01-23 01:33:32][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":1287711205,"time":1737567207},"echo":" "}
+
+[2025-01-23 01:33:32][receive_debug]:curMsgType is responseMsg, the original msg is {'status': 'ok', 'retcode': 0, 'data': {'message_id': 1287711205, 'time': 1737567207}, 'echo': ' '}
+[2025-01-23 01:33:34][heartbeat]try send ping...OK
+[2025-01-23 01:33:39][heartbeat]try send ping...OK
+[2025-01-23 01:33:44][heartbeat]try send ping...OK
+[2025-01-23 01:33:49][heartbeat]try send ping...OK
+[2025-01-23 01:33:54][heartbeat]try send ping...OK
+[2025-01-23 01:33:59][heartbeat]try send ping...OK
+[2025-01-23 01:34:00][update]all user updated
+[2025-01-23 01:34:03][websocketserver]Received: {"time":1737567239,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":1053318030,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"摸头"},"type":"text"}],"raw_message":"摸头","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-23 01:34:03][receive_debug]:curMsgType is privateMsg_normal, the original msg is {'time': 1737567239, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 1053318030, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '摸头'}, 'type': 'text'}], 'raw_message': '摸头', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 01:34:03][resolve_debug]cur user is "395642104"
+[2025-01-23 01:34:03][resolve_debug]user_id 存在于用户集中为 "True"
+[2025-01-23 01:34:03][resolve_debug]cmd "touchHeadCammand" triggered
+
+[2025-01-23 01:34:03][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'text', 'data': {'text': '嗯，好吧，主人摸头这种小事，千夜不计较了～'}}, {'type': 'text', 'data': {'text': '\nFavor change limited today, 主人明天再来哦'}}]}}
+
+[2025-01-23 01:34:03][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":1303899339,"time":1737567239},"echo":" "}
+
+[2025-01-23 01:34:03][receive_debug]:curMsgType is responseMsg, the original msg is {'status': 'ok', 'retcode': 0, 'data': {'message_id': 1303899339, 'time': 1737567239}, 'echo': ' '}
+[2025-01-23 01:34:04][heartbeat]try send ping...OK
+[2025-01-23 01:34:09][heartbeat]try send ping...OK
+[2025-01-23 01:34:14][heartbeat]try send ping...OK
+[2025-01-23 01:34:15][websocketserver]Received: {"time":1737567251,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":418596605,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"摸头"},"type":"text"}],"raw_message":"摸头","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-23 01:34:15][receive_debug]:curMsgType is privateMsg_normal, the original msg is {'time': 1737567251, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 418596605, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '摸头'}, 'type': 'text'}], 'raw_message': '摸头', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 01:34:15][resolve_debug]cur user is "395642104"
+[2025-01-23 01:34:15][resolve_debug]user_id 存在于用户集中为 "True"
+[2025-01-23 01:34:15][resolve_debug]cmd "touchHeadCammand" triggered
+
+[2025-01-23 01:34:15][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'text', 'data': {'text': '千夜真心建议主人去研究下“怎么取悦可爱的千夜”哦！'}}, {'type': 'text', 'data': {'text': '\nFavor change limited today, 主人明天再来哦'}}]}}
+
+[2025-01-23 01:34:15][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":196229532,"time":1737567251},"echo":" "}
+
+[2025-01-23 01:34:15][receive_debug]:curMsgType is responseMsg, the original msg is {'status': 'ok', 'retcode': 0, 'data': {'message_id': 196229532, 'time': 1737567251}, 'echo': ' '}
+[2025-01-23 01:34:19][heartbeat]try send ping...OK
+[2025-01-23 01:34:24][heartbeat]try send ping...OK
+[2025-01-23 01:34:29][heartbeat]try send ping...OK
+[2025-01-23 01:34:34][heartbeat]try send ping...OK
+[2025-01-23 01:34:39][heartbeat]try send ping...OK
+[2025-01-23 01:34:44][heartbeat]try send ping...OK
+[2025-01-23 01:34:49][heartbeat]try send ping...OK
+[2025-01-23 01:34:54][heartbeat]try send ping...OK
+[2025-01-23 01:34:59][heartbeat]try send ping...OK
+[2025-01-23 01:35:04][heartbeat]try send ping...OK
+[2025-01-23 01:35:09][heartbeat]try send ping...OK
+[2025-01-23 01:35:14][heartbeat]try send ping...OK
+[2025-01-23 01:35:19][heartbeat]try send ping...OK
+[2025-01-23 01:35:24][heartbeat]try send ping...OK
+[2025-01-23 01:35:29][heartbeat]try send ping...OK
+[2025-01-23 01:35:34][heartbeat]try send ping...OK
+[2025-01-23 01:35:39][heartbeat]try send ping...OK
+[2025-01-23 01:35:44][heartbeat]try send ping...OK
+[2025-01-23 01:35:49][heartbeat]try send ping...OK
+[2025-01-23 01:35:54][heartbeat]try send ping...OK
+[2025-01-23 01:35:59][heartbeat]try send ping...OK
+[2025-01-23 01:36:04][heartbeat]try send ping...OK
+[2025-01-23 01:36:09][heartbeat]try send ping...OK
+[2025-01-23 01:36:14][heartbeat]try send ping...OK
+[2025-01-23 01:36:19][heartbeat]try send ping...OK
+[2025-01-23 01:36:24][heartbeat]try send ping...OK
+[2025-01-23 01:36:29][heartbeat]try send ping...OK
+[2025-01-23 01:36:34][heartbeat]try send ping...OK
+[2025-01-23 01:36:39][heartbeat]try send ping...OK
+[2025-01-23 01:36:44][heartbeat]try send ping...OK
+[2025-01-23 01:36:49][heartbeat]try send ping...OK
+[2025-01-23 01:36:54][heartbeat]try send ping...OK
+[2025-01-23 01:36:59][heartbeat]try send ping...OK
+[2025-01-23 01:37:04][heartbeat]try send ping...OK
+[2025-01-23 01:37:09][heartbeat]try send ping...OK
+[2025-01-23 01:37:14][heartbeat]try send ping...OK
+[2025-01-23 01:37:19][heartbeat]try send ping...OK
+[2025-01-23 01:37:24][heartbeat]try send ping...OK
+[2025-01-23 01:37:29][heartbeat]try send ping...OK
+[2025-01-23 01:37:34][heartbeat]try send ping...OK
+[2025-01-23 01:37:39][SenyaHime]Server stopped.

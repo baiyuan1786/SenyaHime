@@ -5,6 +5,7 @@
 ###############################################################################
 from plugin.log import logInfo
 
+
 ###############################################################################
 # Class:        lifecycleMsg     
 # Input:        @qq
@@ -30,8 +31,7 @@ class lifecycleMsg:
             return False
         
         # 判断值是否符合
-        elif not (receivedData["post_type"] == "meta_event" and
-                 receivedData["meta_event_type"] == "lifecycle"):
+        elif not (receivedData["post_type"] == "meta_event"):
             return False
         
         else:

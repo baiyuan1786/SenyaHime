@@ -17,14 +17,13 @@ MSG_CLSES += [lifecycleMsg, responseMsg]
 # Notice:       当 qq 字段为 "0"或"all" 时, 表示 AT 全体成员
 ###############################################################################
 class callbackmsg:
-    '''shamrock返回类型的消息'''
+    '''shamrock返回类型的消息, 使用该类时注意主要消息保存在msgEntity中'''
     def __init__(self, receivedData: dict):
         self.receivedData = receivedData
         for cls in MSG_CLSES:
             if cls.isMe(receivedData):
                 self.msgEntity = cls(receivedData)
                 self.msgName = cls.__name__
-                # self.__dict__.update(self.msg.__dict__)
                 break
         else:
             raise TypeError(f"[callbackmsg]meet undefined msg, msg is {self.receivedData}")
@@ -57,7 +56,11 @@ class callbackmsg:
     ###############################################################################    
     def resolve(self):
         '''从收到的data尝试解析文字信息'''
-        return self.msgEntity.resolve()
+        solvedStr = self.msgEntity.resolve()
+        if isinstance(solvedStr, str):
+            solvedStr = solvedStr.replace("/", "\\")
+            solvedStr = solvedStr.replace("摸摸", "摸")
+        return solvedStr
     
     ###############################################################################
     # Function:     canReply

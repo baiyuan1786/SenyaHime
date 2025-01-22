@@ -4,7 +4,9 @@
 #   Authors:     BaiYuan <395642104@qq.com>
 ###############################################################################
 from autoBotAPI.shamrockBot import message
+from autoBotAPI.shamrockBot import httpserver, websocketserver
 from .base import command
+from ..user import user
 
 COMMAND_SHOW_LEN = 5
 ###############################################################################
@@ -20,7 +22,7 @@ class sorryCommand(command):
             commandText = msg.resolve()
             return commandText is not None and commandText.startswith("\\")
         
-        def replyLogic(msg: message.callbackmsg):
+        def replyLogic(msg: message.callbackmsg, server: httpserver|websocketserver, userOBJ: user):
             '''回复逻辑'''
             commandText = msg.resolve()
             if len(commandText) > COMMAND_SHOW_LEN:
@@ -41,7 +43,7 @@ class confuseCommand(command):
             commandText = msg.resolve()
             return (commandText is None or not commandText.startswith("\\"))
         
-        def replyLogic(msg: message.callbackmsg):
+        def replyLogic(msg: message.callbackmsg, server: httpserver|websocketserver, userOBJ: user):
             '''回复逻辑'''
             if msg.resolve() is None:
                 return message.text(text = f"怎么啦主人, 想小千夜了吗, 要和小千夜聊天, 请输入\\开头的命令哦")

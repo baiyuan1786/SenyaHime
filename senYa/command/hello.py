@@ -4,8 +4,9 @@
 #   Authors:     BaiYuan <395642104@qq.com>
 ###############################################################################
 from autoBotAPI.shamrockBot import message
+from autoBotAPI.shamrockBot import httpserver, websocketserver
 from .base import command
-
+from ..user import user
 
 ###############################################################################
 # Class:        wananCommand     
@@ -19,7 +20,7 @@ class wananCommand(command):
             '''触发逻辑'''
             return msg.resolve() == "晚安"
         
-        def replyLogic(msg: message.callbackmsg):
+        def replyLogic(msg: message.callbackmsg, server: httpserver|websocketserver, userOBJ: user):
             '''回复逻辑'''
             return message.text(text = "晚安主人, 祝您好梦哦")
 

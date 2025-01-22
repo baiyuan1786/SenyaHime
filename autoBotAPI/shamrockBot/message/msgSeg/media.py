@@ -45,7 +45,7 @@ def imageToBase64(image_path: str) -> str:
 ###############################################################################
 class image(messageSegment):
     '''图片类型消息'''
-    def __init__(self, file: str | None, url: str | None = None, type: str | None = None, subType: str | None = None):
+    def __init__(self, file: str | None, url: str | None = None, type: str | None = None, subType: int | None = None):
         """图片类型消息
 
         :param file: 图片文件地址,可以是本地文件路径,http(s) 链接,base64 编码的数据

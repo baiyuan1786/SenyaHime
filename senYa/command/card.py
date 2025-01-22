@@ -5,8 +5,10 @@
 ###############################################################################
 from path import initCardPool, stateCardPool
 from autoBotAPI.shamrockBot import message
+from autoBotAPI.shamrockBot import httpserver, websocketserver
 from plugin.cardPool import cardPool
 from .base import command
+from ..user import user
 
 qianyePool = cardPool("千夜酱测试卡池", stateCardPool)
 ###############################################################################
@@ -21,7 +23,7 @@ class drawCardCommand(command):
             '''触发逻辑'''
             return msg.resolve() == "\抽奖"
         
-        def replyLogic(msg: message.callbackmsg):
+        def replyLogic(msg: message.callbackmsg, server: httpserver|websocketserver, userOBJ: user):
             '''回复逻辑'''
             card = qianyePool.drawCard()
             return message.text(f"收到喵，恭喜你抽中了 \"{card}\" 一张")
@@ -40,7 +42,7 @@ class reInitCardPoolCommand(command):
             '''触发逻辑'''
             return msg.resolve() == "\重置卡池"
         
-        def replyLogic(msg: message.callbackmsg):
+        def replyLogic(msg: message.callbackmsg, server: httpserver|websocketserver, userOBJ: user):
             '''回复逻辑'''
             qianyePool.reInit(initFile = initCardPool)
             return message.text(f"好的喵主人，重置卡池成功")
@@ -59,7 +61,7 @@ class stateInfoCommand(command):
             '''触发逻辑'''
             return msg.resolve() == "\查看卡池状态"
         
-        def replyLogic(msg: message.callbackmsg):
+        def replyLogic(msg: message.callbackmsg, server: httpserver|websocketserver, userOBJ: user):
             '''回复逻辑'''
             return message.text(text = qianyePool.stateInfo())
 

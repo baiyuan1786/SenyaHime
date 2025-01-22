@@ -1,0 +1,76 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_20_17_21_00================
+
+[2025-01-20 17:21:00][SenyaHime]Running on ws://192.168.0.107:5700
+[2025-01-20 17:21:29][websocketserver]New connection from ('192.168.0.150', 47906)
+[2025-01-20 17:21:29][heartbeat]heartbeat lunched
+[2025-01-20 17:21:29][heartbeat]try send ping
+[2025-01-20 17:21:29][websocketserver]Received: {"time":1737364887,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 17:21:34][heartbeat]heartbeat finished
+[2025-01-20 17:21:34][heartbeat]try send ping
+[2025-01-20 17:21:39][heartbeat]heartbeat finished
+[2025-01-20 17:21:39][heartbeat]try send ping
+[2025-01-20 17:21:44][heartbeat]heartbeat finished
+[2025-01-20 17:21:44][heartbeat]try send ping
+[2025-01-20 17:21:47][websocketserver]Received: {"time":1737364904,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":496757944,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"戳戳"},"type":"text"}],"raw_message":"戳戳","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 17:21:47][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 496757944}}, {'type': 'text', 'data': {'text': '对不起主人, 暂不支持直接聊天哦'}}]}}
+
+[2025-01-20 17:21:48][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":1134645622,"time":1737364905},"echo":" "}
+
+[2025-01-20 17:21:49][heartbeat]heartbeat finished
+[2025-01-20 17:21:49][heartbeat]try send ping
+[2025-01-20 17:21:54][heartbeat]heartbeat finished
+[2025-01-20 17:21:54][heartbeat]try send ping
+[2025-01-20 17:21:59][heartbeat]heartbeat finished
+[2025-01-20 17:21:59][heartbeat]try send ping
+[2025-01-20 17:22:03][websocketserver]Received: {"time":1737364920,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":1056946586,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"戳戳"},"type":"text"}],"raw_message":"戳戳","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 17:22:03][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 1056946586}}, {'type': 'text', 'data': {'text': '对不起主人, 暂不支持直接聊天哦'}}]}}
+
+[2025-01-20 17:22:04][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":1458561189,"time":1737364921},"echo":" "}
+
+[2025-01-20 17:22:04][heartbeat]heartbeat finished
+[2025-01-20 17:22:04][heartbeat]try send ping
+[2025-01-20 17:22:09][heartbeat]heartbeat finished
+[2025-01-20 17:22:09][heartbeat]try send ping
+[2025-01-20 17:22:14][heartbeat]heartbeat finished
+[2025-01-20 17:22:14][heartbeat]try send ping
+[2025-01-20 17:22:19][heartbeat]heartbeat finished
+[2025-01-20 17:22:19][heartbeat]try send ping
+[2025-01-20 17:22:22][websocketserver]Received: {"time":1737364938,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":478906748,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"测试"},"type":"text"}],"raw_message":"测试","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 17:22:22][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 478906748}}, {'type': 'text', 'data': {'text': '对不起主人, 暂不支持直接聊天哦'}}]}}
+
+[2025-01-20 17:22:22][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":1365640402,"time":1737364939},"echo":" "}
+
+[2025-01-20 17:22:24][heartbeat]heartbeat finished
+[2025-01-20 17:22:24][heartbeat]try send ping
+[2025-01-20 17:22:29][heartbeat]heartbeat finished
+[2025-01-20 17:22:29][heartbeat]try send ping
+[2025-01-20 17:22:34][heartbeat]heartbeat finished
+[2025-01-20 17:22:34][heartbeat]try send ping
+[2025-01-20 17:22:39][heartbeat]heartbeat finished
+[2025-01-20 17:22:39][heartbeat]try send ping
+[2025-01-20 17:22:44][heartbeat]heartbeat finished
+[2025-01-20 17:22:44][heartbeat]try send ping
+[2025-01-20 17:22:49][heartbeat]heartbeat finished
+[2025-01-20 17:22:49][heartbeat]try send ping
+[2025-01-20 17:22:54][heartbeat]heartbeat finished
+[2025-01-20 17:22:54][heartbeat]try send ping
+[2025-01-20 17:22:59][heartbeat]heartbeat finished
+[2025-01-20 17:22:59][heartbeat]try send ping
+[2025-01-20 17:23:04][heartbeat]heartbeat finished
+[2025-01-20 17:23:04][heartbeat]try send ping
+[2025-01-20 17:23:09][heartbeat]heartbeat finished
+[2025-01-20 17:23:09][heartbeat]try send ping
+[2025-01-20 17:23:14][heartbeat]heartbeat finished
+[2025-01-20 17:23:14][heartbeat]try send ping
+[2025-01-20 17:23:19][heartbeat]heartbeat finished
+[2025-01-20 17:23:19][heartbeat]try send ping
+[2025-01-20 17:23:24][heartbeat]heartbeat finished
+[2025-01-20 17:23:24][heartbeat]try send ping
+[2025-01-20 17:23:29][heartbeat]heartbeat finished
+[2025-01-20 17:23:29][heartbeat]try send ping
+[2025-01-20 17:23:33][heartbeat]heartbeat finished
+[2025-01-20 17:23:33][SenyaHime]Server stopped.

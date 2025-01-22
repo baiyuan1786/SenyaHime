@@ -1,0 +1,70 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_21_21_17_26================
+
+[2025-01-21 21:17:26][SenyaHime]Running on ws://192.168.0.107:5700
+[2025-01-21 21:17:27][websocketserver]New connection from ('192.168.0.150', 38174)
+[2025-01-21 21:17:27][heartbeat]heartbeat lunched
+[2025-01-21 21:17:27][websocketserver]Received: {"time":1737465444,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-21 21:17:27][websocketserver]Error handling connection: 'callbackmsg' object has no attribute 'user_id'
+
+[2025-01-21 21:17:29][websocketserver]New connection from ('192.168.0.150', 38184)
+[2025-01-21 21:17:29][websocketserver]Received: {"time":1737465446,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-21 21:17:29][websocketserver]Error handling connection: 'callbackmsg' object has no attribute 'user_id'
+
+[2025-01-21 21:17:32][heartbeat]heartbeat finished
+[2025-01-21 21:17:34][websocketserver]New connection from ('192.168.0.150', 38840)
+[2025-01-21 21:17:34][heartbeat]heartbeat lunched
+[2025-01-21 21:17:34][websocketserver]Received: {"time":1737465451,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-21 21:17:34][websocketserver]Error handling connection: 'callbackmsg' object has no attribute 'user_id'
+
+[2025-01-21 21:17:39][websocketserver]New connection from ('192.168.0.150', 38846)
+[2025-01-21 21:17:39][websocketserver]Received: {"time":1737465456,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-21 21:17:39][websocketserver]Error handling connection: 'callbackmsg' object has no attribute 'user_id'
+
+[2025-01-21 21:17:39][heartbeat]heartbeat finished
+[2025-01-21 21:17:44][websocketserver]New connection from ('192.168.0.150', 46830)
+[2025-01-21 21:17:44][heartbeat]heartbeat lunched
+[2025-01-21 21:17:44][websocketserver]Received: {"time":1737465461,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-21 21:17:44][websocketserver]Error handling connection: 'callbackmsg' object has no attribute 'user_id'
+
+[2025-01-21 21:17:49][heartbeat]heartbeat finished
+[2025-01-21 21:17:49][websocketserver]New connection from ('192.168.0.150', 46838)
+[2025-01-21 21:17:49][heartbeat]heartbeat lunched
+[2025-01-21 21:17:49][websocketserver]Received: {"time":1737465466,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-21 21:17:49][websocketserver]Error handling connection: 'callbackmsg' object has no attribute 'user_id'
+
+[2025-01-21 21:17:54][heartbeat]heartbeat finished
+[2025-01-21 21:17:54][websocketserver]New connection from ('192.168.0.150', 47610)
+[2025-01-21 21:17:54][heartbeat]heartbeat lunched
+[2025-01-21 21:17:54][websocketserver]Received: {"time":1737465471,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-21 21:17:54][websocketserver]Error handling connection: 'callbackmsg' object has no attribute 'user_id'
+
+[2025-01-21 21:17:59][heartbeat]heartbeat finished
+[2025-01-21 21:17:59][websocketserver]New connection from ('192.168.0.150', 47622)
+[2025-01-21 21:17:59][heartbeat]heartbeat lunched
+[2025-01-21 21:17:59][websocketserver]Received: {"time":1737465476,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-21 21:17:59][websocketserver]Error handling connection: 'callbackmsg' object has no attribute 'user_id'
+
+[2025-01-21 21:18:04][heartbeat]heartbeat finished
+[2025-01-21 21:18:04][websocketserver]New connection from ('192.168.0.150', 39204)
+[2025-01-21 21:18:04][heartbeat]heartbeat lunched
+[2025-01-21 21:18:04][websocketserver]Received: {"time":1737465481,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-21 21:18:04][websocketserver]Error handling connection: 'callbackmsg' object has no attribute 'user_id'
+
+[2025-01-21 21:18:09][heartbeat]heartbeat finished
+[2025-01-21 21:18:09][websocketserver]New connection from ('192.168.0.150', 39206)
+[2025-01-21 21:18:09][heartbeat]heartbeat lunched
+[2025-01-21 21:18:09][websocketserver]Received: {"time":1737465486,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-21 21:18:09][websocketserver]Error handling connection: 'callbackmsg' object has no attribute 'user_id'
+
+[2025-01-21 21:18:14][websocketserver]New connection from ('192.168.0.150', 41994)
+[2025-01-21 21:18:58][SenyaHime]Server stopped.

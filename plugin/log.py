@@ -6,6 +6,7 @@
 from typing import Literal
 from datetime import datetime
 from path import GRoot, GLogDir
+from control import LOG_LEN_MAX
 
 LogPath = None
 ###############################################################################
@@ -71,9 +72,15 @@ def logInfo(*args, **kwargs):
     global LogPath
     logInit()
     datatimelog = "[{0}]".format(dateTimeGet(timeFormat = "log"))
+    printData = " ".join(map(str, args))
+    printDataLen = len(printData)
 
-    print(datatimelog, end = ""); print(*args, **kwargs)
+    if printDataLen > LOG_LEN_MAX:
+        printData = printData[0:LOG_LEN_MAX] + f"......({printDataLen-LOG_LEN_MAX})" + "\n"
+
+    print(datatimelog, end = "");
+    print(printData, **kwargs)
+
     with LogPath.open(mode = "a", encoding = "utf-8") as file:
-        outPutStr = " ".join(map(str, args))
         file.write(datatimelog)
-        file.write(outPutStr + "\n")
+        file.write(printData + "\n")

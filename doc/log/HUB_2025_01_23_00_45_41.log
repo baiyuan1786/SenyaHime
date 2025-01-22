@@ -1,0 +1,143 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_23_00_45_41================
+
+[2025-01-23 00:45:41][SenyaHime]Running on ws://192.168.0.107:5700
+[2025-01-23 00:46:20][websocketserver]New connection from ('192.168.0.150', 41794)
+[2025-01-23 00:46:20][heartbeat]heartbeat lunched
+[2025-01-23 00:46:20][websocketserver]Received: {"time":1737564376,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-23 00:46:20][receive_debug]:curMsgType is lifecycleMsg, the original msg is {'time': 1737564376, 'self_id': 3827617422, 'post_type': 'meta_event', 'meta_event_type': 'lifecycle', 'sub_type': 'connect', 'status': {'self': {'platform': 'qq', 'user_id': 3827617422}, 'online': True, 'good': True, 'qq.status': '正常'}, 'interval': 15000}
+[2025-01-23 00:46:24][websocketserver]Received: {"time":1737559222,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":507754612,"group_id":721950485,"peer_id":3827617422,"user_id":1431176940,"message":[{"data":{"text":"我一直都是尸体"},"type":"text"}],"raw_message":"我一直都是尸体","font":0,"sender":{"user_id":1431176940,"nickname":"浮梦浮旧","card":"","role":"member","title":"","level":""}}
+
+[2025-01-23 00:46:24][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737559222, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 507754612, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 1431176940, 'message': [{'data': {'text': '我一直都是尸体'}, 'type': 'text'}], 'raw_message': '我一直都是尸体', 'font': 0, 'sender': {'user_id': 1431176940, 'nickname': '浮梦浮旧', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 00:46:24][resolve_debug]cur user is "1431176940"
+
+[2025-01-23 00:46:24][resolve_debug]error:command.trigger() missing 1 required positional argument: 'userOBJ'
+[2025-01-23 00:46:25][websocketserver]Received: {"time":1737559228,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":507754606,"group_id":721950485,"peer_id":3827617422,"user_id":1431176940,"message":[{"data":{"text":"都是你在猛攻"},"type":"text"}],"raw_message":"都是你在猛攻","font":0,"sender":{"user_id":1431176940,"nickname":"浮梦浮旧","card":"","role":"member","title":"","level":""}}
+
+[2025-01-23 00:46:25][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737559228, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 507754606, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 1431176940, 'message': [{'data': {'text': '都是你在猛攻'}, 'type': 'text'}], 'raw_message': '都是你在猛攻', 'font': 0, 'sender': {'user_id': 1431176940, 'nickname': '浮梦浮旧', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 00:46:25][resolve_debug]cur user is "1431176940"
+
+[2025-01-23 00:46:25][resolve_debug]error:command.trigger() missing 1 required positional argument: 'userOBJ'
+[2025-01-23 00:46:25][websocketserver]Received: {"time":1737559297,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":507754579,"group_id":721950485,"peer_id":3827617422,"user_id":1010801806,"message":[{"data":{"text":"大佬谦虚了，俺除了跑刀和蹲人别的啥也不会"},"type":"text"}],"raw_message":"大佬谦虚了，俺除了跑刀和蹲人别的啥也不会","font":0,"sender":{"user_id":1010801806,"nickname":"牢酋","card":"牢酋","role":"admin","title":"","level":""}}
+
+[2025-01-23 00:46:25][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737559297, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 507754579, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 1010801806, 'message': [{'data': {'text': '大佬谦虚了，俺除了跑刀和蹲人别的啥也不会'}, 'type': 'text'}], 'raw_message': '大佬谦虚了，俺除了跑刀和蹲人别的啥也不会', 'font': 0, 'sender': {'user_id': 1010801806, 'nickname': '牢酋', 'card': '牢酋', 'role': 'admin', 'title': '', 'level': ''}}
+[2025-01-23 00:46:25][resolve_debug]cur user is "1010801806"
+
+[2025-01-23 00:46:25][resolve_debug]error:command.trigger() missing 1 required positional argument: 'userOBJ'
+[2025-01-23 00:46:25][websocketserver]Received: {"time":1737559399,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":507754574,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"id":3181547},"type":"reply"},{"data":{"qq":"2182338586"},"type":"at"},{"data":{"text":" 我怎么不知道"},"type":"text"}],"raw_message":"[CQ:reply,id=3181547][CQ:at,qq=2182338586] 我怎么不知道","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-23 00:46:25][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737559399, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 507754574, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 3102684670, 'message': [{'data': {'id': 3181547}, 'type': 'reply'}, {'data': {'qq': '2182338586'}, 'type': 'at'}, {'data': {'text': ' 我怎么不知道'}, 'type': 'text'}], 'raw_message': '[CQ:reply,id=3181547][CQ:at,qq=2182338586] 我怎么不知道', 'font': 0, 'sender': {'user_id': 3102684670, 'nickname': '小秋（超级摸鱼王版本）', 'card': '小秋（超级摸鱼王版本）', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 00:46:25][resolve_debug]cur user is "3102684670"
+
+[2025-01-23 00:46:25][resolve_debug]error:command.trigger() missing 1 required positional argument: 'userOBJ'
+[2025-01-23 00:46:25][websocketserver]Received: {"time":1737560379,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":507754543,"group_id":721950485,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"睡不着了"},"type":"text"}],"raw_message":"睡不着了","font":0,"sender":{"user_id":395642104,"nickname":"い愿此愛永恆࿐ེ","card":"万里挑一大非酋肝帝","role":"admin","title":"","level":""}}
+
+[2025-01-23 00:46:25][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737560379, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 507754543, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '睡不着了'}, 'type': 'text'}], 'raw_message': '睡不着了', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '万里挑一大非酋肝帝', 'role': 'admin', 'title': '', 'level': ''}}
+[2025-01-23 00:46:25][resolve_debug]cur user is "395642104"
+
+[2025-01-23 00:46:25][resolve_debug]error:command.trigger() missing 1 required positional argument: 'userOBJ'
+[2025-01-23 00:46:25][websocketserver]Received: {"time":1737560473,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":507754516,"group_id":721950485,"peer_id":3827617422,"user_id":614372821,"message":[{"data":{"text":"编程"},"type":"text"}],"raw_message":"编程","font":0,"sender":{"user_id":614372821,"nickname":"千里挑一大非酋","card":"千里挑一大非酋","role":"member","title":"","level":""}}
+
+[2025-01-23 00:46:25][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737560473, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 507754516, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 614372821, 'message': [{'data': {'text': '编程'}, 'type': 'text'}], 'raw_message': '编程', 'font': 0, 'sender': {'user_id': 614372821, 'nickname': '千里挑一大非酋', 'card': '千里挑一大非酋', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 00:46:25][resolve_debug]cur user is "614372821"
+
+[2025-01-23 00:46:25][resolve_debug]error:command.trigger() missing 1 required positional argument: 'userOBJ'
+[2025-01-23 00:46:25][websocketserver]Received: {"time":1737561073,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":507754489,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"file":"c5acdf14edf504f7cc8905e8c058d127","subType":1,"type":"show","url":"http://gchat.qpic.cn/gchatpic_new/0/0-0-C5ACDF14EDF504F7CC8905E8C058D127/0?term=2"},"type":"image"}],"raw_message":"[CQ:image,file=c5acdf14edf504f7cc8905e8c058d127,subType=1,type=show,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-C5ACDF14EDF504F7CC8905E8C058D127/0?term=2]","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-23 00:46:25][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737561073, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 507754489, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 3102684670, 'message': [{'data': {'file': 'c5acdf14edf504f7cc8905e8c058d127', 'subType': 1, 'type': 'show', 'url': 'http://gchat.qpic.cn/gchatpic_new/0/0-0-C5ACDF14EDF504F7CC8905E8C058D127/0?term=2'}, 'type': 'image'}], 'raw_message': '[CQ:image,file=c5acdf14edf504f7cc8905e8c058d127,subType=1,type=show,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-C5ACDF14EDF504F7CC8905E8C058D127/0?term=2]', 'font': 0, 'sender': {'user_id': 3102684670, 'nickname': '小秋（超级摸鱼王版本）', 'card': '小秋（超级摸鱼王版本）', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 00:46:25][resolve_debug]cur user is "3102684670"
+
+[2025-01-23 00:46:25][resolve_debug]error:command.trigger() missing 1 required positional argument: 'userOBJ'
+[2025-01-23 00:46:25][websocketserver]Received: {"time":1737561097,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":507754484,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"id":507754543},"type":"reply"},{"data":{"qq":"395642104"},"type":"at"},{"data":{"text":" 帮我爬塔"},"type":"text"}],"raw_message":"[CQ:reply,id=507754543][CQ:at,qq=395642104] 帮我爬塔","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-23 00:46:25][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737561097, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 507754484, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 3102684670, 'message': [{'data': {'id': 507754543}, 'type': 'reply'}, {'data': {'qq': '395642104'}, 'type': 'at'}, {'data': {'text': ' 帮我爬塔'}, 'type': 'text'}], 'raw_message': '[CQ:reply,id=507754543][CQ:at,qq=395642104] 帮我爬塔', 'font': 0, 'sender': {'user_id': 3102684670, 'nickname': '小秋（超级摸鱼王版本）', 'card': '小秋（超级摸鱼王版本）', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 00:46:25][resolve_debug]cur user is "3102684670"
+
+[2025-01-23 00:46:25][resolve_debug]error:command.trigger() missing 1 required positional argument: 'userOBJ'
+[2025-01-23 00:46:25][websocketserver]Received: {"time":1737561124,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":507754453,"group_id":721950485,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"编程吧"},"type":"text"}],"raw_message":"编程吧","font":0,"sender":{"user_id":395642104,"nickname":"い愿此愛永恆࿐ེ","card":"万里挑一大非酋肝帝","role":"admin","title":"","level":""}}
+
+[2025-01-23 00:46:25][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737561124, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 507754453, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '编程吧'}, 'type': 'text'}], 'raw_message': '编程吧', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '万里挑一大非酋肝帝', 'role': 'admin', 'title': '', 'level': ''}}
+[2025-01-23 00:46:25][resolve_debug]cur user is "395642104"
+
+[2025-01-23 00:46:25][resolve_debug]error:command.trigger() missing 1 required positional argument: 'userOBJ'
+[2025-01-23 00:46:25][websocketserver]Received: {"time":1737561139,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":507754426,"group_id":721950485,"peer_id":3827617422,"user_id":507538712,"message":[{"data":{"file":"6519f343c6f0fe1120ac7c3acd21bdc3","subType":1,"type":"show","url":"http://gchat.qpic.cn/gchatpic_new/0/0-0-6519F343C6F0FE1120AC7C3ACD21BDC3/0?term=2"},"type":"image"}],"raw_message":"[CQ:image,file=6519f343c6f0fe1120ac7c3acd21bdc3,subType=1,type=show,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-6519F343C6F0FE1120AC7C3ACD21BDC3/0?term=2]","font":0,"sender":{"user_id":507538712,"nickname":"夏灬扇","card":"","role":"member","title":"","level":""}}
+
+[2025-01-23 00:46:25][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737561139, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 507754426, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 507538712, 'message': [{'data': {'file': '6519f343c6f0fe1120ac7c3acd21bdc3', 'subType': 1, 'type': 'show', 'url': 'http://gchat.qpic.cn/gchatpic_new/0/0-0-6519F343C6F0FE1120AC7C3ACD21BDC3/0?term=2'}, 'type': 'image'}], 'raw_message': '[CQ:image,file=6519f343c6f0fe1120ac7c3acd21bdc3,subType=1,type=show,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-6519F343C6F0FE1120AC7C3ACD21BDC3/0?term=2]', 'font': 0, 'sender': {'user_id': 507538712, 'nickname': '夏灬扇', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 00:46:25][resolve_debug]cur user is "507538712"
+
+[2025-01-23 00:46:25][resolve_debug]error:command.trigger() missing 1 required positional argument: 'userOBJ'
+[2025-01-23 00:46:25][websocketserver]Received: {"time":1737561806,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":507754421,"group_id":721950485,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"file":"2c555fbc3f5c9df88a4fd17d41782297","subType":0,"type":"original","url":"http://gchat.qpic.cn/gchatpic_new/0/0-0-2C555FBC3F5C9DF88A4FD17D41782297/0?term=2"},"type":"image"},{"data":{"text":"给群友设计了全套的摸摸回复"},"type":"text"}],"raw_message":"[CQ:image,file=2c555fbc3f5c9df88a4fd17d41782297,subType=0,type=original,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-2C555FBC3F5C9DF88A4FD17D41782297/0?term=2]给群友设计了全套的摸摸回复","font":0,"sender":{"user_id":395642104,"nickname":"い愿此愛永恆࿐ེ","card":"万里挑一大非酋肝帝","role":"admin","title":"","level":""}}
+
+[2025-01-23 00:46:25][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737561806, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 507754421, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'file': '2c555fbc3f5c9df88a4fd17d41782297', 'subType': 0, 'type': 'original', 'url': 'http://gchat.qpic.cn/gchatpic_new/0/0-0-2C555FBC3F5C9DF88A4FD17D41782297/0?term=2'}, 'type': 'image'}, {'data': {'text': '给群友设计了全套的摸摸回复'}, 'type': 'text'}], 'raw_message': '[CQ:image,file=2c555fbc3f5c9df88a4fd17d41782297,subType=0,type=original,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-2C555FBC3F5C9DF88A4FD17D41782297/0?term=2]给群友设计了全套的摸摸回复', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '万里挑一大非酋肝帝', 'role': 'admin', 'title': '', 'level': ''}}
+[2025-01-23 00:46:25][resolve_debug]cur user is "395642104"
+
+[2025-01-23 00:46:25][resolve_debug]error:command.trigger() missing 1 required positional argument: 'userOBJ'
+[2025-01-23 00:46:25][websocketserver]Received: {"time":1737562347,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":507754393,"group_id":721950485,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"包把群友钓成翘嘴"},"type":"text"}],"raw_message":"包把群友钓成翘嘴","font":0,"sender":{"user_id":395642104,"nickname":"い愿此愛永恆࿐ེ","card":"万里挑一大非酋肝帝","role":"admin","title":"","level":""}}
+
+[2025-01-23 00:46:25][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737562347, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 507754393, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '包把群友钓成翘嘴'}, 'type': 'text'}], 'raw_message': '包把群友钓成翘嘴', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '万里挑一大非酋肝帝', 'role': 'admin', 'title': '', 'level': ''}}
+[2025-01-23 00:46:25][resolve_debug]cur user is "395642104"
+
+[2025-01-23 00:46:25][resolve_debug]error:command.trigger() missing 1 required positional argument: 'userOBJ'
+[2025-01-23 00:46:25][websocketserver]Received: {"time":1737562466,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":507754387,"group_id":721950485,"peer_id":3827617422,"user_id":251216589,"message":[{"data":{"qq":"3827617422"},"type":"at"},{"data":{"text":" "},"type":"text"}],"raw_message":"[CQ:at,qq=3827617422] ","font":0,"sender":{"user_id":251216589,"nickname":"菜鸡群主","card":"菜鸡群主","role":"owner","title":"","level":""}}
+
+[2025-01-23 00:46:25][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737562466, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 507754387, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 251216589, 'message': [{'data': {'qq': '3827617422'}, 'type': 'at'}, {'data': {'text': ' '}, 'type': 'text'}], 'raw_message': '[CQ:at,qq=3827617422] ', 'font': 0, 'sender': {'user_id': 251216589, 'nickname': '菜鸡群主', 'card': '菜鸡群主', 'role': 'owner', 'title': '', 'level': ''}}
+[2025-01-23 00:46:25][resolve_debug]cur user is "251216589"
+
+[2025-01-23 00:46:25][resolve_debug]error:command.trigger() missing 1 required positional argument: 'userOBJ'
+[2025-01-23 00:46:25][websocketserver]Received: {"time":1737562478,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":507733527,"group_id":721950485,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"还没部署呢"},"type":"text"}],"raw_message":"还没部署呢","font":0,"sender":{"user_id":395642104,"nickname":"い愿此愛永恆࿐ེ","card":"万里挑一大非酋肝帝","role":"admin","title":"","level":""}}
+
+[2025-01-23 00:46:25][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737562478, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 507733527, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '还没部署呢'}, 'type': 'text'}], 'raw_message': '还没部署呢', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': 'い愿此愛永恆࿐ེ', 'card': '万里挑一大非酋肝帝', 'role': 'admin', 'title': '', 'level': ''}}
+[2025-01-23 00:46:25][resolve_debug]cur user is "395642104"
+
+[2025-01-23 00:46:25][resolve_debug]error:command.trigger() missing 1 required positional argument: 'userOBJ'
+[2025-01-23 00:46:25][heartbeat]try send ping...OK
+[2025-01-23 00:46:30][heartbeat]try send ping...OK
+[2025-01-23 00:46:35][websocketserver]Received: {"time":1737564391,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-23 00:46:35][receive_debug]:curMsgType is lifecycleMsg, the original msg is {'time': 1737564391, 'self_id': 3827617422, 'post_type': 'meta_event', 'meta_event_type': 'heartbeat', 'sub_type': 'connect', 'status': {'self': {'platform': 'qq', 'user_id': 3827617422}, 'online': True, 'good': True, 'qq.status': '正常'}, 'interval': 15000}
+[2025-01-23 00:46:35][heartbeat]try send ping...OK
+[2025-01-23 00:46:40][heartbeat]try send ping...OK
+[2025-01-23 00:46:45][heartbeat]try send ping...OK
+[2025-01-23 00:46:50][websocketserver]Received: {"time":1737564406,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-23 00:46:50][receive_debug]:curMsgType is lifecycleMsg, the original msg is {'time': 1737564406, 'self_id': 3827617422, 'post_type': 'meta_event', 'meta_event_type': 'heartbeat', 'sub_type': 'connect', 'status': {'self': {'platform': 'qq', 'user_id': 3827617422}, 'online': True, 'good': True, 'qq.status': '正常'}, 'interval': 15000}
+[2025-01-23 00:46:50][heartbeat]try send ping...OK
+[2025-01-23 00:46:55][heartbeat]try send ping...OK
+[2025-01-23 00:47:00][heartbeat]try send ping...OK
+[2025-01-23 00:47:05][websocketserver]Received: {"time":1737564421,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-23 00:47:05][receive_debug]:curMsgType is lifecycleMsg, the original msg is {'time': 1737564421, 'self_id': 3827617422, 'post_type': 'meta_event', 'meta_event_type': 'heartbeat', 'sub_type': 'connect', 'status': {'self': {'platform': 'qq', 'user_id': 3827617422}, 'online': True, 'good': True, 'qq.status': '正常'}, 'interval': 15000}
+[2025-01-23 00:47:05][heartbeat]try send ping...OK
+[2025-01-23 00:47:07][websocketserver]Received: {"time":1737564423,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":1170800831,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"摸头"},"type":"text"}],"raw_message":"摸头","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-23 00:47:07][receive_debug]:curMsgType is privateMsg_normal, the original msg is {'time': 1737564423, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 1170800831, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '摸头'}, 'type': 'text'}], 'raw_message': '摸头', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 00:47:07][resolve_debug]cur user is "395642104"
+
+[2025-01-23 00:47:07][resolve_debug]command "touchHeadCammand" triggered
+
+[2025-01-23 00:47:07][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'text', 'data': {'text': '啊，主人摸了这么久，是觉得千夜像猫咪吗？'}}, {'type': 'text', 'data': {'text': '\nFavor added: 31'}}]}}
+
+[2025-01-23 00:47:08][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":1117979410,"time":1737564423},"echo":" "}
+
+[2025-01-23 00:47:08][receive_debug]:curMsgType is responseMsg, the original msg is {'status': 'ok', 'retcode': 0, 'data': {'message_id': 1117979410, 'time': 1737564423}, 'echo': ' '}
+[2025-01-23 00:47:10][heartbeat]try send ping...OK
+[2025-01-23 00:47:15][heartbeat]try send ping...OK
+[2025-01-23 00:47:20][websocketserver]Received: {"time":1737564436,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-23 00:47:20][receive_debug]:curMsgType is lifecycleMsg, the original msg is {'time': 1737564436, 'self_id': 3827617422, 'post_type': 'meta_event', 'meta_event_type': 'heartbeat', 'sub_type': 'connect', 'status': {'self': {'platform': 'qq', 'user_id': 3827617422}, 'online': True, 'good': True, 'qq.status': '正常'}, 'interval': 15000}
+[2025-01-23 00:47:20][heartbeat]try send ping...OK
+[2025-01-23 00:47:25][heartbeat]try send ping...OK
+[2025-01-23 00:47:26][websocketserver]Received: {"time":1737564442,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":2125194616,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"摸小穴"},"type":"text"}],"raw_message":"摸小穴","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-23 00:47:26][receive_debug]:curMsgType is privateMsg_normal, the original msg is {'time': 1737564442, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 2125194616, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '摸小穴'}, 'type': 'text'}], 'raw_message': '摸小穴', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 00:47:26][resolve_debug]cur user is "395642104"
+
+[2025-01-23 00:47:26][resolve_debug]error:userRecord.__init__() takes 3 positional arguments but 4 were given
+[2025-01-23 00:47:30][heartbeat]try send ping...OK
+[2025-01-23 00:47:35][websocketserver]Received: {"time":1737564451,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-23 00:47:35][receive_debug]:curMsgType is lifecycleMsg, the original msg is {'time': 1737564451, 'self_id': 3827617422, 'post_type': 'meta_event', 'meta_event_type': 'heartbeat', 'sub_type': 'connect', 'status': {'self': {'platform': 'qq', 'user_id': 3827617422}, 'online': True, 'good': True, 'qq.status': '正常'}, 'interval': 15000}
+[2025-01-23 00:47:35][heartbeat]try send ping...OK
+[2025-01-23 00:47:40][heartbeat]try send ping...OK
+[2025-01-23 00:47:45][heartbeat]try send ping...OK
+[2025-01-23 00:47:46][SenyaHime]Server stopped.

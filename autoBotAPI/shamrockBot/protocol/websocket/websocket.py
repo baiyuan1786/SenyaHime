@@ -7,6 +7,7 @@ import asyncio
 import websockets
 import json
 
+from control import HEARTBEAT_INTETNAL, DEBUG_MODE
 from plugin.log import logInfo
 from .api.account import *
 from .api.contacts import *
@@ -35,6 +36,8 @@ class websocketserver:
         self.accessToken = accessToken  # 服务器访问shamrock的token 
         self.callback = None            # 用户定义的回调函数
         self.websocket = None
+        self.isConnected = False
+        self.isHeartbeat = False
 
     ###############################################################################
     # Function:     receive
@@ -54,15 +57,44 @@ class websocketserver:
     ###############################################################################
     async def handleConnection(self, websocket: websockets.WebSocketServerProtocol):
         '''处理客户端连接的异步函数'''
+
+        ###############################################################################
+        # Function:     heartbeat
+        # Input:        void     
+        # Notice:       内置heartbeat函数
+        ###############################################################################
+        async def heartbeat():
+            '''尝试通过heartbeat来使得连接持续进行'''
+            logInfo("[heartbeat]heartbeat lunched")
+            self.isHeartbeat = True
+            while self.isConnected:
+                try:
+                    await websocket.ping()
+                    await asyncio.sleep(HEARTBEAT_INTETNAL)
+                except Exception as e:
+                    if DEBUG_MODE: logInfo(f"[heartbeat]try send ping...error {str(e)}")
+                else:
+                    if DEBUG_MODE: logInfo("[heartbeat]try send ping...OK")
+                finally:
+                    pass
+            else:
+                logInfo("[heartbeat]heartbeat finished")
+                self.isHeartbeat = False
+
+        # 启动心跳维持协程
+        self.isConnected = True
+        if not self.isHeartbeat:
+            asyncio.create_task(heartbeat())
+
+        # 异步监听消息
         try:
             self.websocket = websocket
             logInfo(f"[websocketserver]New connection from {self.websocket.remote_address}")
 
-            # 监听消息
             async for backMsgStr in self.websocket:
                 logInfo(f"[websocketserver]Received: {backMsgStr}\n")
                 if self.callback:
-                    await self.callback(backMsgStr, self.websocket)
+                    await self.callback(backMsgStr)
                 else:
                     logInfo("[websocketserver]No callback defined, ignoring message\n")
 
@@ -70,6 +102,8 @@ class websocketserver:
             logInfo(f"[websocketserver]Connection closed: {e}\n")
         except Exception as e:
             logInfo(f"[websocketserver]Error handling connection: {e}\n")
+        finally:
+            self.isConnected = False
 
     ###############################################################################
     # Function:     _startServer
@@ -78,8 +112,8 @@ class websocketserver:
     ##############################################################################         
     async def _startServer(self):
         '''异步启动服务器'''
-        server = await websockets.serve(self.handleConnection, self.hostIP, self.hostPort)
         logInfo(f"[{self.name}]Running on ws://{self.hostIP}:{self.hostPort}")
+        server = await websockets.serve(self.handleConnection, self.hostIP, self.hostPort)
         await server.wait_closed()
       
     ###############################################################################
@@ -88,7 +122,7 @@ class websocketserver:
     # Notice:       
     ##############################################################################
     def run(self):
-        '''运行服务器'''   
+        '''运行服务器'''
         asyncio.run(self._startServer())
 
     # 下面是shamrock客户端提供的API

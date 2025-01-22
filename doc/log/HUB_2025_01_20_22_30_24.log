@@ -1,0 +1,17 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_20_22_30_24================
+
+[2025-01-20 22:30:24][SenyaHime]Running on ws://192.168.0.107:5700
+[2025-01-20 22:30:26][websocketserver]New connection from ('192.168.0.150', 44444)
+[2025-01-20 22:30:26][heartbeat]heartbeat lunched
+[2025-01-20 22:30:26][websocketserver]Received: {"time":1737383423,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 22:30:30][websocketserver]Received: {"time":1737383427,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":1979906694,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"\\测试"},"type":"text"}],"raw_message":"\\测试","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 22:30:30][websocketserver]Error handling connection: [Errno 13] Permission denied: 'D:\\Tool\\Admin\\SenyaHime\\doc\\image'
+
+[2025-01-20 22:30:31][heartbeat]heartbeat finished
+[2025-01-20 22:30:32][websocketserver]New connection from ('192.168.0.150', 40966)
+[2025-01-20 22:30:32][heartbeat]heartbeat lunched
+[2025-01-20 22:30:32][websocketserver]Received: {"time":1737383430,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 22:30:43][SenyaHime]Server stopped.

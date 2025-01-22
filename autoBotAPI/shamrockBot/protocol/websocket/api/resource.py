@@ -60,7 +60,7 @@ async def can_send_record(self):
 # Input:        @file 文件MD5     
 # Notice:       需要安装ffmpeg
 ###############################################################################
-async def get_record(self, file: str, out_format: str = Literal["mp3", "amr", "wma", "m4a", "spx", "ogg", "wav", "flac"]):
+async def get_record(self, file: str, out_format: Literal["mp3", "amr", "wma", "m4a", "spx", "ogg", "wav", "flac"]):
     '''shamrockAPI, 获取语音'''
     pld = payload(self.websocket, self.accessToken, "/get_record")
     pld.argAdd("file", file)

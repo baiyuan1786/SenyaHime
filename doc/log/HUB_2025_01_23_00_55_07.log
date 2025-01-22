@@ -1,0 +1,49 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_23_00_55_07================
+
+[2025-01-23 00:55:07][SenyaHime]Running on ws://192.168.0.107:5700
+[2025-01-23 00:55:40][websocketserver]New connection from ('192.168.0.150', 39956)
+[2025-01-23 00:55:40][heartbeat]heartbeat lunched
+[2025-01-23 00:55:40][websocketserver]Received: {"time":1737564936,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-23 00:55:40][receive_debug]:curMsgType is lifecycleMsg, the original msg is {'time': 1737564936, 'self_id': 3827617422, 'post_type': 'meta_event', 'meta_event_type': 'lifecycle', 'sub_type': 'connect', 'status': {'self': {'platform': 'qq', 'user_id': 3827617422}, 'online': True, 'good': True, 'qq.status': '正常'}, 'interval': 15000}
+[2025-01-23 00:55:45][heartbeat]try send ping...OK
+[2025-01-23 00:55:50][websocketserver]Received: {"time":1737564945,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":1143608949,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"摸头"},"type":"text"}],"raw_message":"摸头","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-23 00:55:50][receive_debug]:curMsgType is privateMsg_normal, the original msg is {'time': 1737564945, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'private', 'sub_type': 'friend', 'message_id': 1143608949, 'target_id': 395642104, 'peer_id': 3827617422, 'user_id': 395642104, 'message': [{'data': {'text': '摸头'}, 'type': 'text'}], 'raw_message': '摸头', 'font': 0, 'sender': {'user_id': 395642104, 'nickname': '白渊', 'card': '', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 00:55:50][resolve_debug]cur user is "395642104"
+[2025-01-23 00:55:50][resolve_debug]error:userRecord.__init__() takes 3 positional arguments but 4 were given
+[2025-01-23 00:55:50][heartbeat]try send ping...OK
+[2025-01-23 00:55:55][heartbeat]try send ping...OK
+[2025-01-23 00:56:00][heartbeat]try send ping...OK
+[2025-01-23 00:56:05][heartbeat]try send ping...OK
+[2025-01-23 00:56:10][heartbeat]try send ping...OK
+[2025-01-23 00:56:15][heartbeat]try send ping...OK
+[2025-01-23 00:56:20][heartbeat]try send ping...OK
+[2025-01-23 00:56:25][heartbeat]try send ping...OK
+[2025-01-23 00:56:30][heartbeat]try send ping...OK
+[2025-01-23 00:56:35][heartbeat]try send ping...OK
+[2025-01-23 00:56:40][heartbeat]try send ping...OK
+[2025-01-23 00:56:45][heartbeat]try send ping...OK
+[2025-01-23 00:56:50][heartbeat]try send ping...OK
+[2025-01-23 00:56:55][heartbeat]try send ping...OK
+[2025-01-23 00:57:00][heartbeat]try send ping...OK
+[2025-01-23 00:57:01][websocketserver]Received: {"time":1737565016,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":206669565,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"file":"7aa0ca1baf58d041e6c5338ee7e197c5","subType":0,"type":"original","url":"http://gchat.qpic.cn/gchatpic_new/0/0-0-7AA0CA1BAF58D041E6C5338EE7E197C5/0?term=2"},"type":"image"}],"raw_message":"[CQ:image,file=7aa0ca1baf58d041e6c5338ee7e197c5,subType=0,type=original,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-7AA0CA1BAF58D041E6C5338EE7E197C5/0?term=2]","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-23 00:57:01][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737565016, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 206669565, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 3102684670, 'message': [{'data': {'file': '7aa0ca1baf58d041e6c5338ee7e197c5', 'subType': 0, 'type': 'original', 'url': 'http://gchat.qpic.cn/gchatpic_new/0/0-0-7AA0CA1BAF58D041E6C5338EE7E197C5/0?term=2'}, 'type': 'image'}], 'raw_message': '[CQ:image,file=7aa0ca1baf58d041e6c5338ee7e197c5,subType=0,type=original,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-7AA0CA1BAF58D041E6C5338EE7E197C5/0?term=2]', 'font': 0, 'sender': {'user_id': 3102684670, 'nickname': '小秋（超级摸鱼王版本）', 'card': '小秋（超级摸鱼王版本）', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 00:57:01][resolve_debug]cur user is "3102684670"
+[2025-01-23 00:57:01][resolve_debug]error:command.trigger() missing 1 required positional argument: 'userOBJ'
+[2025-01-23 00:57:05][heartbeat]try send ping...OK
+[2025-01-23 00:57:08][websocketserver]Received: {"time":1737565023,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1483643085,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"应该选什么角色"},"type":"text"}],"raw_message":"应该选什么角色","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-23 00:57:08][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737565023, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 1483643085, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 3102684670, 'message': [{'data': {'text': '应该选什么角色'}, 'type': 'text'}], 'raw_message': '应该选什么角色', 'font': 0, 'sender': {'user_id': 3102684670, 'nickname': '小秋（超级摸鱼王版本）', 'card': '小秋（超级摸鱼王版本）', 'role': 'member', 'title': '', 'level': ''}}
+[2025-01-23 00:57:08][resolve_debug]cur user is "3102684670"
+[2025-01-23 00:57:08][resolve_debug]error:command.trigger() missing 1 required positional argument: 'userOBJ'
+[2025-01-23 00:57:10][heartbeat]try send ping...OK
+[2025-01-23 00:57:15][heartbeat]try send ping...OK
+[2025-01-23 00:57:20][heartbeat]try send ping...OK
+[2025-01-23 00:57:25][heartbeat]try send ping...OK
+[2025-01-23 00:57:30][heartbeat]try send ping...OK
+[2025-01-23 00:57:35][heartbeat]try send ping...OK
+[2025-01-23 00:57:40][heartbeat]try send ping...OK
+[2025-01-23 00:57:45][heartbeat]try send ping...OK
+[2025-01-23 00:57:47][SenyaHime]Server stopped.

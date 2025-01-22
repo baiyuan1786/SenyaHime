@@ -13,7 +13,7 @@ from typing import Literal
 ###############################################################################
 class basketball(messageSegment):
     '''投篮表情'''
-    def __init__(self, id: int = Literal[5, 4, 3, 2, 1]):
+    def __init__(self, id: Literal[5, 4, 3, 2, 1]):
         """投篮表情
 
         :param id: 5 没中, 4 擦边没中, 3 卡框, 2 擦边中, 1 正中
@@ -27,7 +27,7 @@ class basketball(messageSegment):
 ###############################################################################
 class new_rps(messageSegment):
     '''猜拳表情'''
-    def __init__(self, id: int = Literal[3, 2, 1]):
+    def __init__(self, id: Literal[3, 2, 1]):
         """猜拳表情
 
         :param id: 锤 3 剪 2 布 1
@@ -41,7 +41,7 @@ class new_rps(messageSegment):
 ###############################################################################
 class new_dice(messageSegment):
     '''新骰子'''
-    def __init__(self, id: int = Literal[6, 5, 4, 3, 2, 1]):
+    def __init__(self, id: Literal[6, 5, 4, 3, 2, 1]):
         super().__init__(type = "new_dice", data = {"id": id}, msgType = "new_dice")
 
 ###############################################################################

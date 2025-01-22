@@ -1,0 +1,1370 @@
+===================AUTOTOOL HUB EXPORT LOG 2025_01_20_18_50_58================
+
+[2025-01-20 18:50:58][SenyaHime]Running on ws://192.168.0.107:5700
+[2025-01-20 18:54:50][websocketserver]New connection from ('192.168.0.150', 49628)
+[2025-01-20 18:54:50][heartbeat]heartbeat lunched
+[2025-01-20 18:54:50][websocketserver]Received: {"time":1737370488,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 18:54:55][heartbeat]try send ping...OK
+[2025-01-20 18:55:00][heartbeat]try send ping...OK
+[2025-01-20 18:55:05][websocketserver]Received: {"time":1737370503,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 18:55:05][heartbeat]try send ping...OK
+[2025-01-20 18:55:10][heartbeat]try send ping...OK
+[2025-01-20 18:55:15][heartbeat]try send ping...OK
+[2025-01-20 18:55:20][websocketserver]Received: {"time":1737370518,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 18:55:20][heartbeat]try send ping...OK
+[2025-01-20 18:55:25][heartbeat]try send ping...OK
+[2025-01-20 18:55:28][websocketserver]Received: {"time":1737370525,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":792654010,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"测试"},"type":"text"}],"raw_message":"测试","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 18:55:28][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 792654010}}, {'type': 'text', 'data': {'text': '对不起主人, 暂不支持直接聊天哦'}}]}}
+
+[2025-01-20 18:55:29][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":862366939,"time":1737370526},"echo":" "}
+
+[2025-01-20 18:55:30][heartbeat]try send ping...OK
+[2025-01-20 18:55:35][websocketserver]Received: {"time":1737370533,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 18:55:35][heartbeat]try send ping...OK
+[2025-01-20 18:55:40][heartbeat]try send ping...OK
+[2025-01-20 18:55:43][websocketserver]Received: {"time":1737370540,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":778585299,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"测试"},"type":"text"}],"raw_message":"测试","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 18:55:43][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 778585299}}, {'type': 'text', 'data': {'text': '对不起主人, 暂不支持直接聊天哦'}}]}}
+
+[2025-01-20 18:55:44][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":400505201,"time":1737370541},"echo":" "}
+
+[2025-01-20 18:55:45][heartbeat]try send ping...OK
+[2025-01-20 18:55:50][websocketserver]Received: {"time":1737370548,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 18:55:50][heartbeat]try send ping...OK
+[2025-01-20 18:55:55][heartbeat]try send ping...OK
+[2025-01-20 18:55:59][websocketserver]Connection closed: no close frame received or sent
+
+[2025-01-20 18:56:00][heartbeat]try send ping...OK
+[2025-01-20 18:56:00][heartbeat]heartbeat finished
+[2025-01-20 18:57:50][websocketserver]New connection from ('192.168.0.150', 46056)
+[2025-01-20 18:57:50][heartbeat]heartbeat lunched
+[2025-01-20 18:57:50][websocketserver]Received: {"time":1737370668,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 18:57:53][websocketserver]Connection closed: no close frame received or sent
+
+[2025-01-20 18:57:55][heartbeat]try send ping...OK
+[2025-01-20 18:57:55][heartbeat]heartbeat finished
+[2025-01-20 18:58:05][websocketserver]New connection from ('192.168.0.150', 42552)
+[2025-01-20 18:58:05][heartbeat]heartbeat lunched
+[2025-01-20 18:58:05][websocketserver]Received: {"time":1737370683,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 18:58:10][heartbeat]try send ping...OK
+[2025-01-20 18:58:15][heartbeat]try send ping...OK
+[2025-01-20 18:58:20][websocketserver]Received: {"time":1737370698,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 18:58:20][heartbeat]try send ping...OK
+[2025-01-20 18:58:25][heartbeat]try send ping...OK
+[2025-01-20 18:58:30][heartbeat]try send ping...OK
+[2025-01-20 18:58:35][websocketserver]Received: {"time":1737370713,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 18:58:35][heartbeat]try send ping...OK
+[2025-01-20 18:58:40][heartbeat]try send ping...OK
+[2025-01-20 18:58:45][heartbeat]try send ping...OK
+[2025-01-20 18:58:50][websocketserver]Received: {"time":1737370728,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 18:58:50][heartbeat]try send ping...OK
+[2025-01-20 18:58:54][websocketserver]Received: {"time":1737370730,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":202493362,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"测试"},"type":"text"}],"raw_message":"测试","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 18:58:54][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 202493362}}, {'type': 'text', 'data': {'text': '对不起主人, 暂不支持直接聊天哦'}}]}}
+
+[2025-01-20 18:58:54][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":1927467969,"time":1737370731},"echo":" "}
+
+[2025-01-20 18:58:55][heartbeat]try send ping...OK
+[2025-01-20 18:59:00][heartbeat]try send ping...OK
+[2025-01-20 18:59:05][websocketserver]Received: {"time":1737370743,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 18:59:05][heartbeat]try send ping...OK
+[2025-01-20 18:59:10][heartbeat]try send ping...OK
+[2025-01-20 18:59:15][heartbeat]try send ping...OK
+[2025-01-20 18:59:20][websocketserver]Received: {"time":1737370758,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 18:59:20][heartbeat]try send ping...OK
+[2025-01-20 18:59:25][heartbeat]try send ping...OK
+[2025-01-20 18:59:30][heartbeat]try send ping...OK
+[2025-01-20 18:59:35][websocketserver]Received: {"time":1737370773,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 18:59:35][heartbeat]try send ping...OK
+[2025-01-20 18:59:40][heartbeat]try send ping...OK
+[2025-01-20 18:59:45][heartbeat]try send ping...OK
+[2025-01-20 18:59:50][websocketserver]Received: {"time":1737370788,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 18:59:50][heartbeat]try send ping...OK
+[2025-01-20 18:59:55][heartbeat]try send ping...OK
+[2025-01-20 19:00:00][heartbeat]try send ping...OK
+[2025-01-20 19:00:05][websocketserver]Received: {"time":1737370803,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:00:05][heartbeat]try send ping...OK
+[2025-01-20 19:00:10][heartbeat]try send ping...OK
+[2025-01-20 19:00:15][heartbeat]try send ping...OK
+[2025-01-20 19:00:20][websocketserver]Received: {"time":1737370818,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:00:20][heartbeat]try send ping...OK
+[2025-01-20 19:00:25][heartbeat]try send ping...OK
+[2025-01-20 19:00:30][heartbeat]try send ping...OK
+[2025-01-20 19:00:35][websocketserver]Received: {"time":1737370833,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:00:35][heartbeat]try send ping...OK
+[2025-01-20 19:00:40][heartbeat]try send ping...OK
+[2025-01-20 19:00:45][heartbeat]try send ping...OK
+[2025-01-20 19:00:46][websocketserver]Received: {"time":1737370843,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":339139691,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"测试"},"type":"text"}],"raw_message":"测试","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 19:00:46][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 339139691}}, {'type': 'text', 'data': {'text': '对不起主人, 暂不支持直接聊天哦'}}]}}
+
+[2025-01-20 19:00:46][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":107990360,"time":1737370843},"echo":" "}
+
+[2025-01-20 19:00:50][websocketserver]Received: {"time":1737370848,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:00:50][heartbeat]try send ping...OK
+[2025-01-20 19:00:55][heartbeat]try send ping...OK
+[2025-01-20 19:01:00][heartbeat]try send ping...OK
+[2025-01-20 19:01:05][websocketserver]Received: {"time":1737370863,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:01:05][heartbeat]try send ping...OK
+[2025-01-20 19:01:10][heartbeat]try send ping...OK
+[2025-01-20 19:01:15][heartbeat]try send ping...OK
+[2025-01-20 19:01:19][websocketserver]Received: {"time":1737370875,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":2131894079,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"可恶的数学"},"type":"text"}],"raw_message":"可恶的数学","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 19:01:20][websocketserver]Received: {"time":1737370878,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:01:20][heartbeat]try send ping...OK
+[2025-01-20 19:01:22][websocketserver]Received: {"time":1737370878,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1635243208,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"我挂科了"},"type":"text"}],"raw_message":"我挂科了","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 19:01:25][heartbeat]try send ping...OK
+[2025-01-20 19:01:30][heartbeat]try send ping...OK
+[2025-01-20 19:01:35][websocketserver]Received: {"time":1737370893,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:01:35][heartbeat]try send ping...OK
+[2025-01-20 19:01:40][heartbeat]try send ping...OK
+[2025-01-20 19:01:45][heartbeat]try send ping...OK
+[2025-01-20 19:01:46][websocketserver]Received: {"time":1737370902,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1135248426,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"我没挂"},"type":"text"}],"raw_message":"我没挂","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 19:01:47][websocketserver]Received: {"time":1737370904,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":895240010,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"big":false,"id":277},"type":"face"}],"raw_message":"[CQ:face,big=false,id=277]","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 19:01:50][websocketserver]Received: {"time":1737370908,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:01:50][heartbeat]try send ping...OK
+[2025-01-20 19:01:55][heartbeat]try send ping...OK
+[2025-01-20 19:02:00][heartbeat]try send ping...OK
+[2025-01-20 19:02:05][websocketserver]Received: {"time":1737370922,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":523821994,"group_id":721950485,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"怕了怕了，挂在magisk框架下面，再把反检测加强打开吧"},"type":"text"}],"raw_message":"怕了怕了，挂在magisk框架下面，再把反检测加强打开吧","font":0,"sender":{"user_id":395642104,"nickname":"い愿此愛永恆࿐ེ","card":"万里挑一大非酋肝帝","role":"admin","title":"","level":""}}
+
+[2025-01-20 19:02:05][websocketserver]Received: {"time":1737370923,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:02:05][heartbeat]try send ping...OK
+[2025-01-20 19:02:10][heartbeat]try send ping...OK
+[2025-01-20 19:02:15][heartbeat]try send ping...OK
+[2025-01-20 19:02:19][websocketserver]Received: {"time":1737370936,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":533623136,"group_id":721950485,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"再被检测到了那就是寄"},"type":"text"}],"raw_message":"再被检测到了那就是寄","font":0,"sender":{"user_id":395642104,"nickname":"い愿此愛永恆࿐ེ","card":"万里挑一大非酋肝帝","role":"admin","title":"","level":""}}
+
+[2025-01-20 19:02:20][websocketserver]Received: {"time":1737370938,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:02:20][heartbeat]try send ping...OK
+[2025-01-20 19:02:25][heartbeat]try send ping...OK
+[2025-01-20 19:02:30][heartbeat]try send ping...OK
+[2025-01-20 19:02:35][websocketserver]Received: {"time":1737370953,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:02:35][heartbeat]try send ping...OK
+[2025-01-20 19:02:39][websocketserver]Received: {"time":1737370955,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":701409514,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"解剖和生理都挂不了，为什么数学就是挂了"},"type":"text"}],"raw_message":"解剖和生理都挂不了，为什么数学就是挂了","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 19:02:40][heartbeat]try send ping...OK
+[2025-01-20 19:02:45][heartbeat]try send ping...OK
+[2025-01-20 19:02:50][websocketserver]Received: {"time":1737370968,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:02:50][heartbeat]try send ping...OK
+[2025-01-20 19:02:55][heartbeat]try send ping...OK
+[2025-01-20 19:03:00][heartbeat]try send ping...OK
+[2025-01-20 19:03:05][websocketserver]Received: {"time":1737370983,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:03:05][heartbeat]try send ping...OK
+[2025-01-20 19:03:10][heartbeat]try send ping...OK
+[2025-01-20 19:03:15][heartbeat]try send ping...OK
+[2025-01-20 19:03:20][websocketserver]Received: {"time":1737370998,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:03:20][heartbeat]try send ping...OK
+[2025-01-20 19:03:25][heartbeat]try send ping...OK
+[2025-01-20 19:03:30][heartbeat]try send ping...OK
+[2025-01-20 19:03:31][websocketserver]Received: {"time":1737371008,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1114863961,"group_id":721950485,"peer_id":3827617422,"user_id":1336276492,"message":[{"data":{"text":"我也没挂科"},"type":"text"}],"raw_message":"我也没挂科","font":0,"sender":{"user_id":1336276492,"nickname":"枫","card":"枫","role":"member","title":"","level":""}}
+
+[2025-01-20 19:03:35][websocketserver]Received: {"time":1737371012,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1019009809,"group_id":721950485,"peer_id":3827617422,"user_id":1336276492,"message":[{"data":{"big":false,"id":277},"type":"face"}],"raw_message":"[CQ:face,big=false,id=277]","font":0,"sender":{"user_id":1336276492,"nickname":"枫","card":"枫","role":"member","title":"","level":""}}
+
+[2025-01-20 19:03:35][heartbeat]try send ping...OK
+[2025-01-20 19:03:35][websocketserver]Received: {"time":1737371013,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:03:40][heartbeat]try send ping...OK
+[2025-01-20 19:03:45][heartbeat]try send ping...OK
+[2025-01-20 19:03:50][websocketserver]Received: {"time":1737371028,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:03:50][heartbeat]try send ping...OK
+[2025-01-20 19:03:55][heartbeat]try send ping...OK
+[2025-01-20 19:04:00][heartbeat]try send ping...OK
+[2025-01-20 19:04:05][websocketserver]Received: {"time":1737371043,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:04:05][heartbeat]try send ping...OK
+[2025-01-20 19:04:10][heartbeat]try send ping...OK
+[2025-01-20 19:04:15][heartbeat]try send ping...OK
+[2025-01-20 19:04:20][websocketserver]Received: {"time":1737371058,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:04:20][heartbeat]try send ping...OK
+[2025-01-20 19:04:21][websocketserver]Received: {"time":1737371057,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1138993785,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"解剖和生理这么难，我都过了，凭什么是数学啊"},"type":"text"}],"raw_message":"解剖和生理这么难，我都过了，凭什么是数学啊","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 19:04:25][heartbeat]try send ping...OK
+[2025-01-20 19:04:30][heartbeat]try send ping...OK
+[2025-01-20 19:04:32][websocketserver]Received: {"time":1737371069,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1992052346,"group_id":721950485,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"这说明数学更难"},"type":"text"}],"raw_message":"这说明数学更难","font":0,"sender":{"user_id":395642104,"nickname":"い愿此愛永恆࿐ེ","card":"万里挑一大非酋肝帝","role":"admin","title":"","level":""}}
+
+[2025-01-20 19:04:34][websocketserver]Connection closed: no close frame received or sent
+
+[2025-01-20 19:04:35][heartbeat]try send ping...OK
+[2025-01-20 19:04:35][heartbeat]heartbeat finished
+[2025-01-20 19:05:22][websocketserver]New connection from ('192.168.0.150', 41192)
+[2025-01-20 19:05:22][heartbeat]heartbeat lunched
+[2025-01-20 19:05:23][websocketserver]Received: {"time":1737371120,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:05:26][websocketserver]Received: {"time":1737371103,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":603502437,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"可恶的数学"},"type":"text"}],"raw_message":"可恶的数学","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 19:05:27][heartbeat]try send ping...OK
+[2025-01-20 19:05:32][heartbeat]try send ping...OK
+[2025-01-20 19:05:34][websocketserver]Received: {"time":1737371130,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":122643207,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"id":"ada9e6d04486cb0c38e3a3bb40981b24"},"type":"mface"}],"raw_message":"[CQ:mface,id=ada9e6d04486cb0c38e3a3bb40981b24]","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 19:05:35][websocketserver]Received: {"time":1737371132,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":677855927,"group_id":721950485,"peer_id":3827617422,"user_id":1336276492,"message":[{"data":{"file":"1d755d526501b41b9aeb313afcebc305","subType":1,"type":"show","url":"http://gchat.qpic.cn/gchatpic_new/0/0-0-1D755D526501B41B9AEB313AFCEBC305/0?term=2"},"type":"image"}],"raw_message":"[CQ:image,file=1d755d526501b41b9aeb313afcebc305,subType=1,type=show,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-1D755D526501B41B9AEB313AFCEBC305/0?term=2]","font":0,"sender":{"user_id":1336276492,"nickname":"枫","card":"枫","role":"member","title":"","level":""}}
+
+[2025-01-20 19:05:37][websocketserver]Received: {"time":1737371134,"self_id":3827617422,"post_type":"notice","notice_type":"notify","sub_type":"poke","group_id":721950485,"operator_id":1336276492,"user_id":1336276492,"target_id":3102684670,"poke_detail":{"action":"捏了捏","action_img_url":"http://tianquan.gtimg.cn/nudgeaction/item/9/expression.jpg"}}
+
+[2025-01-20 19:05:37][websocketserver]Received: {"time":1737371135,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:05:37][heartbeat]try send ping...OK
+[2025-01-20 19:05:42][heartbeat]try send ping...OK
+[2025-01-20 19:05:47][heartbeat]try send ping...OK
+[2025-01-20 19:05:52][websocketserver]Received: {"time":1737371150,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:05:52][heartbeat]try send ping...OK
+[2025-01-20 19:05:57][heartbeat]try send ping...OK
+[2025-01-20 19:06:02][heartbeat]try send ping...OK
+[2025-01-20 19:06:07][websocketserver]Received: {"time":1737371165,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:06:07][heartbeat]try send ping...OK
+[2025-01-20 19:06:12][heartbeat]try send ping...OK
+[2025-01-20 19:06:17][heartbeat]try send ping...OK
+[2025-01-20 19:06:22][websocketserver]Received: {"time":1737371180,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:06:22][heartbeat]try send ping...OK
+[2025-01-20 19:06:27][heartbeat]try send ping...OK
+[2025-01-20 19:06:30][websocketserver]Received: {"time":1737371186,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":93500025,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"file":"8035aec38801e803ebd94758f7dca2ac","subType":0,"type":"original","url":"http://gchat.qpic.cn/gchatpic_new/0/0-0-8035AEC38801E803EBD94758F7DCA2AC/0?term=2"},"type":"image"}],"raw_message":"[CQ:image,file=8035aec38801e803ebd94758f7dca2ac,subType=0,type=original,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-8035AEC38801E803EBD94758F7DCA2AC/0?term=2]","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 19:06:32][heartbeat]try send ping...OK
+[2025-01-20 19:06:37][websocketserver]Received: {"time":1737371195,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:06:37][heartbeat]try send ping...OK
+[2025-01-20 19:06:41][websocketserver]Received: {"time":1737371198,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":839620439,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"黑塔的神秘小网站"},"type":"text"}],"raw_message":"黑塔的神秘小网站","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 19:06:42][heartbeat]try send ping...OK
+[2025-01-20 19:06:43][websocketserver]Received: {"time":1737371200,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":389529158,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"big":false,"id":277},"type":"face"}],"raw_message":"[CQ:face,big=false,id=277]","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 19:06:47][heartbeat]try send ping...OK
+[2025-01-20 19:06:49][websocketserver]Received: {"time":1737371206,"self_id":3827617422,"post_type":"notice","notice_type":"group_recall","group_id":721950485,"operator_id":2182338586,"user_id":2182338586,"message_id":93500025}
+
+[2025-01-20 19:06:52][websocketserver]Received: {"time":1737371210,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:06:52][heartbeat]try send ping...OK
+[2025-01-20 19:06:57][heartbeat]try send ping...OK
+[2025-01-20 19:07:02][heartbeat]try send ping...OK
+[2025-01-20 19:07:05][websocketserver]Received: {"time":1737371221,"self_id":3827617422,"post_type":"notice","notice_type":"group_decrease","sub_type":"leave","group_id":721950485,"operator_id":0,"user_id":3335304221,"user_uid":"u_ThSRMJpstDDpcKD0samd_g","sender_id":0,"target_id":3335304221,"target_uid":"u_ThSRMJpstDDpcKD0samd_g"}
+
+[2025-01-20 19:07:05][callbackmsg]meet undefined msg, msg is {'time': 1737371221, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'group_decrease', 'sub_type': 'leave', 'group_id': 721950485, 'operator_id': 0, 'user_id': 3335304221, 'user_uid': 'u_ThSRMJpstDDpcKD0samd_g', 'sender_id': 0, 'target_id': 3335304221, 'target_uid': 'u_ThSRMJpstDDpcKD0samd_g'}
+[2025-01-20 19:07:07][websocketserver]Received: {"time":1737371225,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:07:07][heartbeat]try send ping...OK
+[2025-01-20 19:07:12][heartbeat]try send ping...OK
+[2025-01-20 19:07:17][heartbeat]try send ping...OK
+[2025-01-20 19:07:22][websocketserver]Received: {"time":1737371240,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:07:22][heartbeat]try send ping...OK
+[2025-01-20 19:07:27][heartbeat]try send ping...OK
+[2025-01-20 19:07:32][heartbeat]try send ping...OK
+[2025-01-20 19:07:37][websocketserver]Received: {"time":1737371255,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:07:37][heartbeat]try send ping...OK
+[2025-01-20 19:07:43][heartbeat]try send ping...OK
+[2025-01-20 19:07:48][heartbeat]try send ping...OK
+[2025-01-20 19:07:50][websocketserver]Received: {"time":1737371267,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":333460259,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"测试"},"type":"text"}],"raw_message":"测试","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 19:07:50][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 333460259}}, {'type': 'text', 'data': {'text': '对不起主人, 暂不支持直接聊天哦'}}]}}
+
+[2025-01-20 19:07:51][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":1936340238,"time":1737371268},"echo":" "}
+
+[2025-01-20 19:07:52][websocketserver]Received: {"time":1737371270,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:07:53][heartbeat]try send ping...OK
+[2025-01-20 19:07:58][heartbeat]try send ping...OK
+[2025-01-20 19:08:03][heartbeat]try send ping...OK
+[2025-01-20 19:08:07][websocketserver]Received: {"time":1737371285,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:08:08][heartbeat]try send ping...OK
+[2025-01-20 19:08:13][heartbeat]try send ping...OK
+[2025-01-20 19:08:18][heartbeat]try send ping...OK
+[2025-01-20 19:08:22][websocketserver]Received: {"time":1737371300,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:08:23][heartbeat]try send ping...OK
+[2025-01-20 19:08:28][heartbeat]try send ping...OK
+[2025-01-20 19:08:33][heartbeat]try send ping...OK
+[2025-01-20 19:08:37][websocketserver]Received: {"time":1737371315,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:08:38][heartbeat]try send ping...OK
+[2025-01-20 19:08:43][heartbeat]try send ping...OK
+[2025-01-20 19:08:48][heartbeat]try send ping...OK
+[2025-01-20 19:08:52][websocketserver]Received: {"time":1737371330,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:08:53][heartbeat]try send ping...OK
+[2025-01-20 19:08:58][heartbeat]try send ping...OK
+[2025-01-20 19:09:03][heartbeat]try send ping...OK
+[2025-01-20 19:09:07][websocketserver]Received: {"time":1737371345,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:09:08][heartbeat]try send ping...OK
+[2025-01-20 19:09:13][heartbeat]try send ping...OK
+[2025-01-20 19:09:18][heartbeat]try send ping...OK
+[2025-01-20 19:09:22][websocketserver]Received: {"time":1737371360,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:09:23][heartbeat]try send ping...OK
+[2025-01-20 19:09:24][websocketserver]Received: {"time":1737371361,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":2140240615,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"有吗"},"type":"text"}],"raw_message":"有吗","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 19:09:26][websocketserver]Received: {"time":1737371363,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":600423450,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"给我康康"},"type":"text"}],"raw_message":"给我康康","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 19:09:28][heartbeat]try send ping...OK
+[2025-01-20 19:09:33][heartbeat]try send ping...OK
+[2025-01-20 19:09:37][websocketserver]Received: {"time":1737371375,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:09:38][heartbeat]try send ping...OK
+[2025-01-20 19:09:43][heartbeat]try send ping...OK
+[2025-01-20 19:09:48][heartbeat]try send ping...OK
+[2025-01-20 19:09:52][websocketserver]Received: {"time":1737371390,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:09:53][heartbeat]try send ping...OK
+[2025-01-20 19:09:58][heartbeat]try send ping...OK
+[2025-01-20 19:10:03][heartbeat]try send ping...OK
+[2025-01-20 19:10:07][websocketserver]Received: {"time":1737371405,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:10:08][heartbeat]try send ping...OK
+[2025-01-20 19:10:13][heartbeat]try send ping...OK
+[2025-01-20 19:10:13][websocketserver]Received: {"time":1737371409,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1477248272,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"file":"83d7cf98e2724eea14338365e8db3a16","subType":0,"type":"original","url":"http://gchat.qpic.cn/gchatpic_new/0/0-0-83D7CF98E2724EEA14338365E8DB3A16/0?term=2"},"type":"image"}],"raw_message":"[CQ:image,file=83d7cf98e2724eea14338365e8db3a16,subType=0,type=original,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-83D7CF98E2724EEA14338365E8DB3A16/0?term=2]","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 19:10:18][heartbeat]try send ping...OK
+[2025-01-20 19:10:19][websocketserver]Received: {"time":1737371416,"self_id":3827617422,"post_type":"notice","notice_type":"notify","sub_type":"poke","group_id":721950485,"operator_id":2182338586,"user_id":2182338586,"target_id":3102684670,"poke_detail":{"action":"捏了捏","action_img_url":"http://tianquan.gtimg.cn/nudgeaction/item/9/expression.jpg"}}
+
+[2025-01-20 19:10:22][websocketserver]Received: {"time":1737371420,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:10:23][heartbeat]try send ping...OK
+[2025-01-20 19:10:24][websocketserver]Received: {"time":1737371421,"self_id":3827617422,"post_type":"notice","notice_type":"group_recall","group_id":721950485,"operator_id":2182338586,"user_id":2182338586,"message_id":1216282941}
+
+[2025-01-20 19:10:28][heartbeat]try send ping...OK
+[2025-01-20 19:10:33][heartbeat]try send ping...OK
+[2025-01-20 19:10:37][websocketserver]Received: {"time":1737371435,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:10:38][heartbeat]try send ping...OK
+[2025-01-20 19:10:43][heartbeat]try send ping...OK
+[2025-01-20 19:10:48][heartbeat]try send ping...OK
+[2025-01-20 19:10:52][websocketserver]Received: {"time":1737371450,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:10:53][heartbeat]try send ping...OK
+[2025-01-20 19:10:58][heartbeat]try send ping...OK
+[2025-01-20 19:11:03][heartbeat]try send ping...OK
+[2025-01-20 19:11:07][websocketserver]Received: {"time":1737371465,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:11:08][heartbeat]try send ping...OK
+[2025-01-20 19:11:13][heartbeat]try send ping...OK
+[2025-01-20 19:11:18][heartbeat]try send ping...OK
+[2025-01-20 19:11:22][websocketserver]Received: {"time":1737371480,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:11:23][heartbeat]try send ping...OK
+[2025-01-20 19:11:28][heartbeat]try send ping...OK
+[2025-01-20 19:11:33][heartbeat]try send ping...OK
+[2025-01-20 19:11:37][websocketserver]Received: {"time":1737371495,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:11:38][heartbeat]try send ping...OK
+[2025-01-20 19:11:43][heartbeat]try send ping...OK
+[2025-01-20 19:11:48][heartbeat]try send ping...OK
+[2025-01-20 19:11:52][websocketserver]Received: {"time":1737371510,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:11:53][heartbeat]try send ping...OK
+[2025-01-20 19:11:58][heartbeat]try send ping...OK
+[2025-01-20 19:12:03][heartbeat]try send ping...OK
+[2025-01-20 19:12:07][websocketserver]Received: {"time":1737371525,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:12:08][heartbeat]try send ping...OK
+[2025-01-20 19:12:13][heartbeat]try send ping...OK
+[2025-01-20 19:12:18][heartbeat]try send ping...OK
+[2025-01-20 19:12:22][websocketserver]Received: {"time":1737371540,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:12:23][heartbeat]try send ping...OK
+[2025-01-20 19:12:28][heartbeat]try send ping...OK
+[2025-01-20 19:12:33][heartbeat]try send ping...OK
+[2025-01-20 19:12:37][websocketserver]Received: {"time":1737371555,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:12:38][heartbeat]try send ping...OK
+[2025-01-20 19:12:43][heartbeat]try send ping...OK
+[2025-01-20 19:12:48][heartbeat]try send ping...OK
+[2025-01-20 19:12:52][websocketserver]Received: {"time":1737371570,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:12:53][heartbeat]try send ping...OK
+[2025-01-20 19:12:58][heartbeat]try send ping...OK
+[2025-01-20 19:13:03][heartbeat]try send ping...OK
+[2025-01-20 19:13:07][websocketserver]Received: {"time":1737371585,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:13:08][heartbeat]try send ping...OK
+[2025-01-20 19:13:13][heartbeat]try send ping...OK
+[2025-01-20 19:13:18][heartbeat]try send ping...OK
+[2025-01-20 19:13:22][websocketserver]Received: {"time":1737371600,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:13:23][heartbeat]try send ping...OK
+[2025-01-20 19:13:28][heartbeat]try send ping...OK
+[2025-01-20 19:13:33][heartbeat]try send ping...OK
+[2025-01-20 19:13:37][websocketserver]Received: {"time":1737371615,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:13:38][heartbeat]try send ping...OK
+[2025-01-20 19:13:43][heartbeat]try send ping...OK
+[2025-01-20 19:13:48][heartbeat]try send ping...OK
+[2025-01-20 19:13:52][websocketserver]Received: {"time":1737371630,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:13:53][heartbeat]try send ping...OK
+[2025-01-20 19:13:58][heartbeat]try send ping...OK
+[2025-01-20 19:14:03][heartbeat]try send ping...OK
+[2025-01-20 19:14:07][websocketserver]Received: {"time":1737371645,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:14:08][heartbeat]try send ping...OK
+[2025-01-20 19:14:13][heartbeat]try send ping...OK
+[2025-01-20 19:14:18][heartbeat]try send ping...OK
+[2025-01-20 19:14:22][websocketserver]Received: {"time":1737371660,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:14:23][heartbeat]try send ping...OK
+[2025-01-20 19:14:28][heartbeat]try send ping...OK
+[2025-01-20 19:14:33][heartbeat]try send ping...OK
+[2025-01-20 19:14:37][websocketserver]Received: {"time":1737371675,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:14:38][heartbeat]try send ping...OK
+[2025-01-20 19:14:43][heartbeat]try send ping...OK
+[2025-01-20 19:14:48][heartbeat]try send ping...OK
+[2025-01-20 19:14:52][websocketserver]Received: {"time":1737371690,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:14:53][heartbeat]try send ping...OK
+[2025-01-20 19:14:58][heartbeat]try send ping...OK
+[2025-01-20 19:15:03][heartbeat]try send ping...OK
+[2025-01-20 19:15:07][websocketserver]Received: {"time":1737371705,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:15:08][heartbeat]try send ping...OK
+[2025-01-20 19:15:13][heartbeat]try send ping...OK
+[2025-01-20 19:15:18][heartbeat]try send ping...OK
+[2025-01-20 19:15:22][websocketserver]Received: {"time":1737371720,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:15:23][heartbeat]try send ping...OK
+[2025-01-20 19:15:28][heartbeat]try send ping...OK
+[2025-01-20 19:15:33][heartbeat]try send ping...OK
+[2025-01-20 19:15:37][websocketserver]Received: {"time":1737371735,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:15:38][heartbeat]try send ping...OK
+[2025-01-20 19:15:43][heartbeat]try send ping...OK
+[2025-01-20 19:15:48][heartbeat]try send ping...OK
+[2025-01-20 19:15:52][websocketserver]Received: {"time":1737371750,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:15:53][heartbeat]try send ping...OK
+[2025-01-20 19:15:58][heartbeat]try send ping...OK
+[2025-01-20 19:16:03][heartbeat]try send ping...OK
+[2025-01-20 19:16:07][websocketserver]Received: {"time":1737371765,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:16:08][heartbeat]try send ping...OK
+[2025-01-20 19:16:13][heartbeat]try send ping...OK
+[2025-01-20 19:16:18][heartbeat]try send ping...OK
+[2025-01-20 19:16:22][websocketserver]Received: {"time":1737371780,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:16:23][heartbeat]try send ping...OK
+[2025-01-20 19:16:28][heartbeat]try send ping...OK
+[2025-01-20 19:16:33][heartbeat]try send ping...OK
+[2025-01-20 19:16:37][websocketserver]Received: {"time":1737371795,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:16:38][heartbeat]try send ping...OK
+[2025-01-20 19:16:43][heartbeat]try send ping...OK
+[2025-01-20 19:16:48][heartbeat]try send ping...OK
+[2025-01-20 19:16:52][websocketserver]Received: {"time":1737371810,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:16:53][heartbeat]try send ping...OK
+[2025-01-20 19:16:58][heartbeat]try send ping...OK
+[2025-01-20 19:17:03][heartbeat]try send ping...OK
+[2025-01-20 19:17:07][websocketserver]Received: {"time":1737371825,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:17:08][heartbeat]try send ping...OK
+[2025-01-20 19:17:13][heartbeat]try send ping...OK
+[2025-01-20 19:17:18][heartbeat]try send ping...OK
+[2025-01-20 19:17:22][websocketserver]Received: {"time":1737371840,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:17:23][heartbeat]try send ping...OK
+[2025-01-20 19:17:28][heartbeat]try send ping...OK
+[2025-01-20 19:17:33][heartbeat]try send ping...OK
+[2025-01-20 19:17:37][websocketserver]Received: {"time":1737371855,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:17:38][heartbeat]try send ping...OK
+[2025-01-20 19:17:43][heartbeat]try send ping...OK
+[2025-01-20 19:17:48][heartbeat]try send ping...OK
+[2025-01-20 19:17:52][websocketserver]Received: {"time":1737371870,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:17:53][heartbeat]try send ping...OK
+[2025-01-20 19:17:58][heartbeat]try send ping...OK
+[2025-01-20 19:18:03][heartbeat]try send ping...OK
+[2025-01-20 19:18:07][websocketserver]Received: {"time":1737371885,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:18:08][heartbeat]try send ping...OK
+[2025-01-20 19:18:13][heartbeat]try send ping...OK
+[2025-01-20 19:18:18][heartbeat]try send ping...OK
+[2025-01-20 19:18:22][websocketserver]Received: {"time":1737371900,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:18:23][heartbeat]try send ping...OK
+[2025-01-20 19:18:28][heartbeat]try send ping...OK
+[2025-01-20 19:18:33][heartbeat]try send ping...OK
+[2025-01-20 19:18:37][websocketserver]Received: {"time":1737371915,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:18:38][heartbeat]try send ping...OK
+[2025-01-20 19:18:43][heartbeat]try send ping...OK
+[2025-01-20 19:18:48][heartbeat]try send ping...OK
+[2025-01-20 19:18:52][websocketserver]Received: {"time":1737371930,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:18:53][heartbeat]try send ping...OK
+[2025-01-20 19:18:58][heartbeat]try send ping...OK
+[2025-01-20 19:19:03][heartbeat]try send ping...OK
+[2025-01-20 19:19:07][websocketserver]Received: {"time":1737371945,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:19:08][heartbeat]try send ping...OK
+[2025-01-20 19:19:13][heartbeat]try send ping...OK
+[2025-01-20 19:19:18][heartbeat]try send ping...OK
+[2025-01-20 19:19:22][websocketserver]Received: {"time":1737371960,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:19:23][heartbeat]try send ping...OK
+[2025-01-20 19:19:28][heartbeat]try send ping...OK
+[2025-01-20 19:19:33][heartbeat]try send ping...OK
+[2025-01-20 19:19:37][websocketserver]Received: {"time":1737371975,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:19:38][heartbeat]try send ping...OK
+[2025-01-20 19:19:43][heartbeat]try send ping...OK
+[2025-01-20 19:19:48][heartbeat]try send ping...OK
+[2025-01-20 19:19:52][websocketserver]Received: {"time":1737371990,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:19:53][heartbeat]try send ping...OK
+[2025-01-20 19:19:58][heartbeat]try send ping...OK
+[2025-01-20 19:20:03][heartbeat]try send ping...OK
+[2025-01-20 19:20:07][websocketserver]Received: {"time":1737372005,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:20:08][heartbeat]try send ping...OK
+[2025-01-20 19:20:13][heartbeat]try send ping...OK
+[2025-01-20 19:20:18][heartbeat]try send ping...OK
+[2025-01-20 19:20:22][websocketserver]Received: {"time":1737372020,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:20:23][heartbeat]try send ping...OK
+[2025-01-20 19:20:28][heartbeat]try send ping...OK
+[2025-01-20 19:20:33][heartbeat]try send ping...OK
+[2025-01-20 19:20:37][websocketserver]Received: {"time":1737372035,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:20:38][heartbeat]try send ping...OK
+[2025-01-20 19:20:43][heartbeat]try send ping...OK
+[2025-01-20 19:20:48][heartbeat]try send ping...OK
+[2025-01-20 19:20:52][websocketserver]Received: {"time":1737372050,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:20:53][heartbeat]try send ping...OK
+[2025-01-20 19:20:58][heartbeat]try send ping...OK
+[2025-01-20 19:21:02][websocketserver]Received: {"time":1737372058,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":267566950,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"id":"LiablFBqKTnUUCkBHZUViM5qJy94wzN6jj++hR2Tz9hYkrXmeHvwEC8VIe9vpuYp"},"type":"forward"}],"raw_message":"[CQ:forward,id=LiablFBqKTnUUCkBHZUViM5qJy94wzN6jj++hR2Tz9hYkrXmeHvwEC8VIe9vpuYp]","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 19:21:02][websocketserver]Received: {"time":1737372058,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":267566945,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"我们群主能塞13个"},"type":"text"}],"raw_message":"我们群主能塞13个","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 19:21:03][heartbeat]try send ping...OK
+[2025-01-20 19:21:07][websocketserver]Received: {"time":1737372065,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:21:08][heartbeat]try send ping...OK
+[2025-01-20 19:21:13][heartbeat]try send ping...OK
+[2025-01-20 19:21:18][heartbeat]try send ping...OK
+[2025-01-20 19:21:22][websocketserver]Received: {"time":1737372080,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:21:23][heartbeat]try send ping...OK
+[2025-01-20 19:21:28][heartbeat]try send ping...OK
+[2025-01-20 19:21:33][heartbeat]try send ping...OK
+[2025-01-20 19:21:37][websocketserver]Received: {"time":1737372095,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:21:38][heartbeat]try send ping...OK
+[2025-01-20 19:21:43][heartbeat]try send ping...OK
+[2025-01-20 19:21:46][websocketserver]Received: {"time":1737372102,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1859602586,"group_id":721950485,"peer_id":3827617422,"user_id":2874851873,"message":[{"data":{"text":"无敌"},"type":"text"}],"raw_message":"无敌","font":0,"sender":{"user_id":2874851873,"nickname":"琪亚娜，出击！","card":"琪亚娜，出击！","role":"member","title":"","level":""}}
+
+[2025-01-20 19:21:48][heartbeat]try send ping...OK
+[2025-01-20 19:21:52][websocketserver]Received: {"time":1737372110,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:21:53][heartbeat]try send ping...OK
+[2025-01-20 19:21:58][heartbeat]try send ping...OK
+[2025-01-20 19:22:03][heartbeat]try send ping...OK
+[2025-01-20 19:22:07][websocketserver]Received: {"time":1737372125,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:22:08][heartbeat]try send ping...OK
+[2025-01-20 19:22:13][heartbeat]try send ping...OK
+[2025-01-20 19:22:18][heartbeat]try send ping...OK
+[2025-01-20 19:22:22][websocketserver]Received: {"time":1737372140,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:22:23][heartbeat]try send ping...OK
+[2025-01-20 19:22:28][heartbeat]try send ping...OK
+[2025-01-20 19:22:33][heartbeat]try send ping...OK
+[2025-01-20 19:22:37][websocketserver]Received: {"time":1737372155,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:22:38][heartbeat]try send ping...OK
+[2025-01-20 19:22:43][heartbeat]try send ping...OK
+[2025-01-20 19:22:48][heartbeat]try send ping...OK
+[2025-01-20 19:22:52][websocketserver]Received: {"time":1737372170,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:22:53][heartbeat]try send ping...OK
+[2025-01-20 19:22:58][heartbeat]try send ping...OK
+[2025-01-20 19:23:03][heartbeat]try send ping...OK
+[2025-01-20 19:23:07][websocketserver]Received: {"time":1737372185,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:23:08][heartbeat]try send ping...OK
+[2025-01-20 19:23:11][websocketserver]Received: {"time":1737372187,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":81376814,"group_id":721950485,"peer_id":3827617422,"user_id":2874851873,"message":[{"data":{"file":"a4f26c0f02884eb6b1cd692fba140783","subType":0,"type":"original","url":"http://gchat.qpic.cn/gchatpic_new/0/0-0-A4F26C0F02884EB6B1CD692FBA140783/0?term=2"},"type":"image"}],"raw_message":"[CQ:image,file=a4f26c0f02884eb6b1cd692fba140783,subType=0,type=original,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-A4F26C0F02884EB6B1CD692FBA140783/0?term=2]","font":0,"sender":{"user_id":2874851873,"nickname":"琪亚娜，出击！","card":"琪亚娜，出击！","role":"member","title":"","level":""}}
+
+[2025-01-20 19:23:13][heartbeat]try send ping...OK
+[2025-01-20 19:23:18][heartbeat]try send ping...OK
+[2025-01-20 19:23:22][websocketserver]Received: {"time":1737372200,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:23:23][heartbeat]try send ping...OK
+[2025-01-20 19:23:28][heartbeat]try send ping...OK
+[2025-01-20 19:23:33][heartbeat]try send ping...OK
+[2025-01-20 19:23:37][websocketserver]Received: {"time":1737372215,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:23:38][heartbeat]try send ping...OK
+[2025-01-20 19:23:43][heartbeat]try send ping...OK
+[2025-01-20 19:23:48][heartbeat]try send ping...OK
+[2025-01-20 19:23:49][websocketserver]Received: {"time":1737372226,"self_id":3827617422,"post_type":"notice","notice_type":"group_recall","group_id":721950485,"operator_id":2874851873,"user_id":2874851873,"message_id":81376814,"tip_text":"因为有错别字。\t"}
+
+[2025-01-20 19:23:52][websocketserver]Received: {"time":1737372230,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:23:53][heartbeat]try send ping...OK
+[2025-01-20 19:23:58][heartbeat]try send ping...OK
+[2025-01-20 19:24:03][heartbeat]try send ping...OK
+[2025-01-20 19:24:07][websocketserver]Received: {"time":1737372245,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:24:08][heartbeat]try send ping...OK
+[2025-01-20 19:24:13][heartbeat]try send ping...OK
+[2025-01-20 19:24:18][heartbeat]try send ping...OK
+[2025-01-20 19:24:22][websocketserver]Received: {"time":1737372260,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:24:23][heartbeat]try send ping...OK
+[2025-01-20 19:24:28][heartbeat]try send ping...OK
+[2025-01-20 19:24:33][heartbeat]try send ping...OK
+[2025-01-20 19:24:37][websocketserver]Received: {"time":1737372275,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:24:38][heartbeat]try send ping...OK
+[2025-01-20 19:24:43][heartbeat]try send ping...OK
+[2025-01-20 19:24:48][heartbeat]try send ping...OK
+[2025-01-20 19:24:52][websocketserver]Received: {"time":1737372290,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:24:53][heartbeat]try send ping...OK
+[2025-01-20 19:24:58][heartbeat]try send ping...OK
+[2025-01-20 19:25:03][heartbeat]try send ping...OK
+[2025-01-20 19:25:07][websocketserver]Received: {"time":1737372305,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:25:08][heartbeat]try send ping...OK
+[2025-01-20 19:25:13][heartbeat]try send ping...OK
+[2025-01-20 19:25:18][heartbeat]try send ping...OK
+[2025-01-20 19:25:23][websocketserver]Received: {"time":1737372320,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:25:23][heartbeat]try send ping...OK
+[2025-01-20 19:25:28][heartbeat]try send ping...OK
+[2025-01-20 19:25:33][heartbeat]try send ping...OK
+[2025-01-20 19:25:37][websocketserver]Received: {"time":1737372335,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:25:38][heartbeat]try send ping...OK
+[2025-01-20 19:25:43][heartbeat]try send ping...OK
+[2025-01-20 19:25:47][websocketserver]Received: {"time":1737372343,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":630703489,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"火烧赤壁"},"type":"text"}],"raw_message":"火烧赤壁","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 19:25:48][heartbeat]try send ping...OK
+[2025-01-20 19:25:52][websocketserver]Received: {"time":1737372350,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:25:53][heartbeat]try send ping...OK
+[2025-01-20 19:25:58][heartbeat]try send ping...OK
+[2025-01-20 19:26:03][heartbeat]try send ping...OK
+[2025-01-20 19:26:07][websocketserver]Received: {"time":1737372365,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:26:08][heartbeat]try send ping...OK
+[2025-01-20 19:26:13][heartbeat]try send ping...OK
+[2025-01-20 19:26:18][heartbeat]try send ping...OK
+[2025-01-20 19:26:22][websocketserver]Received: {"time":1737372380,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:26:23][heartbeat]try send ping...OK
+[2025-01-20 19:26:28][heartbeat]try send ping...OK
+[2025-01-20 19:26:33][heartbeat]try send ping...OK
+[2025-01-20 19:26:37][websocketserver]Received: {"time":1737372395,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:26:38][heartbeat]try send ping...OK
+[2025-01-20 19:26:43][heartbeat]try send ping...OK
+[2025-01-20 19:26:48][heartbeat]try send ping...OK
+[2025-01-20 19:26:52][websocketserver]Received: {"time":1737372410,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:26:53][heartbeat]try send ping...OK
+[2025-01-20 19:26:58][heartbeat]try send ping...OK
+[2025-01-20 19:27:03][heartbeat]try send ping...OK
+[2025-01-20 19:27:07][websocketserver]Received: {"time":1737372425,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:27:08][heartbeat]try send ping...OK
+[2025-01-20 19:27:13][heartbeat]try send ping...OK
+[2025-01-20 19:27:18][heartbeat]try send ping...OK
+[2025-01-20 19:27:22][websocketserver]Received: {"time":1737372440,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:27:23][heartbeat]try send ping...OK
+[2025-01-20 19:27:28][heartbeat]try send ping...OK
+[2025-01-20 19:27:33][heartbeat]try send ping...OK
+[2025-01-20 19:27:37][websocketserver]Received: {"time":1737372455,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:27:38][heartbeat]try send ping...OK
+[2025-01-20 19:27:43][heartbeat]try send ping...OK
+[2025-01-20 19:27:48][heartbeat]try send ping...OK
+[2025-01-20 19:27:52][websocketserver]Received: {"time":1737372470,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:27:53][heartbeat]try send ping...OK
+[2025-01-20 19:27:58][heartbeat]try send ping...OK
+[2025-01-20 19:28:03][heartbeat]try send ping...OK
+[2025-01-20 19:28:07][websocketserver]Received: {"time":1737372485,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:28:08][heartbeat]try send ping...OK
+[2025-01-20 19:28:13][heartbeat]try send ping...OK
+[2025-01-20 19:28:18][heartbeat]try send ping...OK
+[2025-01-20 19:28:22][websocketserver]Received: {"time":1737372500,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:28:23][heartbeat]try send ping...OK
+[2025-01-20 19:28:28][heartbeat]try send ping...OK
+[2025-01-20 19:28:33][heartbeat]try send ping...OK
+[2025-01-20 19:28:37][websocketserver]Received: {"time":1737372515,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:28:38][heartbeat]try send ping...OK
+[2025-01-20 19:28:43][heartbeat]try send ping...OK
+[2025-01-20 19:28:48][heartbeat]try send ping...OK
+[2025-01-20 19:28:52][websocketserver]Received: {"time":1737372530,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:28:53][heartbeat]try send ping...OK
+[2025-01-20 19:28:58][heartbeat]try send ping...OK
+[2025-01-20 19:29:03][heartbeat]try send ping...OK
+[2025-01-20 19:29:07][websocketserver]Received: {"time":1737372545,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:29:08][heartbeat]try send ping...OK
+[2025-01-20 19:29:13][heartbeat]try send ping...OK
+[2025-01-20 19:29:18][heartbeat]try send ping...OK
+[2025-01-20 19:29:22][websocketserver]Received: {"time":1737372560,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:29:23][heartbeat]try send ping...OK
+[2025-01-20 19:29:28][heartbeat]try send ping...OK
+[2025-01-20 19:29:33][heartbeat]try send ping...OK
+[2025-01-20 19:29:37][websocketserver]Received: {"time":1737372575,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:29:38][heartbeat]try send ping...OK
+[2025-01-20 19:29:43][heartbeat]try send ping...OK
+[2025-01-20 19:29:48][heartbeat]try send ping...OK
+[2025-01-20 19:29:52][websocketserver]Received: {"time":1737372590,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:29:53][heartbeat]try send ping...OK
+[2025-01-20 19:29:58][heartbeat]try send ping...OK
+[2025-01-20 19:30:03][heartbeat]try send ping...OK
+[2025-01-20 19:30:07][websocketserver]Received: {"time":1737372605,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:30:08][heartbeat]try send ping...OK
+[2025-01-20 19:30:13][heartbeat]try send ping...OK
+[2025-01-20 19:30:18][heartbeat]try send ping...OK
+[2025-01-20 19:30:22][websocketserver]Received: {"time":1737372620,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:30:23][heartbeat]try send ping...OK
+[2025-01-20 19:30:28][heartbeat]try send ping...OK
+[2025-01-20 19:30:33][heartbeat]try send ping...OK
+[2025-01-20 19:30:37][websocketserver]Received: {"time":1737372635,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:30:38][heartbeat]try send ping...OK
+[2025-01-20 19:30:43][heartbeat]try send ping...OK
+[2025-01-20 19:30:48][heartbeat]try send ping...OK
+[2025-01-20 19:30:52][websocketserver]Received: {"time":1737372650,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:30:53][heartbeat]try send ping...OK
+[2025-01-20 19:30:58][heartbeat]try send ping...OK
+[2025-01-20 19:31:03][heartbeat]try send ping...OK
+[2025-01-20 19:31:04][websocketserver]Received: {"time":1737372660,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1546210182,"group_id":721950485,"peer_id":3827617422,"user_id":1173862459,"message":[{"data":{"text":"笑死"},"type":"text"}],"raw_message":"笑死","font":0,"sender":{"user_id":1173862459,"nickname":"北冥鱼","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 19:31:08][websocketserver]Received: {"time":1737372665,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:31:08][heartbeat]try send ping...OK
+[2025-01-20 19:31:13][heartbeat]try send ping...OK
+[2025-01-20 19:31:18][heartbeat]try send ping...OK
+[2025-01-20 19:31:22][websocketserver]Received: {"time":1737372680,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:31:23][heartbeat]try send ping...OK
+[2025-01-20 19:31:28][heartbeat]try send ping...OK
+[2025-01-20 19:31:33][heartbeat]try send ping...OK
+[2025-01-20 19:31:37][websocketserver]Received: {"time":1737372695,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:31:38][heartbeat]try send ping...OK
+[2025-01-20 19:31:43][heartbeat]try send ping...OK
+[2025-01-20 19:31:48][heartbeat]try send ping...OK
+[2025-01-20 19:31:52][websocketserver]Received: {"time":1737372710,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:31:53][heartbeat]try send ping...OK
+[2025-01-20 19:31:58][heartbeat]try send ping...OK
+[2025-01-20 19:32:03][heartbeat]try send ping...OK
+[2025-01-20 19:32:07][websocketserver]Received: {"time":1737372725,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:32:08][heartbeat]try send ping...OK
+[2025-01-20 19:32:13][heartbeat]try send ping...OK
+[2025-01-20 19:32:18][heartbeat]try send ping...OK
+[2025-01-20 19:32:22][websocketserver]Received: {"time":1737372740,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:32:23][heartbeat]try send ping...OK
+[2025-01-20 19:32:28][heartbeat]try send ping...OK
+[2025-01-20 19:32:33][heartbeat]try send ping...OK
+[2025-01-20 19:32:37][websocketserver]Received: {"time":1737372755,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:32:38][heartbeat]try send ping...OK
+[2025-01-20 19:32:43][heartbeat]try send ping...OK
+[2025-01-20 19:32:48][heartbeat]try send ping...OK
+[2025-01-20 19:32:52][websocketserver]Received: {"time":1737372770,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:32:53][heartbeat]try send ping...OK
+[2025-01-20 19:32:58][heartbeat]try send ping...OK
+[2025-01-20 19:33:03][heartbeat]try send ping...OK
+[2025-01-20 19:33:07][websocketserver]Received: {"time":1737372785,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:33:08][heartbeat]try send ping...OK
+[2025-01-20 19:33:13][heartbeat]try send ping...OK
+[2025-01-20 19:33:18][heartbeat]try send ping...OK
+[2025-01-20 19:33:22][websocketserver]Received: {"time":1737372800,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:33:23][heartbeat]try send ping...OK
+[2025-01-20 19:33:28][heartbeat]try send ping...OK
+[2025-01-20 19:33:33][heartbeat]try send ping...OK
+[2025-01-20 19:33:37][websocketserver]Received: {"time":1737372815,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:33:38][heartbeat]try send ping...OK
+[2025-01-20 19:33:43][heartbeat]try send ping...OK
+[2025-01-20 19:33:48][heartbeat]try send ping...OK
+[2025-01-20 19:33:52][websocketserver]Received: {"time":1737372830,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:33:53][heartbeat]try send ping...OK
+[2025-01-20 19:33:58][heartbeat]try send ping...OK
+[2025-01-20 19:34:03][heartbeat]try send ping...OK
+[2025-01-20 19:34:07][websocketserver]Received: {"time":1737372845,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:34:08][heartbeat]try send ping...OK
+[2025-01-20 19:34:13][heartbeat]try send ping...OK
+[2025-01-20 19:34:18][heartbeat]try send ping...OK
+[2025-01-20 19:34:22][websocketserver]Received: {"time":1737372860,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:34:23][heartbeat]try send ping...OK
+[2025-01-20 19:34:28][heartbeat]try send ping...OK
+[2025-01-20 19:34:33][heartbeat]try send ping...OK
+[2025-01-20 19:34:37][websocketserver]Received: {"time":1737372875,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:34:38][heartbeat]try send ping...OK
+[2025-01-20 19:34:43][heartbeat]try send ping...OK
+[2025-01-20 19:34:48][heartbeat]try send ping...OK
+[2025-01-20 19:34:52][websocketserver]Received: {"time":1737372890,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:34:53][heartbeat]try send ping...OK
+[2025-01-20 19:34:58][heartbeat]try send ping...OK
+[2025-01-20 19:35:03][heartbeat]try send ping...OK
+[2025-01-20 19:35:08][websocketserver]Received: {"time":1737372905,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:35:08][heartbeat]try send ping...OK
+[2025-01-20 19:35:13][heartbeat]try send ping...OK
+[2025-01-20 19:35:18][heartbeat]try send ping...OK
+[2025-01-20 19:35:22][websocketserver]Received: {"time":1737372920,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:35:23][heartbeat]try send ping...OK
+[2025-01-20 19:35:28][heartbeat]try send ping...OK
+[2025-01-20 19:35:33][heartbeat]try send ping...OK
+[2025-01-20 19:35:37][websocketserver]Received: {"time":1737372935,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:35:38][heartbeat]try send ping...OK
+[2025-01-20 19:35:43][heartbeat]try send ping...OK
+[2025-01-20 19:35:48][heartbeat]try send ping...OK
+[2025-01-20 19:35:52][websocketserver]Received: {"time":1737372950,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:35:53][heartbeat]try send ping...OK
+[2025-01-20 19:35:58][heartbeat]try send ping...OK
+[2025-01-20 19:36:03][heartbeat]try send ping...OK
+[2025-01-20 19:36:07][websocketserver]Received: {"time":1737372965,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:36:08][heartbeat]try send ping...OK
+[2025-01-20 19:36:13][heartbeat]try send ping...OK
+[2025-01-20 19:36:18][heartbeat]try send ping...OK
+[2025-01-20 19:36:22][websocketserver]Received: {"time":1737372980,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:36:23][heartbeat]try send ping...OK
+[2025-01-20 19:36:28][heartbeat]try send ping...OK
+[2025-01-20 19:36:33][heartbeat]try send ping...OK
+[2025-01-20 19:36:37][websocketserver]Received: {"time":1737372995,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:36:38][heartbeat]try send ping...OK
+[2025-01-20 19:36:43][heartbeat]try send ping...OK
+[2025-01-20 19:36:48][heartbeat]try send ping...OK
+[2025-01-20 19:36:52][websocketserver]Received: {"time":1737373010,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:36:53][heartbeat]try send ping...OK
+[2025-01-20 19:36:58][heartbeat]try send ping...OK
+[2025-01-20 19:37:03][heartbeat]try send ping...OK
+[2025-01-20 19:37:07][websocketserver]Received: {"time":1737373025,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:37:08][heartbeat]try send ping...OK
+[2025-01-20 19:37:13][heartbeat]try send ping...OK
+[2025-01-20 19:37:18][heartbeat]try send ping...OK
+[2025-01-20 19:37:22][websocketserver]Received: {"time":1737373040,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:37:23][heartbeat]try send ping...OK
+[2025-01-20 19:37:28][heartbeat]try send ping...OK
+[2025-01-20 19:37:33][heartbeat]try send ping...OK
+[2025-01-20 19:37:37][websocketserver]Received: {"time":1737373055,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:37:38][heartbeat]try send ping...OK
+[2025-01-20 19:37:43][heartbeat]try send ping...OK
+[2025-01-20 19:37:48][heartbeat]try send ping...OK
+[2025-01-20 19:37:52][websocketserver]Received: {"time":1737373070,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:37:53][heartbeat]try send ping...OK
+[2025-01-20 19:37:58][heartbeat]try send ping...OK
+[2025-01-20 19:38:03][heartbeat]try send ping...OK
+[2025-01-20 19:38:07][websocketserver]Received: {"time":1737373085,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:38:08][heartbeat]try send ping...OK
+[2025-01-20 19:38:13][heartbeat]try send ping...OK
+[2025-01-20 19:38:18][heartbeat]try send ping...OK
+[2025-01-20 19:38:22][websocketserver]Received: {"time":1737373100,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:38:23][heartbeat]try send ping...OK
+[2025-01-20 19:38:28][heartbeat]try send ping...OK
+[2025-01-20 19:38:33][heartbeat]try send ping...OK
+[2025-01-20 19:38:38][websocketserver]Received: {"time":1737373115,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:38:38][heartbeat]try send ping...OK
+[2025-01-20 19:38:43][heartbeat]try send ping...OK
+[2025-01-20 19:38:48][heartbeat]try send ping...OK
+[2025-01-20 19:38:53][websocketserver]Received: {"time":1737373130,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:38:53][heartbeat]try send ping...OK
+[2025-01-20 19:38:58][heartbeat]try send ping...OK
+[2025-01-20 19:39:03][heartbeat]try send ping...OK
+[2025-01-20 19:39:08][websocketserver]Received: {"time":1737373145,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:39:08][heartbeat]try send ping...OK
+[2025-01-20 19:39:13][heartbeat]try send ping...OK
+[2025-01-20 19:39:18][heartbeat]try send ping...OK
+[2025-01-20 19:39:22][websocketserver]Received: {"time":1737373160,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:39:23][heartbeat]try send ping...OK
+[2025-01-20 19:39:28][heartbeat]try send ping...OK
+[2025-01-20 19:39:33][heartbeat]try send ping...OK
+[2025-01-20 19:39:38][websocketserver]Received: {"time":1737373175,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:39:38][heartbeat]try send ping...OK
+[2025-01-20 19:39:43][heartbeat]try send ping...OK
+[2025-01-20 19:39:48][heartbeat]try send ping...OK
+[2025-01-20 19:39:52][websocketserver]Received: {"time":1737373190,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:39:53][heartbeat]try send ping...OK
+[2025-01-20 19:39:58][heartbeat]try send ping...OK
+[2025-01-20 19:40:03][heartbeat]try send ping...OK
+[2025-01-20 19:40:07][websocketserver]Received: {"time":1737373205,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:40:08][heartbeat]try send ping...OK
+[2025-01-20 19:40:13][heartbeat]try send ping...OK
+[2025-01-20 19:40:18][heartbeat]try send ping...OK
+[2025-01-20 19:40:22][websocketserver]Received: {"time":1737373220,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:40:23][heartbeat]try send ping...OK
+[2025-01-20 19:40:28][heartbeat]try send ping...OK
+[2025-01-20 19:40:33][heartbeat]try send ping...OK
+[2025-01-20 19:40:37][websocketserver]Received: {"time":1737373235,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:40:38][heartbeat]try send ping...OK
+[2025-01-20 19:40:43][heartbeat]try send ping...OK
+[2025-01-20 19:40:48][heartbeat]try send ping...OK
+[2025-01-20 19:40:53][websocketserver]Received: {"time":1737373250,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:40:53][heartbeat]try send ping...OK
+[2025-01-20 19:40:58][heartbeat]try send ping...OK
+[2025-01-20 19:41:03][heartbeat]try send ping...OK
+[2025-01-20 19:41:07][websocketserver]Received: {"time":1737373265,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:41:08][heartbeat]try send ping...OK
+[2025-01-20 19:41:13][heartbeat]try send ping...OK
+[2025-01-20 19:41:18][heartbeat]try send ping...OK
+[2025-01-20 19:41:22][websocketserver]Received: {"time":1737373280,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:41:23][heartbeat]try send ping...OK
+[2025-01-20 19:41:28][heartbeat]try send ping...OK
+[2025-01-20 19:41:33][heartbeat]try send ping...OK
+[2025-01-20 19:41:37][websocketserver]Received: {"time":1737373295,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:41:38][heartbeat]try send ping...OK
+[2025-01-20 19:41:43][heartbeat]try send ping...OK
+[2025-01-20 19:41:48][heartbeat]try send ping...OK
+[2025-01-20 19:41:52][websocketserver]Received: {"time":1737373310,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:41:53][heartbeat]try send ping...OK
+[2025-01-20 19:41:58][heartbeat]try send ping...OK
+[2025-01-20 19:42:03][heartbeat]try send ping...OK
+[2025-01-20 19:42:07][websocketserver]Received: {"time":1737373325,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:42:08][heartbeat]try send ping...OK
+[2025-01-20 19:42:13][heartbeat]try send ping...OK
+[2025-01-20 19:42:18][heartbeat]try send ping...OK
+[2025-01-20 19:42:22][websocketserver]Received: {"time":1737373340,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:42:23][heartbeat]try send ping...OK
+[2025-01-20 19:42:28][heartbeat]try send ping...OK
+[2025-01-20 19:42:33][heartbeat]try send ping...OK
+[2025-01-20 19:42:37][websocketserver]Received: {"time":1737373355,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:42:38][heartbeat]try send ping...OK
+[2025-01-20 19:42:43][heartbeat]try send ping...OK
+[2025-01-20 19:42:48][heartbeat]try send ping...OK
+[2025-01-20 19:42:52][websocketserver]Received: {"time":1737373370,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:42:53][heartbeat]try send ping...OK
+[2025-01-20 19:42:58][heartbeat]try send ping...OK
+[2025-01-20 19:43:03][heartbeat]try send ping...OK
+[2025-01-20 19:43:07][websocketserver]Received: {"time":1737373385,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:43:08][heartbeat]try send ping...OK
+[2025-01-20 19:43:13][heartbeat]try send ping...OK
+[2025-01-20 19:43:18][heartbeat]try send ping...OK
+[2025-01-20 19:43:22][websocketserver]Received: {"time":1737373400,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:43:23][heartbeat]try send ping...OK
+[2025-01-20 19:43:28][heartbeat]try send ping...OK
+[2025-01-20 19:43:33][heartbeat]try send ping...OK
+[2025-01-20 19:43:37][websocketserver]Received: {"time":1737373415,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:43:38][heartbeat]try send ping...OK
+[2025-01-20 19:43:43][heartbeat]try send ping...OK
+[2025-01-20 19:43:48][heartbeat]try send ping...OK
+[2025-01-20 19:43:52][websocketserver]Received: {"time":1737373430,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:43:53][heartbeat]try send ping...OK
+[2025-01-20 19:43:58][heartbeat]try send ping...OK
+[2025-01-20 19:44:03][heartbeat]try send ping...OK
+[2025-01-20 19:44:07][websocketserver]Received: {"time":1737373445,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:44:08][heartbeat]try send ping...OK
+[2025-01-20 19:44:13][heartbeat]try send ping...OK
+[2025-01-20 19:44:18][heartbeat]try send ping...OK
+[2025-01-20 19:44:23][websocketserver]Received: {"time":1737373460,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:44:23][heartbeat]try send ping...OK
+[2025-01-20 19:44:28][heartbeat]try send ping...OK
+[2025-01-20 19:44:33][heartbeat]try send ping...OK
+[2025-01-20 19:44:38][websocketserver]Received: {"time":1737373475,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:44:38][heartbeat]try send ping...OK
+[2025-01-20 19:44:43][heartbeat]try send ping...OK
+[2025-01-20 19:44:48][heartbeat]try send ping...OK
+[2025-01-20 19:44:53][websocketserver]Received: {"time":1737373490,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:44:53][heartbeat]try send ping...OK
+[2025-01-20 19:44:58][heartbeat]try send ping...OK
+[2025-01-20 19:45:03][heartbeat]try send ping...OK
+[2025-01-20 19:45:07][websocketserver]Received: {"time":1737373505,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:45:08][heartbeat]try send ping...OK
+[2025-01-20 19:45:13][heartbeat]try send ping...OK
+[2025-01-20 19:45:18][heartbeat]try send ping...OK
+[2025-01-20 19:45:22][websocketserver]Received: {"time":1737373520,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:45:23][heartbeat]try send ping...OK
+[2025-01-20 19:45:28][heartbeat]try send ping...OK
+[2025-01-20 19:45:33][heartbeat]try send ping...OK
+[2025-01-20 19:45:38][websocketserver]Received: {"time":1737373535,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:45:38][heartbeat]try send ping...OK
+[2025-01-20 19:45:43][heartbeat]try send ping...OK
+[2025-01-20 19:45:48][heartbeat]try send ping...OK
+[2025-01-20 19:45:53][websocketserver]Received: {"time":1737373550,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:45:53][heartbeat]try send ping...OK
+[2025-01-20 19:45:58][heartbeat]try send ping...OK
+[2025-01-20 19:46:03][heartbeat]try send ping...OK
+[2025-01-20 19:46:08][websocketserver]Received: {"time":1737373565,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:46:08][heartbeat]try send ping...OK
+[2025-01-20 19:46:13][heartbeat]try send ping...OK
+[2025-01-20 19:46:18][heartbeat]try send ping...OK
+[2025-01-20 19:46:23][websocketserver]Received: {"time":1737373580,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:46:23][heartbeat]try send ping...OK
+[2025-01-20 19:46:28][heartbeat]try send ping...OK
+[2025-01-20 19:46:33][heartbeat]try send ping...OK
+[2025-01-20 19:46:37][websocketserver]Received: {"time":1737373595,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:46:39][heartbeat]try send ping...OK
+[2025-01-20 19:46:43][heartbeat]try send ping...OK
+[2025-01-20 19:46:48][heartbeat]try send ping...OK
+[2025-01-20 19:46:52][websocketserver]Received: {"time":1737373610,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:46:53][heartbeat]try send ping...OK
+[2025-01-20 19:46:58][heartbeat]try send ping...OK
+[2025-01-20 19:47:03][heartbeat]try send ping...OK
+[2025-01-20 19:47:07][websocketserver]Received: {"time":1737373625,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:47:08][heartbeat]try send ping...OK
+[2025-01-20 19:47:13][heartbeat]try send ping...OK
+[2025-01-20 19:47:18][heartbeat]try send ping...OK
+[2025-01-20 19:47:23][websocketserver]Received: {"time":1737373640,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:47:23][heartbeat]try send ping...OK
+[2025-01-20 19:47:28][heartbeat]try send ping...OK
+[2025-01-20 19:47:30][websocketserver]Connection closed: no close frame received or sent
+
+[2025-01-20 19:47:33][heartbeat]try send ping...OK
+[2025-01-20 19:47:33][heartbeat]heartbeat finished
+[2025-01-20 19:51:08][websocketserver]New connection from ('192.168.0.150', 40720)
+[2025-01-20 19:51:08][heartbeat]heartbeat lunched
+[2025-01-20 19:51:08][websocketserver]Received: {"time":1737373866,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:51:13][heartbeat]try send ping...OK
+[2025-01-20 19:51:18][heartbeat]try send ping...OK
+[2025-01-20 19:51:23][heartbeat]try send ping...OK
+[2025-01-20 19:51:23][websocketserver]Received: {"time":1737373881,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:51:28][heartbeat]try send ping...OK
+[2025-01-20 19:51:33][heartbeat]try send ping...OK
+[2025-01-20 19:51:38][heartbeat]try send ping...OK
+[2025-01-20 19:51:38][websocketserver]Received: {"time":1737373896,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:51:43][heartbeat]try send ping...OK
+[2025-01-20 19:51:48][heartbeat]try send ping...OK
+[2025-01-20 19:51:53][heartbeat]try send ping...OK
+[2025-01-20 19:51:53][websocketserver]Received: {"time":1737373911,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:51:58][heartbeat]try send ping...OK
+[2025-01-20 19:52:03][heartbeat]try send ping...OK
+[2025-01-20 19:52:08][websocketserver]Received: {"time":1737373926,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:52:08][heartbeat]try send ping...OK
+[2025-01-20 19:52:13][heartbeat]try send ping...OK
+[2025-01-20 19:52:18][heartbeat]try send ping...OK
+[2025-01-20 19:52:23][websocketserver]Received: {"time":1737373941,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 19:52:23][heartbeat]try send ping...OK
+[2025-01-20 19:52:27][websocketserver]Connection closed: no close frame received or sent
+
+[2025-01-20 19:52:28][heartbeat]try send ping...OK
+[2025-01-20 19:52:28][heartbeat]heartbeat finished
+[2025-01-20 20:02:53][websocketserver]New connection from ('192.168.0.150', 44266)
+[2025-01-20 20:02:53][heartbeat]heartbeat lunched
+[2025-01-20 20:02:53][websocketserver]Received: {"time":1737374570,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:02:55][websocketserver]Received: {"time":1737374568,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":463388994,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"这对吗"},"type":"text"}],"raw_message":"这对吗","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:02:55][websocketserver]Received: {"time":1737374570,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":463388999,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"卧槽"},"type":"text"}],"raw_message":"卧槽","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:02:58][heartbeat]try send ping...OK
+[2025-01-20 20:03:03][heartbeat]try send ping...OK
+[2025-01-20 20:03:08][websocketserver]Received: {"time":1737374585,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:03:08][heartbeat]try send ping...OK
+[2025-01-20 20:03:13][heartbeat]try send ping...OK
+[2025-01-20 20:03:18][heartbeat]try send ping...OK
+[2025-01-20 20:03:23][websocketserver]Received: {"time":1737374600,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:03:23][heartbeat]try send ping...OK
+[2025-01-20 20:03:28][heartbeat]try send ping...OK
+[2025-01-20 20:03:33][heartbeat]try send ping...OK
+[2025-01-20 20:03:38][websocketserver]Received: {"time":1737374615,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:03:38][heartbeat]try send ping...OK
+[2025-01-20 20:03:43][heartbeat]try send ping...OK
+[2025-01-20 20:03:48][heartbeat]try send ping...OK
+[2025-01-20 20:03:53][websocketserver]Received: {"time":1737374630,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:03:53][heartbeat]try send ping...OK
+[2025-01-20 20:03:58][heartbeat]try send ping...OK
+[2025-01-20 20:04:03][heartbeat]try send ping...OK
+[2025-01-20 20:04:08][websocketserver]Received: {"time":1737374645,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:04:08][heartbeat]try send ping...OK
+[2025-01-20 20:04:13][heartbeat]try send ping...OK
+[2025-01-20 20:04:18][heartbeat]try send ping...OK
+[2025-01-20 20:04:23][websocketserver]Received: {"time":1737374660,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:04:23][heartbeat]try send ping...OK
+[2025-01-20 20:04:28][heartbeat]try send ping...OK
+[2025-01-20 20:04:33][heartbeat]try send ping...OK
+[2025-01-20 20:04:38][websocketserver]Received: {"time":1737374675,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:04:38][heartbeat]try send ping...OK
+[2025-01-20 20:04:43][heartbeat]try send ping...OK
+[2025-01-20 20:04:48][heartbeat]try send ping...OK
+[2025-01-20 20:04:53][websocketserver]Received: {"time":1737374690,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:04:53][heartbeat]try send ping...OK
+[2025-01-20 20:04:58][heartbeat]try send ping...OK
+[2025-01-20 20:05:03][heartbeat]try send ping...OK
+[2025-01-20 20:05:08][websocketserver]Received: {"time":1737374705,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:05:08][heartbeat]try send ping...OK
+[2025-01-20 20:05:13][heartbeat]try send ping...OK
+[2025-01-20 20:05:18][heartbeat]try send ping...OK
+[2025-01-20 20:05:22][websocketserver]Connection closed: no close frame received or sent
+
+[2025-01-20 20:05:23][heartbeat]try send ping...OK
+[2025-01-20 20:05:23][heartbeat]heartbeat finished
+[2025-01-20 20:05:57][websocketserver]New connection from ('192.168.0.150', 44758)
+[2025-01-20 20:05:57][heartbeat]heartbeat lunched
+[2025-01-20 20:05:57][websocketserver]Received: {"time":1737374755,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"lifecycle","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:06:01][websocketserver]Received: {"time":1737374690,"self_id":3827617422,"post_type":"message","message_type":"private","sub_type":"friend","message_id":1770021139,"target_id":395642104,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"text":"测试"},"type":"text"}],"raw_message":"测试","font":0,"sender":{"user_id":395642104,"nickname":"白渊","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:01][websocketserver]Posed: {'action': 'send_private_msg', 'echo': ' ', 'params': {'access_token': 'guzhaoqiaoqiaoa1', 'user_id': 395642104, 'message': [{'type': 'reply', 'data': {'id': 1770021139}}, {'type': 'text', 'data': {'text': '对不起主人, 暂不支持直接聊天哦'}}]}}
+
+[2025-01-20 20:06:01][websocketserver]Received: {"time":1737374622,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1710502813,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"file":"cd9647178531b239b8ab15737c3baec4","subType":0,"type":"original","url":"http://gchat.qpic.cn/gchatpic_new/0/0-0-CD9647178531B239B8AB15737C3BAEC4/0?term=2"},"type":"image"}],"raw_message":"[CQ:image,file=cd9647178531b239b8ab15737c3baec4,subType=0,type=original,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-CD9647178531B239B8AB15737C3BAEC4/0?term=2]","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:01][websocketserver]Received: {"time":1737374625,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1710502818,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"好久没玩了"},"type":"text"}],"raw_message":"好久没玩了","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:01][websocketserver]Received: {"time":1737374630,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1710502844,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"偶尔来一把可以的"},"type":"text"}],"raw_message":"偶尔来一把可以的","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:01][websocketserver]Received: {"time":1737374651,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1710502849,"group_id":721950485,"peer_id":3827617422,"user_id":2874851873,"message":[{"data":{"text":"感觉不如小秋（"},"type":"text"}],"raw_message":"感觉不如小秋（","font":0,"sender":{"user_id":2874851873,"nickname":"琪亚娜，出击！","card":"琪亚娜，出击！","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:01][websocketserver]Received: {"time":1737374680,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1710503527,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"qq":"3102684670"},"type":"at"},{"data":{"text":" 玩吗？"},"type":"text"}],"raw_message":"[CQ:at,qq=3102684670] 玩吗？","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:01][websocketserver]Received: {"time":1737374687,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1710503554,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"我也好几天没玩了"},"type":"text"}],"raw_message":"我也好几天没玩了","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:01][websocketserver]Received: {"time":1737374692,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1710503559,"group_id":721950485,"peer_id":3827617422,"user_id":251216589,"message":[{"data":{"id":1710502813},"type":"reply"},{"data":{"qq":"3102684670"},"type":"at"},{"data":{"text":" 这么粗的腿"},"type":"text"}],"raw_message":"[CQ:reply,id=1710502813][CQ:at,qq=3102684670] 这么粗的腿","font":0,"sender":{"user_id":251216589,"nickname":"菜鸡群主","card":"菜鸡群主","role":"owner","title":"","level":""}}
+
+[2025-01-20 20:06:01][websocketserver]Received: {"time":1737374697,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1710503591,"group_id":721950485,"peer_id":3827617422,"user_id":251216589,"message":[{"data":{"text":"不如小秋"},"type":"text"}],"raw_message":"不如小秋","font":0,"sender":{"user_id":251216589,"nickname":"菜鸡群主","card":"菜鸡群主","role":"owner","title":"","level":""}}
+
+[2025-01-20 20:06:01][websocketserver]Received: {"time":1737374711,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1710503618,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"qq":"251216589"},"type":"at"},{"data":{"text":" 玩吗"},"type":"text"}],"raw_message":"[CQ:at,qq=251216589] 玩吗","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:01][websocketserver]Received: {"time":1737374714,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1710503624,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"id":1710503591},"type":"reply"},{"data":{"text":"？"},"type":"text"},{"data":{"qq":"251216589"},"type":"at"},{"data":{"text":" "},"type":"text"}],"raw_message":"[CQ:reply,id=1710503591]？[CQ:at,qq=251216589] ","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:01][websocketserver]Received: {"time":1737374715,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1710503656,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"6"},"type":"text"}],"raw_message":"6","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:01][websocketserver]Received: {"time":1737374730,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1710503682,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"file":"f89d30e132a878ebed0388dddb9637e3","subType":0,"type":"original","url":"http://gchat.qpic.cn/gchatpic_new/0/0-0-F89D30E132A878EBED0388DDDB9637E3/0?term=2"},"type":"image"}],"raw_message":"[CQ:image,file=f89d30e132a878ebed0388dddb9637e3,subType=0,type=original,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-F89D30E132A878EBED0388DDDB9637E3/0?term=2]","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:01][websocketserver]Received: {"time":1737374733,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1710503687,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"确实"},"type":"text"}],"raw_message":"确实","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:01][websocketserver]Received: {"time":1737374742,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1710503713,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"游戏里有点粗了"},"type":"text"}],"raw_message":"游戏里有点粗了","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:01][websocketserver]Received: {"time":1737374755,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1710503718,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"小秋的就很合理"},"type":"text"}],"raw_message":"小秋的就很合理","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:02][websocketserver]Received: {"status":"ok","retcode":0,"data":{"message_id":784228946,"time":1737374759},"echo":" "}
+
+[2025-01-20 20:06:02][heartbeat]try send ping...OK
+[2025-01-20 20:06:04][websocketserver]Received: {"time":1737374760,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1922969513,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"看看就行了"},"type":"text"}],"raw_message":"看看就行了","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:07][heartbeat]try send ping...OK
+[2025-01-20 20:06:09][websocketserver]Received: {"time":1737374766,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":214598034,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"不要再发辣"},"type":"text"}],"raw_message":"不要再发辣","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:12][websocketserver]Received: {"time":1737374770,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:06:12][heartbeat]try send ping...OK
+[2025-01-20 20:06:14][websocketserver]Received: {"time":1737374771,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1914002703,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"file":"6026e83f0607aa6cbb607607f7b0d272","subType":0,"type":"show","url":"http://gchat.qpic.cn/gchatpic_new/0/0-0-6026E83F0607AA6CBB607607F7B0D272/0?term=2"},"type":"image"}],"raw_message":"[CQ:image,file=6026e83f0607aa6cbb607607f7b0d272,subType=0,type=show,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-6026E83F0607AA6CBB607607F7B0D272/0?term=2]","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:17][heartbeat]try send ping...OK
+[2025-01-20 20:06:18][websocketserver]Received: {"time":1737374775,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":305723708,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"玉足"},"type":"text"}],"raw_message":"玉足","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:19][websocketserver]Received: {"time":1737374776,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":2097715920,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"？！"},"type":"text"}],"raw_message":"？！","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:21][websocketserver]Received: {"time":1737374778,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":323681927,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"豪赤！"},"type":"text"}],"raw_message":"豪赤！","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:22][heartbeat]try send ping...OK
+[2025-01-20 20:06:23][websocketserver]Received: {"time":1737374780,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":609636511,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"啊啊啊啊啊啊啊"},"type":"text"}],"raw_message":"啊啊啊啊啊啊啊","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:27][websocketserver]Received: {"time":1737374785,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:06:27][heartbeat]try send ping...OK
+[2025-01-20 20:06:27][websocketserver]Received: {"time":1737374784,"self_id":3827617422,"post_type":"notice","notice_type":"group_recall","group_id":721950485,"operator_id":2182338586,"user_id":2182338586,"message_id":1710503682}
+
+[2025-01-20 20:06:32][heartbeat]try send ping...OK
+[2025-01-20 20:06:36][websocketserver]Received: {"time":1737374792,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":824783794,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"不要发辣"},"type":"text"}],"raw_message":"不要发辣","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:37][heartbeat]try send ping...OK
+[2025-01-20 20:06:38][websocketserver]Received: {"time":1737374795,"self_id":3827617422,"post_type":"notice","notice_type":"group_recall","group_id":721950485,"operator_id":3102684670,"user_id":3102684670,"message_id":824783794,"tip_text":"并坏笑了一下。"}
+
+[2025-01-20 20:06:39][websocketserver]Received: {"time":1737374796,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1148822100,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"我踏马吃吃吃吃"},"type":"text"}],"raw_message":"我踏马吃吃吃吃","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:42][websocketserver]Received: {"time":1737374800,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:06:42][heartbeat]try send ping...OK
+[2025-01-20 20:06:43][websocketserver]Received: {"time":1737374799,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":185888433,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"不要发辣！！！"},"type":"text"}],"raw_message":"不要发辣！！！","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:06:47][heartbeat]try send ping...OK
+[2025-01-20 20:06:52][heartbeat]try send ping...OK
+[2025-01-20 20:06:54][websocketserver]Received: {"time":1737374811,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":97753860,"group_id":721950485,"peer_id":3827617422,"user_id":395642104,"message":[{"data":{"file":"38231ec9e26491fd9bbe35e3d0031e69","subType":1,"type":"original","url":"http://gchat.qpic.cn/gchatpic_new/0/0-0-38231EC9E26491FD9BBE35E3D0031E69/0?term=2"},"type":"image"}],"raw_message":"[CQ:image,file=38231ec9e26491fd9bbe35e3d0031e69,subType=1,type=original,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-38231EC9E26491FD9BBE35E3D0031E69/0?term=2]","font":0,"sender":{"user_id":395642104,"nickname":"い愿此愛永恆࿐ེ","card":"万里挑一大非酋肝帝","role":"admin","title":"","level":""}}
+
+[2025-01-20 20:06:57][websocketserver]Received: {"time":1737374815,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:06:57][heartbeat]try send ping...OK
+[2025-01-20 20:07:02][heartbeat]try send ping...OK
+[2025-01-20 20:07:07][heartbeat]try send ping...OK
+[2025-01-20 20:07:12][websocketserver]Received: {"time":1737374830,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:07:12][heartbeat]try send ping...OK
+[2025-01-20 20:07:13][websocketserver]Received: {"time":1737374829,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":807697454,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"file":"3b4b31402219770aa558d701da9ad45d","subType":1,"type":"show","url":"http://gchat.qpic.cn/gchatpic_new/0/0-0-3B4B31402219770AA558D701DA9AD45D/0?term=2"},"type":"image"}],"raw_message":"[CQ:image,file=3b4b31402219770aa558d701da9ad45d,subType=1,type=show,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-3B4B31402219770AA558D701DA9AD45D/0?term=2]","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:07:17][heartbeat]try send ping...OK
+[2025-01-20 20:07:22][heartbeat]try send ping...OK
+[2025-01-20 20:07:27][websocketserver]Received: {"time":1737374845,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:07:27][websocketserver]Received: {"time":1737374844,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":981726717,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"请小秋务必这样对我"},"type":"text"}],"raw_message":"请小秋务必这样对我","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:07:27][heartbeat]try send ping...OK
+[2025-01-20 20:07:32][heartbeat]try send ping...OK
+[2025-01-20 20:07:37][heartbeat]try send ping...OK
+[2025-01-20 20:07:42][websocketserver]Received: {"time":1737374860,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:07:42][heartbeat]try send ping...OK
+[2025-01-20 20:07:47][heartbeat]try send ping...OK
+[2025-01-20 20:07:49][websocketserver]Received: {"time":1737374865,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":574946414,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"挑战一辈子不立"},"type":"text"}],"raw_message":"挑战一辈子不立","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:07:52][heartbeat]try send ping...OK
+[2025-01-20 20:07:57][websocketserver]Received: {"time":1737374875,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:07:57][heartbeat]try send ping...OK
+[2025-01-20 20:08:02][heartbeat]try send ping...OK
+[2025-01-20 20:08:03][websocketserver]Received: {"time":1737374880,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1686317284,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"file":"6026e83f0607aa6cbb607607f7b0d272","subType":0,"type":"original","url":"http://gchat.qpic.cn/gchatpic_new/0/0-0-6026E83F0607AA6CBB607607F7B0D272/0?term=2"},"type":"image"}],"raw_message":"[CQ:image,file=6026e83f0607aa6cbb607607f7b0d272,subType=0,type=original,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-6026E83F0607AA6CBB607607F7B0D272/0?term=2]","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:08:05][websocketserver]Received: {"time":1737374881,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":2118069354,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"额啊"},"type":"text"}],"raw_message":"额啊","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:08:07][heartbeat]try send ping...OK
+[2025-01-20 20:08:10][websocketserver]Received: {"time":1737374886,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":547756526,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"都怪你"},"type":"text"}],"raw_message":"都怪你","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:08:12][websocketserver]Received: {"time":1737374890,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:08:12][heartbeat]try send ping...OK
+[2025-01-20 20:08:13][websocketserver]Received: {"time":1737374890,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1730111871,"group_id":721950485,"peer_id":3827617422,"user_id":1336276492,"message":[{"data":{"text":"来打王者？"},"type":"text"}],"raw_message":"来打王者？","font":0,"sender":{"user_id":1336276492,"nickname":"枫","card":"枫","role":"member","title":"","level":""}}
+
+[2025-01-20 20:08:16][websocketserver]Received: {"time":1737374893,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":470962539,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"挑战失败"},"type":"text"}],"raw_message":"挑战失败","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:08:17][heartbeat]try send ping...OK
+[2025-01-20 20:08:18][websocketserver]Received: {"time":1737374895,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":155527346,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"file":"07da39d55bed136de682c642cc72ea40","subType":7,"type":"show","url":"http://gchat.qpic.cn/gchatpic_new/0/0-0-07DA39D55BED136DE682C642CC72EA40/0?term=2"},"type":"image"}],"raw_message":"[CQ:image,file=07da39d55bed136de682c642cc72ea40,subType=7,type=show,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-07DA39D55BED136DE682C642CC72EA40/0?term=2]","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:08:21][websocketserver]Received: {"time":1737374897,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1319749408,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"都怪你"},"type":"text"},{"data":{"qq":"3102684670"},"type":"at"},{"data":{"text":" "},"type":"text"}],"raw_message":"都怪你[CQ:at,qq=3102684670] ","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:08:22][heartbeat]try send ping...OK
+[2025-01-20 20:08:24][websocketserver]Received: {"time":1737374900,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1613864210,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"id":1730111871},"type":"reply"},{"data":{"qq":"1336276492"},"type":"at"},{"data":{"text":" 刚下"},"type":"text"}],"raw_message":"[CQ:reply,id=1730111871][CQ:at,qq=1336276492] 刚下","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:08:27][websocketserver]Received: {"time":1737374905,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:08:27][heartbeat]try send ping...OK
+[2025-01-20 20:08:27][websocketserver]Received: {"time":1737374904,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1825706882,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"我要玩你"},"type":"text"}],"raw_message":"我要玩你","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:08:32][heartbeat]try send ping...OK
+[2025-01-20 20:08:37][heartbeat]try send ping...OK
+[2025-01-20 20:08:37][websocketserver]Received: {"time":1737374914,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":98295870,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"然后给你爆米"},"type":"text"}],"raw_message":"然后给你爆米","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:08:42][websocketserver]Received: {"time":1737374920,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:08:42][heartbeat]try send ping...OK
+[2025-01-20 20:08:46][websocketserver]Received: {"time":1737374923,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":111313498,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"id":"8ad9c57d251493b4aa8921f53a5ea7f4"},"type":"mface"}],"raw_message":"[CQ:mface,id=8ad9c57d251493b4aa8921f53a5ea7f4]","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:08:47][heartbeat]try send ping...OK
+[2025-01-20 20:08:48][websocketserver]Received: {"time":1737374925,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1471558791,"group_id":721950485,"peer_id":3827617422,"user_id":3102684670,"message":[{"data":{"text":"额"},"type":"text"}],"raw_message":"额","font":0,"sender":{"user_id":3102684670,"nickname":"小秋（超级摸鱼王版本）","card":"小秋（超级摸鱼王版本）","role":"member","title":"","level":""}}
+
+[2025-01-20 20:08:52][heartbeat]try send ping...OK
+[2025-01-20 20:08:57][websocketserver]Received: {"time":1737374935,"self_id":3827617422,"post_type":"meta_event","meta_event_type":"heartbeat","sub_type":"connect","status":{"self":{"platform":"qq","user_id":3827617422},"online":true,"good":true,"qq.status":"正常"},"interval":15000}
+
+[2025-01-20 20:08:57][heartbeat]try send ping...OK
+[2025-01-20 20:08:58][websocketserver]Received: {"time":1737374934,"self_id":3827617422,"post_type":"message","message_type":"group","sub_type":"normal","message_id":1975848396,"group_id":721950485,"peer_id":3827617422,"user_id":2182338586,"message":[{"data":{"text":"来！"},"type":"text"}],"raw_message":"来！","font":0,"sender":{"user_id":2182338586,"nickname":"爱转圈圈的黑塔","card":"","role":"member","title":"","level":""}}
+
+[2025-01-20 20:08:59][SenyaHime]Server stopped.
