@@ -1,6 +1,0 @@
-===================AUTOTOOL HUB EXPORT LOG 2025_01_18_18_20_24================
-
-[2025-01-18 18:20:24][SenyaHime]Running on http://192.168.0.107:5700
-[2025-01-18 18:20:28][callbackmsg]callback message lack key of "'sub_type'", the original msg is {'time': 1737195625, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'group_recall', 'group_id': 104491286, 'operator_id': 395642104, 'user_id': 395642104, 'message_id': 755832923, 'tip_text': '并坏笑了一下。'}
-[2025-01-18 18:20:28][receive_debug]:the original msg is {'time': 1737195625, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'group_recall', 'group_id': 104491286, 'operator_id': 395642104, 'user_id': 395642104, 'message_id': 755832923, 'tip_text': '并坏笑了一下。'}
-[2025-01-18 18:20:28][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 47402

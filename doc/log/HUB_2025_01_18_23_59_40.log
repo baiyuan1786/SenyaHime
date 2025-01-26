@@ -1,6 +1,0 @@
-===================AUTOTOOL HUB EXPORT LOG 2025_01_18_23_59_40================
-
-[2025-01-18 23:59:40][SenyaHime]Running on http://192.168.0.107:5700
-[2025-01-18 23:59:42][receive_debug]:curMsgType is groupMsg_normal, the original msg is {'time': 1737215979, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 412145868, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 2874851873, 'message': [{'data': {'file': '15608120c8057384ec1421f098b52f8a', 'subType': 11, 'type': 'original', 'url': 'http://gchat.qpic.cn/gchatpic_new/0/0-0-15608120C8057384EC1421F098B52F8A/0?term=2'}, 'type': 'image'}], 'raw_message': '[CQ:image,file=15608120c8057384ec1421f098b52f8a,subType=11,type=original,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-15608120C8057384EC1421F098B52F8A/0?term=2]', 'font': 0, 'sender': {'user_id': 2874851873, 'nickname': '琪亚娜，出击！', 'card': '琪亚娜，出击！', 'role': 'member', 'title': '', 'level': ''}}
-[2025-01-18 23:59:42][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 45570
-[2025-01-18 23:59:42][receive_debug]get command = "None", atme = False

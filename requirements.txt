@@ -4,3 +4,4 @@ requests
 websockets
 waitress
 schedule
+pillow

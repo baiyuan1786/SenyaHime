@@ -3,7 +3,7 @@
 #   Description: 主函数文件
 #   Authors:     BaiYuan <395642104@qq.com>
 ###############################################################################
-from senYa.senyaHime import SenYaHime
+from senYa import SenYaHime
 from control import *
 
 if __name__ == "__main__":

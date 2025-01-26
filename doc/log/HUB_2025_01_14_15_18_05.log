@@ -1,4 +1,0 @@
-===================AUTOTOOL HUB EXPORT LOG 2025_01_14_15_18_05================
-
-[2025-01-14 15:18:05][SenyaHime]启动服务器
-[2025-01-14 15:18:07][receive]:the original msg is {'time': 1736839086, 'self_id': 3827617422, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'poke', 'operator_id': 395642104, 'user_id': 395642104, 'sender_id': 395642104, 'target_id': 3827617422, 'poke_detail': {'action': '', 'suffix': '的脸, 并被咬住了手指', 'action_img_url': 'http://tianquan.gtimg.cn/nudgeaction/item/0/expression.jpg'}}

@@ -1,9 +1,0 @@
-===================AUTOTOOL HUB EXPORT LOG 2025_01_18_16_27_56================
-
-[2025-01-18 16:27:56][SenyaHime]running on "HTTP protocol", choose IP: "192.168.0.107", choose Port: "5700"
-[2025-01-18 16:29:15][receive_debug]:the original msg is {'time': 1737188952, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 929970211, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 1965615544, 'message': [{'data': {'text': '哦牛皮'}, 'type': 'text'}], 'raw_message': '哦牛皮', 'font': 0, 'sender': {'user_id': 1965615544, 'nickname': '千里挑一大非酋摸鱼人', 'card': '千里挑一大非酋摸鱼人', 'role': 'member', 'title': '', 'level': ''}}
-[2025-01-18 16:29:15][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 38060
-[2025-01-18 16:29:15][receive_debug]get command = "None"
-[2025-01-18 16:29:26][receive_debug]:the original msg is {'time': 1737188963, 'self_id': 3827617422, 'post_type': 'message', 'message_type': 'group', 'sub_type': 'normal', 'message_id': 742910927, 'group_id': 721950485, 'peer_id': 3827617422, 'user_id': 1965615544, 'message': [{'data': {'file': 'a0ae0df5a5ed2e88cbe2d5881f9e6697', 'subType': 0, 'type': 'original', 'url': 'http://gchat.qpic.cn/gchatpic_new/0/0-0-A0AE0DF5A5ED2E88CBE2D5881F9E6697/0?term=2'}, 'type': 'image'}], 'raw_message': '[CQ:image,file=a0ae0df5a5ed2e88cbe2d5881f9e6697,subType=0,type=original,url=http://gchat.qpic.cn/gchatpic_new/0/0-0-A0AE0DF5A5ED2E88CBE2D5881F9E6697/0?term=2]', 'font': 0, 'sender': {'user_id': 1965615544, 'nickname': '千里挑一大非酋摸鱼人', 'card': '千里挑一大非酋摸鱼人', 'role': 'member', 'title': '', 'level': ''}}
-[2025-01-18 16:29:26][receive_debug]get Shamrock src IP: 192.168.0.150, src port: 40604
-[2025-01-18 16:29:26][receive_debug]get command = "None"
