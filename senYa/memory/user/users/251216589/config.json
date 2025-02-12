@@ -1,11 +1,44 @@
 {
-    "favorability": 100,
-    "favorStage": 1,
-    "favorStageName": "熟悉",
-    "favorStageStr": "❤️❤️🤍🤍🤍",
-    "favorAddAday": 100,
-    "favorDeaddAday": 0,
-    "commandlastUseTimestamp": {},
-    "commandUseTimes": {},
-    "favorChangedTimeLast": "20250124"
+    "favorability": 0,
+    "favorStage": 0,
+    "favorStageName": "普通",
+    "favorStageStr": "🤍🤍🤍🤍🤍",
+    "favorAddToday": 0,
+    "favorDeaddToday": 0,
+    "favorChangedLastDay": "20250211",
+    "commandUseLastDay": {
+        "早安": "20250211",
+        "午安": "20250211",
+        "晚安": "20250211"
+    },
+    "commandUseLastMin": {
+        "早安": "202502111557",
+        "午安": "202502111557",
+        "晚安": "202502111557"
+    },
+    "commandUseLastTimestamp": {
+        "早安": 1739260637.804252,
+        "午安": 1739260637.805252,
+        "晚安": 1739260637.805252
+    },
+    "commandUseTimesAll": {
+        "早安": 12,
+        "午安": 12,
+        "晚安": 12
+    },
+    "commandUseTimesToday": {
+        "早安": 12,
+        "午安": 12,
+        "晚安": 12
+    },
+    "commandUseTimesToMin": {
+        "早安": 12,
+        "午安": 12,
+        "晚安": 12
+    },
+    "skills": [
+        "早安",
+        "午安",
+        "晚安"
+    ]
 }

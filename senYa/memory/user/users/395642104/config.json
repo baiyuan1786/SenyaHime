@@ -1,5 +1,5 @@
 {
-    "favorability": 7089,
+    "favorability": 7297.0,
     "favorStage": 4,
     "favorStageName": "非常喜欢",
     "favorStageStr": "❤️❤️❤️❤️❤️",
@@ -7,6 +7,88 @@
     "commandlastUseTimestamp": {},
     "commandUseTimes": {},
     "favorAddAday": 30,
-    "favorDeaddAday": 0,
-    "favorChangedTimeLast": "20250123"
+    "favorDeaddToday": 0,
+    "favorChangedTimeLast": "20250123",
+    "commandUseLastDay": {
+        "晚安": "20250211",
+        "早安": "20250211",
+        "午安": "20250211",
+        "抽塔罗牌": "20250211",
+        "触摸": "20250211",
+        "测试": "20250211",
+        "dialogue": "20250212"
+    },
+    "commandUseLastTimestamp": {
+        "晚安": 1739262047.3375628,
+        "早安": 1739262047.336561,
+        "午安": 1739262047.336561,
+        "抽塔罗牌": 1739262047.3375628,
+        "触摸": 1739262047.3375628,
+        "测试": 1739262047.3388648,
+        "dialogue": 1739363186.6474876
+    },
+    "commandUseTimesAll": {
+        "晚安": 13,
+        "早安": 13,
+        "午安": 13,
+        "抽塔罗牌": 24,
+        "触摸": 12,
+        "测试": 9,
+        "dialogue": 19
+    },
+    "commandUseTimesToday": {
+        "晚安": 0,
+        "早安": 0,
+        "午安": 0,
+        "抽塔罗牌": 0,
+        "触摸": 0,
+        "测试": 0,
+        "dialogue": 19
+    },
+    "commands": [
+        "晚安",
+        "早安",
+        "午安",
+        "抽塔罗牌",
+        "触摸",
+        "测试",
+        "dialogue"
+    ],
+    "favorAddToday": 0,
+    "favorChangedLastDay": "20250211",
+    "commandUseLastMin": {
+        "早安": "202502111620",
+        "午安": "202502111620",
+        "晚安": "202502111620",
+        "抽塔罗牌": "202502111620",
+        "触摸": "202502111620",
+        "测试": "202502111620",
+        "dialogue": "202502122026"
+    },
+    "commandUseTimesToMin": {
+        "早安": 0,
+        "午安": 0,
+        "晚安": 0,
+        "抽塔罗牌": 0,
+        "触摸": 0,
+        "测试": 0,
+        "dialogue": 7
+    },
+    "skills": [
+        "早安",
+        "午安",
+        "晚安",
+        "抽塔罗牌",
+        "触摸",
+        "测试",
+        "dialogue"
+    ],
+    "historys": [
+        "normal"
+    ],
+    "settings": [
+        "normal"
+    ],
+    "chooseSetting": "normal",
+    "chooseHistory": "normal"
 }

@@ -89,7 +89,7 @@ class responseMsg:
         '''判断消息是否是此类'''
 
         # 判断key是否符合
-        if not set(receivedData.keys()) == cls.needKeys:
+        if not set(receivedData.keys()) >= cls.needKeys:
             return False
 
         else:

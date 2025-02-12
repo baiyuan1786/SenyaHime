@@ -60,9 +60,9 @@ class SenYaHime:
 
             # 消息发送
             if backMsg.GorP == "group":
-                returnInfo = self.server.send_group_msg(group_id = backMsg.msgEntity.group_id, message = cmdMsgSeg, auto_escape = cmdArgs.auto_escape, recall_duration = cmdArgs.recall_duration)
+                returnInfo = self.server.send_group_msg(group_id = backMsg.msgEntity.group_id, message = cmdMsgSeg, auto_escape = cmdArgs.autoEscape, recall_duration = cmdArgs.recallDuration)
             elif backMsg.GorP == "private":
-                returnInfo = self.server.send_private_msg(user_id = backMsg.msgEntity.user_id, message = cmdMsgSeg, auto_escape = cmdArgs.auto_escape, recall_duration = cmdArgs.recall_duration)
+                returnInfo = self.server.send_private_msg(user_id = backMsg.msgEntity.user_id, message = cmdMsgSeg, auto_escape = cmdArgs.autoEscape, recall_duration = cmdArgs.recallDuration)
             else:
                 raise TypeError(f"[reply]find unsupport message_type \"{backMsg.GorP}\"")
             
@@ -99,9 +99,9 @@ class SenYaHime:
 
         # 消息发送
         if backMsg.GorP == "group":
-            await self.server.send_group_msg(group_id = backMsg.msgEntity.group_id, message = cmdMsgSeg, auto_escape = cmdArgs.auto_escape, recall_duration = cmdArgs.recall_duration)
+            await self.server.send_group_msg(group_id = backMsg.msgEntity.group_id, message = cmdMsgSeg, auto_escape = cmdArgs.autoEscape, recall_duration = cmdArgs.recallDuration)
         elif backMsg.GorP == "private":
-            await self.server.send_private_msg(user_id = backMsg.msgEntity.user_id, message = cmdMsgSeg, auto_escape = cmdArgs.auto_escape, recall_duration = cmdArgs.recall_duration)
+            await self.server.send_private_msg(user_id = backMsg.msgEntity.user_id, message = cmdMsgSeg, auto_escape = cmdArgs.autoEscape, recall_duration = cmdArgs.recallDuration)
         else:
             raise TypeError(f"[reply]find unsupport message_type \"{backMsg.GorP}\"")
 

@@ -48,6 +48,15 @@ class callbackmsg:
     def isAtme(self):
         '''判断是否是at我'''
         return self.msgEntity.isAtme()
+
+    ###############################################################################
+    # Function:     isRelAtme
+    # Input:        void
+    # Notice:       
+    ###############################################################################  
+    def isRelAtme(self):
+        '''判断是否是精确地at我'''
+        return self.msgEntity.isAtme() and self.GorP == "group"
     
     ###############################################################################
     # Function:     resolve
